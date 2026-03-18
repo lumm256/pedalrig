@@ -8,6 +8,11 @@ const navLinks = [
   { href: "/pedalboard", label: "Pedalboard" },
   { href: "/beginners", label: "Beginners" },
   { href: "/power-supply", label: "Power Supply" },
+  { href: "/boss", label: "Boss Pedals" },
+  { href: "/behringer", label: "Behringer Pedals" },
+  { href: "/style/blues", label: "Blues Pedals" },
+  { href: "/style/rock", label: "Rock Pedals" },
+  { href: "/style/metal", label: "Metal Pedals" },
 ];
 
 export function MobileMenu() {

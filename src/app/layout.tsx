@@ -129,8 +129,11 @@ function Footer() {
               <li><a href="/distortion" className="hover:text-orange-500 dark:hover:text-orange-400">Distortion</a></li>
               <li><a href="/delay" className="hover:text-orange-500 dark:hover:text-orange-400">Delay</a></li>
               <li><a href="/fuzz" className="hover:text-orange-500 dark:hover:text-orange-400">Fuzz</a></li>
+              <li><a href="/reverb" className="hover:text-orange-500 dark:hover:text-orange-400">Reverb</a></li>
               <li><a href="/compressor" className="hover:text-orange-500 dark:hover:text-orange-400">Compressor</a></li>
               <li><a href="/chorus" className="hover:text-orange-500 dark:hover:text-orange-400">Chorus</a></li>
+              <li><a href="/wah" className="hover:text-orange-500 dark:hover:text-orange-400">Wah</a></li>
+              <li><a href="/types" className="hover:text-orange-500 dark:hover:text-orange-400">All Types →</a></li>
             </ul>
           </div>
           <div>
@@ -140,7 +143,11 @@ function Footer() {
               <li><a href="/pedal-order" className="hover:text-orange-500 dark:hover:text-orange-400">Signal Chain Guide</a></li>
               <li><a href="/power-supply" className="hover:text-orange-500 dark:hover:text-orange-400">Power Supply Guide</a></li>
               <li><a href="/beginners" className="hover:text-orange-500 dark:hover:text-orange-400">Beginner Guide</a></li>
-              <li><a href="/types" className="hover:text-orange-500 dark:hover:text-orange-400">All Pedal Types</a></li>
+              <li><a href="/style/blues" className="hover:text-orange-500 dark:hover:text-orange-400">Blues Pedals</a></li>
+              <li><a href="/style/rock" className="hover:text-orange-500 dark:hover:text-orange-400">Rock Pedals</a></li>
+              <li><a href="/style/metal" className="hover:text-orange-500 dark:hover:text-orange-400">Metal Pedals</a></li>
+              <li><a href="/boss" className="hover:text-orange-500 dark:hover:text-orange-400">Boss Pedals</a></li>
+              <li><a href="/behringer" className="hover:text-orange-500 dark:hover:text-orange-400">Behringer Pedals</a></li>
             </ul>
           </div>
           <div>
