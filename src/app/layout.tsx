@@ -1,9 +1,5 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
-import { Geist } from "next/font/google";
-import { cn } from "@/lib/utils";
-
-const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://pedalrig.com"),
@@ -27,13 +23,19 @@ export const metadata: Metadata = {
   },
 };
 
+export const viewport: Viewport = {
+  themeColor: "#f97316",
+  width: "device-width",
+  initialScale: 1,
+};
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={cn("font-sans", geist.variable)}>
+    <html lang="en">
       <body className="bg-gray-950 text-gray-100 antialiased">
         <Header />
         <main className="min-h-screen">{children}</main>
@@ -57,22 +59,13 @@ function Header() {
           <a href="/types" className="hover:text-orange-400 transition-colors">
             Pedal Types
           </a>
-          <a
-            href="/pedal-order"
-            className="hover:text-orange-400 transition-colors"
-          >
+          <a href="/pedal-order" className="hover:text-orange-400 transition-colors">
             Signal Chain
           </a>
-          <a
-            href="/pedalboard"
-            className="hover:text-orange-400 transition-colors"
-          >
+          <a href="/pedalboard" className="hover:text-orange-400 transition-colors">
             Pedalboard
           </a>
-          <a
-            href="/beginners"
-            className="hover:text-orange-400 transition-colors"
-          >
+          <a href="/beginners" className="hover:text-orange-400 transition-colors">
             Beginners
           </a>
           <a
@@ -82,8 +75,22 @@ function Header() {
             Board Builder
           </a>
         </div>
+        <MobileMenuButton />
       </nav>
     </header>
+  );
+}
+
+function MobileMenuButton() {
+  return (
+    <div className="md:hidden">
+      <a
+        href="/types"
+        className="rounded-lg bg-orange-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-orange-500 transition-colors"
+      >
+        Menu
+      </a>
+    </div>
   );
 }
 
@@ -114,10 +121,11 @@ function Footer() {
             </ul>
           </div>
           <div>
-            <p className="font-semibold text-gray-300">Tools</p>
+            <p className="font-semibold text-gray-300">Tools & Guides</p>
             <ul className="mt-2 space-y-1 text-sm text-gray-400">
               <li><a href="/pedalboard/builder" className="hover:text-orange-400">Board Builder</a></li>
               <li><a href="/pedal-order" className="hover:text-orange-400">Signal Chain Guide</a></li>
+              <li><a href="/power-supply" className="hover:text-orange-400">Power Supply Guide</a></li>
               <li><a href="/beginners" className="hover:text-orange-400">Beginner Guide</a></li>
               <li><a href="/types" className="hover:text-orange-400">All Pedal Types</a></li>
             </ul>
