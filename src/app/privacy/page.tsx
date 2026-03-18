@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Separator } from '@/components/ui/separator'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/privacy" },
   title: 'Privacy Policy — PedalRig',
   description: 'PedalRig privacy policy. Learn how we collect and use data on our guitar pedal guide website.',
 }

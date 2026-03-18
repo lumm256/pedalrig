@@ -6,6 +6,9 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://pedalrig.com"),
+  alternates: {
+    canonical: "/",
+  },
   title: {
     default: "PedalRig — Guitar Pedals Guide & Pedalboard Builder",
     template: "%s | PedalRig",

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Separator } from '@/components/ui/separator'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/disclaimer" },
   title: 'Amazon Affiliate Disclosure — PedalRig',
   description: 'PedalRig affiliate disclosure and Amazon Associates program statement.',
 }

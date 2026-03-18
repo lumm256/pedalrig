@@ -12,6 +12,7 @@ import {
 } from '@/components/ui/table'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/power-supply" },
   title: 'Best Guitar Pedal Power Supplies 2026 — Isolated vs Daisy Chain',
   description:
     'Find the best power supply for your guitar pedals. Compare isolated vs daisy chain, calculate your power needs, and avoid noise issues.',

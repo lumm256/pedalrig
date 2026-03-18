@@ -6,6 +6,7 @@ import pedalTypesData from '@/data/pedal-types.json'
 import pedalsData from '@/data/pedals.json'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/types" },
   title: 'Types of Guitar Pedals — Every Effect Explained',
   description:
     'A complete guide to every type of guitar pedal — from overdrive and distortion to delay, reverb, and beyond. Find the right effect for your sound.',

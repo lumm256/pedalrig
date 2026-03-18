@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { PedalboardBuilder } from "./pedalboard-builder";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/pedalboard/builder" },
   title: "Free Pedalboard Builder — Design Your Guitar Rig Online",
   description:
     "Build your dream pedalboard with our free visual tool. Drag and drop guitar pedals, check signal chain order, calculate power needs, and get your Amazon shopping list.",

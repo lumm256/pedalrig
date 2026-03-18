@@ -65,6 +65,7 @@ export async function generateMetadata({
   return {
     title: `Best ${type.name} Pedals 2026 — Reviews & Buyer's Guide`,
     description: `Find the best ${type.name.toLowerCase()} guitar pedals in 2026. Compare top ${type.name.toLowerCase()} pedals with reviews, prices, and sound demos. ${type.shortDescription}`,
+    alternates: { canonical: `/${typeSlug}` },
   }
 }
 

@@ -7,6 +7,7 @@ import signalChainData from "@/data/signal-chain.json";
 import pedalsData from "@/data/pedals.json";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/pedal-order" },
   title: "Guitar Pedal Order Guide — The Right Signal Chain for Your Rig",
   description:
     "Learn the correct guitar pedal order for your signal chain. See exactly where to place each effects pedal type for the best tone.",

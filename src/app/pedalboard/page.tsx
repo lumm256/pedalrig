@@ -4,6 +4,7 @@ import { Badge } from '@/components/ui/badge'
 import { Separator } from '@/components/ui/separator'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/pedalboard" },
   title: 'How to Build a Pedalboard — Complete Setup Guide 2026',
   description:
     'Everything you need to build your guitar pedalboard. Board sizes, power supply guide, cable management, and our free pedalboard builder tool.',

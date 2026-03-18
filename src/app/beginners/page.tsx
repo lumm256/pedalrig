@@ -6,6 +6,7 @@ import { Separator } from "@/components/ui/separator";
 import pedalsData from "@/data/pedals.json";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/beginners" },
   title: "Guitar Pedals for Beginners — Your First Pedalboard Guide 2026",
   description:
     "New to guitar pedals? Learn which effects pedals to buy first, how to set up your signal chain, and build your first pedalboard on any budget.",

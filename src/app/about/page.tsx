@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Separator } from '@/components/ui/separator'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/about" },
   title: 'About PedalRig — Guitar Pedal Guide & Pedalboard Builder',
   description:
     'PedalRig helps guitarists choose the right pedals and build better pedalboards. Learn about our mission and how we can help your tone.',
