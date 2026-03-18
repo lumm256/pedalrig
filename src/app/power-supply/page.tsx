@@ -117,7 +117,7 @@ export default function PowerSupplyPage() {
         {/* Comparison Table */}
         <section className="mb-12">
           <h2 className="text-2xl font-semibold mb-4">Isolated vs Daisy Chain</h2>
-          <div className="rounded-lg border border-zinc-200 dark:border-zinc-800 overflow-hidden">
+          <div className="rounded-lg border border-zinc-200 dark:border-zinc-800 overflow-x-auto">
             <Table>
               <TableHeader>
                 <TableRow className="border-zinc-200 dark:border-zinc-800 bg-gray-50 dark:bg-zinc-900">

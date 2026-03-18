@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { MobileMenu } from "@/components/mobile-menu";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -82,12 +83,7 @@ function Header() {
         </div>
         <div className="flex items-center gap-2 md:hidden">
           <ThemeToggle />
-          <a
-            href="/types"
-            className="rounded-lg bg-orange-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-orange-500 transition-colors"
-          >
-            Menu
-          </a>
+          <MobileMenu />
         </div>
       </nav>
     </header>

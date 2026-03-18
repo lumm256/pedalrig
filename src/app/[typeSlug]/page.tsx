@@ -190,7 +190,7 @@ export default async function TypePage({
         {typePedals.length > 0 && (
           <section className="mb-12">
             <h2 className="text-2xl font-bold mb-4">Quick Comparison</h2>
-            <div className="rounded-xl border border-zinc-200 dark:border-zinc-800 overflow-hidden">
+            <div className="rounded-xl border border-zinc-200 dark:border-zinc-800 overflow-x-auto">
               <Table>
                 <TableHeader>
                   <TableRow className="border-zinc-200 dark:border-zinc-800 bg-gray-50 dark:bg-zinc-900/80">

@@ -327,7 +327,7 @@ export function PedalboardBuilder() {
       {/* Right: Board + Stats */}
       <div className="lg:col-span-2 space-y-4">
         {/* Stats bar */}
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-3 gap-2 sm:gap-3">
           <div className="rounded-xl border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-900 p-4 text-center">
             <p className="text-2xl font-bold">{boardPedals.length}</p>
             <p className="text-xs text-gray-500 dark:text-gray-400">Pedals</p>

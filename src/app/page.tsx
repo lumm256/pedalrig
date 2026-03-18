@@ -57,7 +57,7 @@ export default function HomePage() {
       {/* Hero */}
       <section className="relative px-6 py-28 text-center bg-gradient-to-b from-gray-100 to-white dark:from-gray-900 dark:to-gray-950">
         <div className="max-w-3xl mx-auto">
-          <h1 className="text-5xl font-bold tracking-tight mb-4">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-4">
             Find Your Perfect{" "}
             <span className="text-orange-500">Guitar Pedals</span>
           </h1>
