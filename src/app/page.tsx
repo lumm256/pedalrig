@@ -1,8 +1,15 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import pedalTypesData from "@/data/pedal-types.json";
 import pedalsData from "@/data/pedals.json";
+
+export const metadata: Metadata = {
+  title: "Guitar Pedals Guide 2026 — Find Your Perfect Tone | PedalRig",
+  description:
+    "Complete guide to guitar pedals. Compare the best overdrive, distortion, delay, fuzz, and compressor pedals. Build your pedalboard with our free visual tool.",
+};
 import signalChainData from "@/data/signal-chain.json";
 
 type PedalType = {

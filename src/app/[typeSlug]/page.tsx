@@ -63,8 +63,8 @@ export async function generateMetadata({
   const type = types.find((t) => t.slug === typeSlug)
   if (!type) return {}
   return {
-    title: `Best ${type.name} Pedals in 2026 — Reviews & Buyer's Guide`,
-    description: type.description,
+    title: `Best ${type.name} Pedals 2026 — Reviews & Buyer's Guide`,
+    description: `Find the best ${type.name.toLowerCase()} guitar pedals in 2026. Compare top ${type.name.toLowerCase()} pedals with reviews, prices, and sound demos. ${type.shortDescription}`,
   }
 }
 
