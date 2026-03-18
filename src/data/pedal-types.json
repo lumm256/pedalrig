@@ -143,6 +143,54 @@
       "famousUsers": ["Jimi Hendrix", "Kirk Hammett", "Tom Morello"],
       "keyFeatures": ["Foot-controlled filter", "Expressive playing", "Iconic sound"],
       "bestFor": ["Funk", "Rock", "Blues", "Metal Solos"]
+    },
+    {
+      "id": "reverb",
+      "name": "Reverb",
+      "slug": "reverb",
+      "icon": "🏔️",
+      "shortDescription": "Ambient space and room simulation for depth and atmosphere.",
+      "description": "Reverb pedals simulate the natural reflections of sound in a space. From a small room to a vast cathedral, reverb adds depth, dimension, and atmosphere to your tone. Essential for ambient, shoegaze, and worship music.",
+      "signalChainPosition": 12,
+      "famousUsers": ["David Gilmour", "Kevin Shields", "The Edge"],
+      "keyFeatures": ["Room simulation", "Ambient textures", "Multiple reverb types"],
+      "bestFor": ["Ambient", "Shoegaze", "Worship", "Post-Rock"]
+    },
+    {
+      "id": "octave",
+      "name": "Octave",
+      "slug": "octave",
+      "icon": "🎹",
+      "shortDescription": "Adds octave harmonics above or below your signal.",
+      "description": "Octave pedals generate notes one or two octaves above or below your played note, creating thick, synth-like tones. Polyphonic octave pedals can track chords, while monophonic ones work best with single notes.",
+      "signalChainPosition": 3,
+      "famousUsers": ["Jack White", "Jimi Hendrix", "Royal Blood"],
+      "keyFeatures": ["Octave up/down", "Polyphonic tracking", "Synth-like tones"],
+      "bestFor": ["Rock", "Experimental", "Bass", "Psychedelic"]
+    },
+    {
+      "id": "volume",
+      "name": "Volume",
+      "slug": "volume",
+      "icon": "🔊",
+      "shortDescription": "Hands-free volume control for swells and expression.",
+      "description": "Volume pedals give you foot-controlled volume adjustment, enabling smooth swells, silent tuning, and expression control. An essential utility pedal for any serious pedalboard.",
+      "signalChainPosition": 7,
+      "famousUsers": ["The Edge", "Buddy Guy", "Pedal Steel Players"],
+      "keyFeatures": ["Smooth volume swells", "Expression control", "Tuner output"],
+      "bestFor": ["Ambient", "Country", "Worship", "Pedal Steel"]
+    },
+    {
+      "id": "multi-effects",
+      "name": "Multi-Effects",
+      "slug": "multi-effects",
+      "icon": "🎛️",
+      "shortDescription": "All-in-one units combining multiple effects in one pedal.",
+      "description": "Multi-effects processors pack dozens or hundreds of effects into a single unit, often with amp modeling, preset storage, and MIDI control. Great for players who want versatility without a large pedalboard.",
+      "signalChainPosition": 0,
+      "famousUsers": ["John Petrucci", "Steve Vai", "Tosin Abasi"],
+      "keyFeatures": ["Multiple effects", "Preset storage", "Amp modeling"],
+      "bestFor": ["Versatile", "Live Performance", "Studio", "Travel"]
     }
   ]
 }

@@ -778,5 +778,1201 @@
       "Mid Level",
       "Dist"
     ]
+  },
+  {
+    "id": "ehx-soul-food",
+    "name": "Electro-Harmonix Soul Food",
+    "brand": "Electro-Harmonix",
+    "type": "overdrive",
+    "price": 75,
+    "rating": 4.7,
+    "reviewCount": 2100,
+    "amazonUrl": "https://www.amazon.com/dp/B00HBRAKWI?tag=pedalrig-20",
+    "image": "/images/pedals/ehx-soul-food.jpg",
+    "description": "Klon Centaur clone at a fraction of the price. Transparent overdrive with touch-sensitive dynamics that clean up beautifully with your guitar's volume knob.",
+    "pros": [
+      "Transparent Klon-style tone",
+      "Incredible value",
+      "Cleans up with volume knob"
+    ],
+    "cons": [
+      "Not as refined as the original Klon",
+      "Can be noisy at high gain"
+    ],
+    "bestFor": [
+      "blues",
+      "rock",
+      "country"
+    ],
+    "level": "beginner",
+    "powerMa": 14,
+    "voltage": 9,
+    "widthMm": 73,
+    "heightMm": 129,
+    "depthMm": 59,
+    "bypass": "true",
+    "controls": [
+      "Volume",
+      "Drive",
+      "Treble"
+    ]
+  },
+  {
+    "id": "jhs-morning-glory",
+    "name": "JHS Morning Glory V4",
+    "brand": "JHS Pedals",
+    "type": "overdrive",
+    "price": 219,
+    "rating": 4.8,
+    "reviewCount": 600,
+    "amazonUrl": "https://www.amazon.com/dp/B07YJLKFNQ?tag=pedalrig-20",
+    "image": "/images/pedals/jhs-morning-glory.jpg",
+    "description": "Transparent overdrive inspired by the Marshall Bluesbreaker circuit. Touch-sensitive and dynamic, it preserves your guitar's natural voice.",
+    "pros": [
+      "Extremely transparent",
+      "Great stacking pedal",
+      "High-quality build"
+    ],
+    "cons": [
+      "Expensive for an overdrive",
+      "Subtle \u2014 not for heavy gain"
+    ],
+    "bestFor": [
+      "blues",
+      "worship",
+      "clean"
+    ],
+    "level": "intermediate",
+    "powerMa": 25,
+    "voltage": 9,
+    "widthMm": 64,
+    "heightMm": 121,
+    "depthMm": 51,
+    "bypass": "true",
+    "controls": [
+      "Volume",
+      "Drive",
+      "Tone",
+      "Gain"
+    ]
+  },
+  {
+    "id": "boss-od3",
+    "name": "Boss OD-3 OverDrive",
+    "brand": "Boss",
+    "type": "overdrive",
+    "price": 69,
+    "rating": 4.6,
+    "reviewCount": 1800,
+    "amazonUrl": "https://www.amazon.com/dp/B000RW0GU0?tag=pedalrig-20",
+    "image": "/images/pedals/boss-od3.jpg",
+    "description": "Dual-stage overdrive circuit for rich, natural breakup. More gain on tap than the SD-1 while keeping that classic Boss reliability.",
+    "pros": [
+      "Rich dual-stage overdrive",
+      "Boss build quality",
+      "Great mid-range push"
+    ],
+    "cons": [
+      "Less transparent than boutique options",
+      "Can sound boxy"
+    ],
+    "bestFor": [
+      "rock",
+      "blues"
+    ],
+    "level": "beginner",
+    "powerMa": 9,
+    "voltage": 9,
+    "widthMm": 73,
+    "heightMm": 129,
+    "depthMm": 59,
+    "bypass": "buffered",
+    "controls": [
+      "Level",
+      "Tone",
+      "Drive"
+    ]
+  },
+  {
+    "id": "behringer-to800",
+    "name": "Behringer TO800 Vintage Tube Overdrive",
+    "brand": "Behringer",
+    "type": "overdrive",
+    "price": 25,
+    "rating": 4.3,
+    "reviewCount": 3500,
+    "amazonUrl": "https://www.amazon.com/dp/B002BWZH9U?tag=pedalrig-20",
+    "image": "/images/pedals/behringer-to800.jpg",
+    "description": "Budget Tube Screamer clone that punches way above its price. Same JRC4558 chip as the original TS808.",
+    "pros": [
+      "Unbeatable price",
+      "Authentic TS tone",
+      "Uses JRC4558 chip"
+    ],
+    "cons": [
+      "Plastic housing",
+      "Short battery life"
+    ],
+    "bestFor": [
+      "blues",
+      "rock"
+    ],
+    "level": "beginner",
+    "powerMa": 5,
+    "voltage": 9,
+    "widthMm": 70,
+    "heightMm": 123,
+    "depthMm": 55,
+    "bypass": "true",
+    "controls": [
+      "Level",
+      "Tone",
+      "Drive"
+    ]
+  },
+  {
+    "id": "mxr-distortion-plus",
+    "name": "MXR Distortion+",
+    "brand": "MXR",
+    "type": "distortion",
+    "price": 89,
+    "rating": 4.5,
+    "reviewCount": 1200,
+    "amazonUrl": "https://www.amazon.com/dp/B0002CZUAG?tag=pedalrig-20",
+    "image": "/images/pedals/mxr-distortion-plus.jpg",
+    "description": "One of the first distortion pedals ever made. Simple two-knob design beloved by Randy Rhoads and Jerry Garcia.",
+    "pros": [
+      "Classic vintage tone",
+      "Dead simple controls",
+      "Compact size"
+    ],
+    "cons": [
+      "Limited tonal range",
+      "No tone knob"
+    ],
+    "bestFor": [
+      "classic rock",
+      "rock"
+    ],
+    "level": "beginner",
+    "powerMa": 3,
+    "voltage": 9,
+    "widthMm": 70,
+    "heightMm": 112,
+    "depthMm": 51,
+    "bypass": "true",
+    "controls": [
+      "Output",
+      "Distortion"
+    ]
+  },
+  {
+    "id": "friedman-be-od",
+    "name": "Friedman BE-OD",
+    "brand": "Friedman",
+    "type": "distortion",
+    "price": 189,
+    "rating": 4.8,
+    "reviewCount": 700,
+    "amazonUrl": "https://www.amazon.com/dp/B01LZKNX3S?tag=pedalrig-20",
+    "image": "/images/pedals/friedman-be-od.jpg",
+    "description": "Captures the legendary Friedman BE-100 amp tone in a pedal. From classic crunch to searing high-gain lead tones.",
+    "pros": [
+      "Incredible amp-like feel",
+      "Wide gain range",
+      "Tight low-end control"
+    ],
+    "cons": [
+      "Pricey",
+      "Can be harsh at extreme settings"
+    ],
+    "bestFor": [
+      "rock",
+      "metal",
+      "hard rock"
+    ],
+    "level": "intermediate",
+    "powerMa": 25,
+    "voltage": 9,
+    "widthMm": 70,
+    "heightMm": 121,
+    "depthMm": 55,
+    "bypass": "true",
+    "controls": [
+      "Volume",
+      "Gain",
+      "Tone",
+      "Tight",
+      "Presence"
+    ]
+  },
+  {
+    "id": "tc-dark-matter",
+    "name": "TC Electronic Dark Matter",
+    "brand": "TC Electronic",
+    "type": "distortion",
+    "price": 49,
+    "rating": 4.4,
+    "reviewCount": 1500,
+    "amazonUrl": "https://www.amazon.com/dp/B00JBKVSNO?tag=pedalrig-20",
+    "image": "/images/pedals/tc-dark-matter.jpg",
+    "description": "Versatile distortion with a voice switch for extra tonal range. From warm crunch to aggressive high-gain.",
+    "pros": [
+      "Great value",
+      "Voice switch adds versatility",
+      "Quiet operation"
+    ],
+    "cons": [
+      "Not the most unique tone",
+      "Plastic knobs"
+    ],
+    "bestFor": [
+      "rock",
+      "metal"
+    ],
+    "level": "beginner",
+    "powerMa": 20,
+    "voltage": 9,
+    "widthMm": 72,
+    "heightMm": 122,
+    "depthMm": 50,
+    "bypass": "true",
+    "controls": [
+      "Level",
+      "Tone",
+      "Dist",
+      "Voice"
+    ]
+  },
+  {
+    "id": "eqd-hizumitas",
+    "name": "EarthQuaker Devices Hizumitas",
+    "brand": "EarthQuaker Devices",
+    "type": "fuzz",
+    "price": 99,
+    "rating": 4.7,
+    "reviewCount": 400,
+    "amazonUrl": "https://www.amazon.com/dp/B08WRQHXJN?tag=pedalrig-20",
+    "image": "/images/pedals/eqd-hizumitas.jpg",
+    "description": "Designed with Wata of Boris. Massive, crushing fuzz with a surprisingly musical tone control.",
+    "pros": [
+      "Massive crushing fuzz",
+      "Musical tone control",
+      "Hand-built quality"
+    ],
+    "cons": [
+      "Not subtle",
+      "Specific taste"
+    ],
+    "bestFor": [
+      "doom",
+      "stoner",
+      "shoegaze"
+    ],
+    "level": "intermediate",
+    "powerMa": 5,
+    "voltage": 9,
+    "widthMm": 64,
+    "heightMm": 121,
+    "depthMm": 51,
+    "bypass": "true",
+    "controls": [
+      "Volume",
+      "Tone",
+      "Sustain"
+    ]
+  },
+  {
+    "id": "way-huge-swollen-pickle",
+    "name": "Way Huge Swollen Pickle MkIIS",
+    "brand": "Dunlop",
+    "type": "fuzz",
+    "price": 129,
+    "rating": 4.6,
+    "reviewCount": 800,
+    "amazonUrl": "https://www.amazon.com/dp/B001DLTD0O?tag=pedalrig-20",
+    "image": "/images/pedals/way-huge-swollen-pickle.jpg",
+    "description": "Super versatile fuzz with extensive tone-shaping controls. From smooth sustain to sputtery chaos.",
+    "pros": [
+      "Extremely versatile",
+      "5 tone-shaping controls",
+      "Unique character"
+    ],
+    "cons": [
+      "Large enclosure",
+      "Can be overwhelming to dial in"
+    ],
+    "bestFor": [
+      "grunge",
+      "stoner",
+      "psychedelic"
+    ],
+    "level": "intermediate",
+    "powerMa": 4,
+    "voltage": 9,
+    "widthMm": 89,
+    "heightMm": 165,
+    "depthMm": 64,
+    "bypass": "true",
+    "controls": [
+      "Loudness",
+      "Sustain",
+      "Filter",
+      "Scoop",
+      "Crunch"
+    ]
+  },
+  {
+    "id": "strymon-timeline",
+    "name": "Strymon Timeline",
+    "brand": "Strymon",
+    "type": "delay",
+    "price": 449,
+    "rating": 4.9,
+    "reviewCount": 500,
+    "amazonUrl": "https://www.amazon.com/dp/B005MIHMGE?tag=pedalrig-20",
+    "image": "/images/pedals/strymon-timeline.jpg",
+    "description": "The gold standard of delay pedals. 12 studio-class delay machines with MIDI, presets, and pristine audio quality.",
+    "pros": [
+      "12 world-class delay types",
+      "200 presets",
+      "Studio-quality audio"
+    ],
+    "cons": [
+      "Very expensive",
+      "Steep learning curve"
+    ],
+    "bestFor": [
+      "ambient",
+      "worship",
+      "studio"
+    ],
+    "level": "advanced",
+    "powerMa": 300,
+    "voltage": 9,
+    "widthMm": 171,
+    "heightMm": 133,
+    "depthMm": 38,
+    "bypass": "true",
+    "controls": [
+      "Value",
+      "Time",
+      "Mix",
+      "Repeats",
+      "Filter"
+    ]
+  },
+  {
+    "id": "tc-flashback2",
+    "name": "TC Electronic Flashback 2",
+    "brand": "TC Electronic",
+    "type": "delay",
+    "price": 149,
+    "rating": 4.6,
+    "reviewCount": 900,
+    "amazonUrl": "https://www.amazon.com/dp/B075FQJHKR?tag=pedalrig-20",
+    "image": "/images/pedals/tc-flashback2.jpg",
+    "description": "Versatile delay with TonePrint and MASH pressure-sensitive footswitch for expressive control.",
+    "pros": [
+      "MASH footswitch",
+      "TonePrint customization",
+      "8 delay types"
+    ],
+    "cons": [
+      "Menu diving for deep edits",
+      "Digital artifacts at extremes"
+    ],
+    "bestFor": [
+      "rock",
+      "ambient"
+    ],
+    "level": "intermediate",
+    "powerMa": 100,
+    "voltage": 9,
+    "widthMm": 72,
+    "heightMm": 122,
+    "depthMm": 50,
+    "bypass": "true",
+    "controls": [
+      "Delay",
+      "Feedback",
+      "FX Level",
+      "MASH"
+    ]
+  },
+  {
+    "id": "ehx-canyon",
+    "name": "Electro-Harmonix Canyon",
+    "brand": "Electro-Harmonix",
+    "type": "delay",
+    "price": 149,
+    "rating": 4.7,
+    "reviewCount": 1100,
+    "amazonUrl": "https://www.amazon.com/dp/B06XWQHQJN?tag=pedalrig-20",
+    "image": "/images/pedals/ehx-canyon.jpg",
+    "description": "11 delay modes plus a 62-second looper in a compact pedal. From tape echo to shimmer.",
+    "pros": [
+      "11 delay modes + looper",
+      "Compact size",
+      "Great value"
+    ],
+    "cons": [
+      "Small knobs",
+      "No presets"
+    ],
+    "bestFor": [
+      "rock",
+      "experimental"
+    ],
+    "level": "intermediate",
+    "powerMa": 200,
+    "voltage": 9,
+    "widthMm": 73,
+    "heightMm": 129,
+    "depthMm": 59,
+    "bypass": "true",
+    "controls": [
+      "FX LVL",
+      "Delay",
+      "Feedback",
+      "Mode"
+    ]
+  },
+  {
+    "id": "mxr-dyna-comp",
+    "name": "MXR Dyna Comp",
+    "brand": "MXR",
+    "type": "compressor",
+    "price": 89,
+    "rating": 4.5,
+    "reviewCount": 1600,
+    "amazonUrl": "https://www.amazon.com/dp/B0002GYNAO?tag=pedalrig-20",
+    "image": "/images/pedals/mxr-dyna-comp.jpg",
+    "description": "Classic Ross-style compressor. Simple two-knob design that adds sustain and punch to your tone.",
+    "pros": [
+      "Classic squish tone",
+      "Dead simple",
+      "Compact"
+    ],
+    "cons": [
+      "No blend knob",
+      "Can color your tone"
+    ],
+    "bestFor": [
+      "country",
+      "funk",
+      "clean"
+    ],
+    "level": "beginner",
+    "powerMa": 3,
+    "voltage": 9,
+    "widthMm": 70,
+    "heightMm": 112,
+    "depthMm": 51,
+    "bypass": "true",
+    "controls": [
+      "Output",
+      "Sensitivity"
+    ]
+  },
+  {
+    "id": "wampler-ego",
+    "name": "Wampler Ego Compressor",
+    "brand": "Wampler",
+    "type": "compressor",
+    "price": 199,
+    "rating": 4.8,
+    "reviewCount": 500,
+    "amazonUrl": "https://www.amazon.com/dp/B00ABYQFHQ?tag=pedalrig-20",
+    "image": "/images/pedals/wampler-ego.jpg",
+    "description": "Studio-quality compression with a blend knob for parallel compression. Transparent and musical.",
+    "pros": [
+      "Blend knob for parallel compression",
+      "Transparent",
+      "5 controls for precision"
+    ],
+    "cons": [
+      "Expensive",
+      "Overkill for simple needs"
+    ],
+    "bestFor": [
+      "studio",
+      "country",
+      "clean"
+    ],
+    "level": "intermediate",
+    "powerMa": 15,
+    "voltage": 9,
+    "widthMm": 64,
+    "heightMm": 121,
+    "depthMm": 51,
+    "bypass": "true",
+    "controls": [
+      "Volume",
+      "Sustain",
+      "Tone",
+      "Attack",
+      "Blend"
+    ]
+  },
+  {
+    "id": "tc-corona",
+    "name": "TC Electronic Corona Chorus",
+    "brand": "TC Electronic",
+    "type": "chorus",
+    "price": 99,
+    "rating": 4.6,
+    "reviewCount": 1300,
+    "amazonUrl": "https://www.amazon.com/dp/B004XJGBIQ?tag=pedalrig-20",
+    "image": "/images/pedals/tc-corona.jpg",
+    "description": "Versatile chorus with TonePrint for custom tones. From subtle shimmer to deep, watery modulation.",
+    "pros": [
+      "TonePrint customization",
+      "Versatile",
+      "SCF mode"
+    ],
+    "cons": [
+      "Digital artifacts possible",
+      "Small knobs"
+    ],
+    "bestFor": [
+      "clean",
+      "pop",
+      "80s rock"
+    ],
+    "level": "beginner",
+    "powerMa": 100,
+    "voltage": 9,
+    "widthMm": 72,
+    "heightMm": 122,
+    "depthMm": 50,
+    "bypass": "true",
+    "controls": [
+      "Speed",
+      "Depth",
+      "FX Level",
+      "Tone"
+    ]
+  },
+  {
+    "id": "ehx-720",
+    "name": "Electro-Harmonix 720 Stereo Looper",
+    "brand": "Electro-Harmonix",
+    "type": "looper",
+    "price": 149,
+    "rating": 4.5,
+    "reviewCount": 700,
+    "amazonUrl": "https://www.amazon.com/dp/B01LZKNX3S?tag=pedalrig-20",
+    "image": "/images/pedals/ehx-720.jpg",
+    "description": "10 minutes of recording time with 12 memory slots. Unlimited overdubs and reverse playback.",
+    "pros": [
+      "12 memory slots",
+      "10 min recording",
+      "Reverse playback"
+    ],
+    "cons": [
+      "No built-in effects",
+      "Single footswitch"
+    ],
+    "bestFor": [
+      "practice",
+      "performance"
+    ],
+    "level": "intermediate",
+    "powerMa": 200,
+    "voltage": 9,
+    "widthMm": 73,
+    "heightMm": 129,
+    "depthMm": 59,
+    "bypass": "true",
+    "controls": [
+      "Loop Level"
+    ]
+  },
+  {
+    "id": "boss-rc1",
+    "name": "Boss RC-1 Loop Station",
+    "brand": "Boss",
+    "type": "looper",
+    "price": 99,
+    "rating": 4.6,
+    "reviewCount": 2000,
+    "amazonUrl": "https://www.amazon.com/dp/B00OQHQO1C?tag=pedalrig-20",
+    "image": "/images/pedals/boss-rc1.jpg",
+    "description": "Simple one-button looper with a unique circular LED indicator showing loop position. 12 minutes of recording.",
+    "pros": [
+      "Dead simple operation",
+      "Visual LED indicator",
+      "Boss reliability"
+    ],
+    "cons": [
+      "No memory slots",
+      "No undo/redo"
+    ],
+    "bestFor": [
+      "practice",
+      "songwriting"
+    ],
+    "level": "beginner",
+    "powerMa": 45,
+    "voltage": 9,
+    "widthMm": 73,
+    "heightMm": 129,
+    "depthMm": 59,
+    "bypass": "buffered",
+    "controls": [
+      "Level"
+    ]
+  },
+  {
+    "id": "tc-polytune3",
+    "name": "TC Electronic PolyTune 3",
+    "brand": "TC Electronic",
+    "type": "tuner",
+    "price": 99,
+    "rating": 4.7,
+    "reviewCount": 1500,
+    "amazonUrl": "https://www.amazon.com/dp/B075FQ8GBQ?tag=pedalrig-20",
+    "image": "/images/pedals/tc-polytune3.jpg",
+    "description": "Polyphonic tuning \u2014 strum all strings at once to see which are out. Built-in BonaFide buffer.",
+    "pros": [
+      "Polyphonic tuning",
+      "Built-in buffer",
+      "Ultra-bright display"
+    ],
+    "cons": [
+      "Pricier than basic tuners",
+      "Buffer always on"
+    ],
+    "bestFor": [
+      "everyone"
+    ],
+    "level": "beginner",
+    "powerMa": 50,
+    "voltage": 9,
+    "widthMm": 72,
+    "heightMm": 122,
+    "depthMm": 50,
+    "bypass": "true",
+    "controls": [
+      "Display"
+    ]
+  },
+  {
+    "id": "korg-pitchblack",
+    "name": "Korg Pitchblack Advance",
+    "brand": "Korg",
+    "type": "tuner",
+    "price": 69,
+    "rating": 4.6,
+    "reviewCount": 1200,
+    "amazonUrl": "https://www.amazon.com/dp/B07BFHD7QN?tag=pedalrig-20",
+    "image": "/images/pedals/korg-pitchblack.jpg",
+    "description": "Ultra-bright display visible in any lighting condition. Four display modes and \u00b10.1 cent accuracy.",
+    "pros": [
+      "Ultra-bright display",
+      "4 display modes",
+      "Great accuracy"
+    ],
+    "cons": [
+      "Slightly larger than competitors",
+      "No polyphonic mode"
+    ],
+    "bestFor": [
+      "everyone"
+    ],
+    "level": "beginner",
+    "powerMa": 30,
+    "voltage": 9,
+    "widthMm": 68,
+    "heightMm": 115,
+    "depthMm": 50,
+    "bypass": "true",
+    "controls": [
+      "Display"
+    ]
+  },
+  {
+    "id": "boss-rv6",
+    "name": "Boss RV-6 Reverb",
+    "brand": "Boss",
+    "type": "reverb",
+    "price": 169,
+    "rating": 4.8,
+    "reviewCount": 1100,
+    "amazonUrl": "https://www.amazon.com/dp/B015FKUCAQ?tag=pedalrig-20",
+    "image": "/images/pedals/boss-rv6.jpg",
+    "description": "8 reverb modes from subtle room to massive shimmer. The go-to reverb pedal for working musicians.",
+    "pros": [
+      "8 versatile modes",
+      "Shimmer reverb",
+      "Boss reliability"
+    ],
+    "cons": [
+      "No presets",
+      "Buffered bypass"
+    ],
+    "bestFor": [
+      "rock",
+      "ambient",
+      "worship"
+    ],
+    "level": "beginner",
+    "powerMa": 55,
+    "voltage": 9,
+    "widthMm": 73,
+    "heightMm": 129,
+    "depthMm": 59,
+    "bypass": "buffered",
+    "controls": [
+      "E.Level",
+      "Tone",
+      "Time",
+      "Mode"
+    ]
+  },
+  {
+    "id": "ehx-holy-grail",
+    "name": "Electro-Harmonix Holy Grail Neo",
+    "brand": "Electro-Harmonix",
+    "type": "reverb",
+    "price": 129,
+    "rating": 4.6,
+    "reviewCount": 900,
+    "amazonUrl": "https://www.amazon.com/dp/B001FSIBN4?tag=pedalrig-20",
+    "image": "/images/pedals/ehx-holy-grail.jpg",
+    "description": "Three classic reverb types: spring, hall, and plate. Simple one-knob design with lush, natural tones.",
+    "pros": [
+      "Lush spring reverb",
+      "Simple operation",
+      "Classic EHX tone"
+    ],
+    "cons": [
+      "Only 3 modes",
+      "No tone control"
+    ],
+    "bestFor": [
+      "rock",
+      "surf",
+      "ambient"
+    ],
+    "level": "beginner",
+    "powerMa": 200,
+    "voltage": 9,
+    "widthMm": 102,
+    "heightMm": 121,
+    "depthMm": 51,
+    "bypass": "true",
+    "controls": [
+      "Blend",
+      "Mode"
+    ]
+  },
+  {
+    "id": "strymon-bigsky",
+    "name": "Strymon BigSky",
+    "brand": "Strymon",
+    "type": "reverb",
+    "price": 479,
+    "rating": 4.9,
+    "reviewCount": 400,
+    "amazonUrl": "https://www.amazon.com/dp/B00FXLCFHQ?tag=pedalrig-20",
+    "image": "/images/pedals/strymon-bigsky.jpg",
+    "description": "12 studio-class reverb machines. The ultimate reverb pedal for ambient, worship, and studio work.",
+    "pros": [
+      "12 world-class reverbs",
+      "300 presets",
+      "MIDI control"
+    ],
+    "cons": [
+      "Very expensive",
+      "Large footprint"
+    ],
+    "bestFor": [
+      "ambient",
+      "worship",
+      "studio"
+    ],
+    "level": "advanced",
+    "powerMa": 300,
+    "voltage": 9,
+    "widthMm": 171,
+    "heightMm": 133,
+    "depthMm": 38,
+    "bypass": "true",
+    "controls": [
+      "Decay",
+      "Mix",
+      "Tone",
+      "Param1",
+      "Param2"
+    ]
+  },
+  {
+    "id": "tc-hof2",
+    "name": "TC Electronic Hall of Fame 2",
+    "brand": "TC Electronic",
+    "type": "reverb",
+    "price": 149,
+    "rating": 4.7,
+    "reviewCount": 1400,
+    "amazonUrl": "https://www.amazon.com/dp/B075FQJHKR?tag=pedalrig-20",
+    "image": "/images/pedals/tc-hof2.jpg",
+    "description": "Versatile reverb with MASH footswitch for expressive control and TonePrint for custom reverb algorithms.",
+    "pros": [
+      "MASH footswitch",
+      "TonePrint",
+      "8 reverb types"
+    ],
+    "cons": [
+      "Can be overwhelming",
+      "Digital artifacts at extremes"
+    ],
+    "bestFor": [
+      "rock",
+      "ambient"
+    ],
+    "level": "intermediate",
+    "powerMa": 100,
+    "voltage": 9,
+    "widthMm": 72,
+    "heightMm": 122,
+    "depthMm": 50,
+    "bypass": "true",
+    "controls": [
+      "Decay",
+      "FX Level",
+      "Tone",
+      "MASH"
+    ]
+  },
+  {
+    "id": "dunlop-crybaby",
+    "name": "Dunlop Cry Baby GCB95",
+    "brand": "Dunlop",
+    "type": "wah",
+    "price": 89,
+    "rating": 4.6,
+    "reviewCount": 4000,
+    "amazonUrl": "https://www.amazon.com/dp/B0002CZVA6?tag=pedalrig-20",
+    "image": "/images/pedals/dunlop-crybaby.jpg",
+    "description": "The original wah pedal. Used by more guitarists than any other wah. Iconic vocal sweep.",
+    "pros": [
+      "Industry standard",
+      "Affordable",
+      "Iconic tone"
+    ],
+    "cons": [
+      "Heavy",
+      "No auto-off"
+    ],
+    "bestFor": [
+      "rock",
+      "funk",
+      "blues"
+    ],
+    "level": "beginner",
+    "powerMa": 2,
+    "voltage": 9,
+    "widthMm": 254,
+    "heightMm": 102,
+    "depthMm": 64,
+    "bypass": "true",
+    "controls": [
+      "Sweep"
+    ]
+  },
+  {
+    "id": "dunlop-crybaby-mini",
+    "name": "Dunlop Cry Baby Mini",
+    "brand": "Dunlop",
+    "type": "wah",
+    "price": 99,
+    "rating": 4.5,
+    "reviewCount": 800,
+    "amazonUrl": "https://www.amazon.com/dp/B01BXBZ3FQ?tag=pedalrig-20",
+    "image": "/images/pedals/dunlop-crybaby-mini.jpg",
+    "description": "Half the size of the original with three voicing options. Perfect for tight pedalboards.",
+    "pros": [
+      "Half the size",
+      "3 voice options",
+      "Auto-off"
+    ],
+    "cons": [
+      "Shorter sweep range",
+      "Takes getting used to"
+    ],
+    "bestFor": [
+      "rock",
+      "funk"
+    ],
+    "level": "beginner",
+    "powerMa": 2,
+    "voltage": 9,
+    "widthMm": 152,
+    "heightMm": 89,
+    "depthMm": 64,
+    "bypass": "true",
+    "controls": [
+      "Sweep",
+      "Voice"
+    ]
+  },
+  {
+    "id": "vox-v847a",
+    "name": "Vox V847-A Wah",
+    "brand": "Vox",
+    "type": "wah",
+    "price": 99,
+    "rating": 4.5,
+    "reviewCount": 600,
+    "amazonUrl": "https://www.amazon.com/dp/B001L8NFWI?tag=pedalrig-20",
+    "image": "/images/pedals/vox-v847a.jpg",
+    "description": "Vintage Italian-style wah with warm, vocal sweep. The choice for classic rock and blues players.",
+    "pros": [
+      "Warm vintage tone",
+      "Smooth sweep",
+      "Classic look"
+    ],
+    "cons": [
+      "No true bypass",
+      "Heavy"
+    ],
+    "bestFor": [
+      "classic rock",
+      "blues"
+    ],
+    "level": "beginner",
+    "powerMa": 1,
+    "voltage": 9,
+    "widthMm": 254,
+    "heightMm": 102,
+    "depthMm": 64,
+    "bypass": "buffered",
+    "controls": [
+      "Sweep"
+    ]
+  },
+  {
+    "id": "ehx-pog2",
+    "name": "Electro-Harmonix POG2",
+    "brand": "Electro-Harmonix",
+    "type": "octave",
+    "price": 299,
+    "rating": 4.7,
+    "reviewCount": 500,
+    "amazonUrl": "https://www.amazon.com/dp/B003XVHFHQ?tag=pedalrig-20",
+    "image": "/images/pedals/ehx-pog2.jpg",
+    "description": "Polyphonic octave generator with incredible tracking. Sub octave, octave up, detune, and attack control.",
+    "pros": [
+      "Flawless polyphonic tracking",
+      "8 presets",
+      "Organ-like tones"
+    ],
+    "cons": [
+      "Expensive",
+      "Large enclosure"
+    ],
+    "bestFor": [
+      "experimental",
+      "rock",
+      "bass"
+    ],
+    "level": "advanced",
+    "powerMa": 200,
+    "voltage": 9,
+    "widthMm": 152,
+    "heightMm": 127,
+    "depthMm": 64,
+    "bypass": "true",
+    "controls": [
+      "Dry",
+      "Sub Oct",
+      "Oct Up",
+      "Detune",
+      "Attack",
+      "LP Filter"
+    ]
+  },
+  {
+    "id": "mxr-sub-machine",
+    "name": "MXR Sub Machine",
+    "brand": "MXR",
+    "type": "octave",
+    "price": 129,
+    "rating": 4.4,
+    "reviewCount": 300,
+    "amazonUrl": "https://www.amazon.com/dp/B00LXZKNX3?tag=pedalrig-20",
+    "image": "/images/pedals/mxr-sub-machine.jpg",
+    "description": "Octave fuzz with sub-octave for massive low-end. Two voice modes for different fuzz characters.",
+    "pros": [
+      "Massive low-end",
+      "Two voice modes",
+      "Compact"
+    ],
+    "cons": [
+      "Monophonic tracking",
+      "Niche sound"
+    ],
+    "bestFor": [
+      "rock",
+      "experimental"
+    ],
+    "level": "intermediate",
+    "powerMa": 26,
+    "voltage": 9,
+    "widthMm": 70,
+    "heightMm": 112,
+    "depthMm": 51,
+    "bypass": "true",
+    "controls": [
+      "Volume",
+      "Tone",
+      "Sub",
+      "Voice"
+    ]
+  },
+  {
+    "id": "ernie-ball-vp-jr",
+    "name": "Ernie Ball VP Jr 250K",
+    "brand": "Ernie Ball",
+    "type": "volume",
+    "price": 89,
+    "rating": 4.6,
+    "reviewCount": 2500,
+    "amazonUrl": "https://www.amazon.com/dp/B000OZSOLE?tag=pedalrig-20",
+    "image": "/images/pedals/ernie-ball-vp-jr.jpg",
+    "description": "Industry standard volume pedal. Smooth taper with tuner output for silent tuning.",
+    "pros": [
+      "Smooth taper",
+      "Tuner output",
+      "Industry standard"
+    ],
+    "cons": [
+      "String can wear out",
+      "Passive only"
+    ],
+    "bestFor": [
+      "ambient",
+      "country",
+      "worship"
+    ],
+    "level": "beginner",
+    "powerMa": 0,
+    "voltage": 0,
+    "widthMm": 254,
+    "heightMm": 89,
+    "depthMm": 64,
+    "bypass": "passive",
+    "controls": [
+      "Volume"
+    ]
+  },
+  {
+    "id": "boss-fv500h",
+    "name": "Boss FV-500H Volume Pedal",
+    "brand": "Boss",
+    "type": "volume",
+    "price": 109,
+    "rating": 4.5,
+    "reviewCount": 800,
+    "amazonUrl": "https://www.amazon.com/dp/B000RW0IYE?tag=pedalrig-20",
+    "image": "/images/pedals/boss-fv500h.jpg",
+    "description": "Heavy-duty volume pedal with adjustable minimum volume. Built like a tank for touring.",
+    "pros": [
+      "Heavy-duty build",
+      "Adjustable min volume",
+      "Expression out"
+    ],
+    "cons": [
+      "Heavy",
+      "Large footprint"
+    ],
+    "bestFor": [
+      "studio",
+      "live"
+    ],
+    "level": "beginner",
+    "powerMa": 0,
+    "voltage": 0,
+    "widthMm": 281,
+    "heightMm": 100,
+    "depthMm": 81,
+    "bypass": "passive",
+    "controls": [
+      "Volume",
+      "Min Volume"
+    ]
+  },
+  {
+    "id": "line6-hx-stomp",
+    "name": "Line 6 HX Stomp",
+    "brand": "Line 6",
+    "type": "multi-effects",
+    "price": 599,
+    "rating": 4.8,
+    "reviewCount": 1200,
+    "amazonUrl": "https://www.amazon.com/dp/B07GY1BFPV?tag=pedalrig-20",
+    "image": "/images/pedals/line6-hx-stomp.jpg",
+    "description": "Over 300 effects and amp models from the Helix family in a compact pedal. The Swiss Army knife of guitar effects.",
+    "pros": [
+      "300+ effects and amps",
+      "Compact Helix power",
+      "USB audio interface"
+    ],
+    "cons": [
+      "Steep learning curve",
+      "Only 3 footswitches"
+    ],
+    "bestFor": [
+      "versatile",
+      "live",
+      "studio"
+    ],
+    "level": "advanced",
+    "powerMa": 3000,
+    "voltage": 9,
+    "widthMm": 171,
+    "heightMm": 133,
+    "depthMm": 64,
+    "bypass": "true",
+    "controls": [
+      "Multiple"
+    ]
+  },
+  {
+    "id": "boss-me80",
+    "name": "Boss ME-80",
+    "brand": "Boss",
+    "type": "multi-effects",
+    "price": 299,
+    "rating": 4.5,
+    "reviewCount": 1800,
+    "amazonUrl": "https://www.amazon.com/dp/B00IEUIO5E?tag=pedalrig-20",
+    "image": "/images/pedals/boss-me80.jpg",
+    "description": "Intuitive knob-per-function layout with COSM amp models. Easy to use without menu diving.",
+    "pros": [
+      "Knob-per-function",
+      "No menu diving",
+      "COSM amp models"
+    ],
+    "cons": [
+      "Large footprint",
+      "Dated effects"
+    ],
+    "bestFor": [
+      "versatile",
+      "live"
+    ],
+    "level": "intermediate",
+    "powerMa": 200,
+    "voltage": 9,
+    "widthMm": 585,
+    "heightMm": 216,
+    "depthMm": 57,
+    "bypass": "buffered",
+    "controls": [
+      "Multiple"
+    ]
   }
 ]
