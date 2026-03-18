@@ -114,7 +114,7 @@ export default async function TypePage({
   const faqs = FAQ_TEMPLATES(type.name)
 
   return (
-    <main className="min-h-screen bg-zinc-950 text-zinc-100">
+    <main className="min-h-screen bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
       <div className="max-w-5xl mx-auto px-4 py-10">
 
         {/* Breadcrumb */}
@@ -123,7 +123,7 @@ export default async function TypePage({
           <span>/</span>
           <Link href="/types" className="hover:text-orange-400 transition-colors">Pedal Types</Link>
           <span>/</span>
-          <span className="text-zinc-300">{type.name}</span>
+          <span className="text-zinc-700 dark:text-zinc-300">{type.name}</span>
         </nav>
 
         {/* Hero */}
@@ -134,47 +134,47 @@ export default async function TypePage({
               {type.name}
             </Badge>
           </div>
-          <h1 className="text-4xl font-bold text-white mb-4">
+          <h1 className="text-4xl font-bold mb-4">
             Best {type.name} Pedals in 2026
           </h1>
-          <p className="text-zinc-400 text-lg leading-relaxed max-w-3xl">
+          <p className="text-zinc-500 dark:text-zinc-400 text-lg leading-relaxed max-w-3xl">
             {type.description}
           </p>
         </div>
 
-        <Separator className="bg-zinc-800 mb-8" />
+        <Separator className="bg-zinc-200 dark:bg-zinc-800 mb-8" />
 
         {/* Key Info Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
-          <Card className="bg-zinc-900 border-zinc-800">
+          <Card className="bg-gray-50 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800">
             <CardHeader className="pb-2">
               <CardTitle className="text-xs uppercase tracking-wider text-zinc-500">Signal Chain Position</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-2xl font-bold text-orange-400">#{type.signalChainPosition}</p>
-              <p className="text-zinc-400 text-sm mt-1">in the chain</p>
+              <p className="text-zinc-500 dark:text-zinc-400 text-sm mt-1">in the chain</p>
             </CardContent>
           </Card>
-          <Card className="bg-zinc-900 border-zinc-800">
+          <Card className="bg-gray-50 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800">
             <CardHeader className="pb-2">
               <CardTitle className="text-xs uppercase tracking-wider text-zinc-500">Best For</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="flex flex-wrap gap-1 mt-1">
                 {type.bestFor.map((genre) => (
-                  <Badge key={genre} variant="outline" className="text-xs border-zinc-700 text-zinc-300">
+                  <Badge key={genre} variant="outline" className="text-xs border-zinc-200 dark:border-zinc-700 text-zinc-700 dark:text-zinc-300">
                     {genre}
                   </Badge>
                 ))}
               </div>
             </CardContent>
           </Card>
-          <Card className="bg-zinc-900 border-zinc-800">
+          <Card className="bg-gray-50 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800">
             <CardHeader className="pb-2">
               <CardTitle className="text-xs uppercase tracking-wider text-zinc-500">Famous Users</CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="text-zinc-300 text-sm space-y-1 mt-1">
+              <ul className="text-zinc-700 dark:text-zinc-300 text-sm space-y-1 mt-1">
                 {type.famousUsers.map((user) => (
                   <li key={user} className="flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-orange-500 inline-block" />
@@ -189,23 +189,23 @@ export default async function TypePage({
         {/* Comparison Table */}
         {typePedals.length > 0 && (
           <section className="mb-12">
-            <h2 className="text-2xl font-bold text-white mb-4">Quick Comparison</h2>
-            <div className="rounded-xl border border-zinc-800 overflow-hidden">
+            <h2 className="text-2xl font-bold mb-4">Quick Comparison</h2>
+            <div className="rounded-xl border border-zinc-200 dark:border-zinc-800 overflow-hidden">
               <Table>
                 <TableHeader>
-                  <TableRow className="border-zinc-800 bg-zinc-900/80">
-                    <TableHead className="text-zinc-400">Pedal</TableHead>
-                    <TableHead className="text-zinc-400">Brand</TableHead>
-                    <TableHead className="text-zinc-400">Price</TableHead>
-                    <TableHead className="text-zinc-400">Rating</TableHead>
-                    <TableHead className="text-zinc-400"></TableHead>
+                  <TableRow className="border-zinc-200 dark:border-zinc-800 bg-gray-50 dark:bg-zinc-900/80">
+                    <TableHead className="text-zinc-500 dark:text-zinc-400">Pedal</TableHead>
+                    <TableHead className="text-zinc-500 dark:text-zinc-400">Brand</TableHead>
+                    <TableHead className="text-zinc-500 dark:text-zinc-400">Price</TableHead>
+                    <TableHead className="text-zinc-500 dark:text-zinc-400">Rating</TableHead>
+                    <TableHead className="text-zinc-500 dark:text-zinc-400"></TableHead>
                   </TableRow>
                 </TableHeader>
                 <TableBody>
                   {typePedals.map((pedal) => (
-                    <TableRow key={pedal.id} className="border-zinc-800 hover:bg-zinc-900/50 transition-colors">
-                      <TableCell className="font-medium text-white">{pedal.name}</TableCell>
-                      <TableCell className="text-zinc-400">{pedal.brand}</TableCell>
+                    <TableRow key={pedal.id} className="border-zinc-200 dark:border-zinc-800 hover:bg-gray-50 dark:hover:bg-zinc-900/50 transition-colors">
+                      <TableCell className="font-medium">{pedal.name}</TableCell>
+                      <TableCell className="text-zinc-500 dark:text-zinc-400">{pedal.brand}</TableCell>
                       <TableCell className="text-orange-400 font-semibold">${pedal.price}</TableCell>
                       <TableCell><StarRating rating={pedal.rating} /></TableCell>
                       <TableCell>
@@ -229,13 +229,13 @@ export default async function TypePage({
         {/* Product Detail Cards */}
         {typePedals.length > 0 && (
           <section className="mb-12">
-            <h2 className="text-2xl font-bold text-white mb-6">In-Depth Reviews</h2>
+            <h2 className="text-2xl font-bold mb-6">In-Depth Reviews</h2>
             <div className="space-y-6">
               {typePedals.map((pedal, i) => (
-                <Card key={pedal.id} className="bg-zinc-900 border-zinc-800 overflow-hidden">
+                <Card key={pedal.id} className="bg-gray-50 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800 overflow-hidden">
                   <div className="flex flex-col sm:flex-row">
                     {/* Image placeholder */}
-                    <div className="sm:w-48 sm:shrink-0 bg-zinc-800 flex items-center justify-center min-h-[160px]">
+                    <div className="sm:w-48 sm:shrink-0 bg-gray-100 dark:bg-zinc-800 flex items-center justify-center min-h-[160px]">
                       <div className="text-center p-4">
                         <span className="text-4xl">{type.icon}</span>
                         <p className="text-zinc-600 text-xs mt-2">{pedal.brand}</p>
@@ -248,11 +248,11 @@ export default async function TypePage({
                             {i === 0 && (
                               <Badge className="bg-orange-500 text-white text-xs">Editor's Pick</Badge>
                             )}
-                            <Badge variant="outline" className="text-xs border-zinc-700 text-zinc-400 capitalize">
+                            <Badge variant="outline" className="text-xs border-zinc-200 dark:border-zinc-700 text-zinc-500 dark:text-zinc-400 capitalize">
                               {pedal.level}
                             </Badge>
                           </div>
-                          <h3 className="text-xl font-bold text-white">{pedal.name}</h3>
+                          <h3 className="text-xl font-bold">{pedal.name}</h3>
                           <div className="flex items-center gap-3 mt-1">
                             <StarRating rating={pedal.rating} />
                             <span className="text-zinc-500 text-sm">({pedal.reviewCount.toLocaleString()} reviews)</span>
@@ -263,14 +263,14 @@ export default async function TypePage({
                         </div>
                       </div>
 
-                      <p className="text-zinc-400 text-sm leading-relaxed mb-4">{pedal.description}</p>
+                      <p className="text-zinc-500 dark:text-zinc-400 text-sm leading-relaxed mb-4">{pedal.description}</p>
 
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
                         <div>
                           <p className="text-xs uppercase tracking-wider text-zinc-500 mb-2">Pros</p>
                           <ul className="space-y-1">
                             {pedal.pros.map((pro) => (
-                              <li key={pro} className="text-sm text-zinc-300 flex items-start gap-2">
+                              <li key={pro} className="text-sm text-zinc-700 dark:text-zinc-300 flex items-start gap-2">
                                 <span className="text-green-400 mt-0.5">✓</span>
                                 {pro}
                               </li>
@@ -281,7 +281,7 @@ export default async function TypePage({
                           <p className="text-xs uppercase tracking-wider text-zinc-500 mb-2">Cons</p>
                           <ul className="space-y-1">
                             {pedal.cons.map((con) => (
-                              <li key={con} className="text-sm text-zinc-300 flex items-start gap-2">
+                              <li key={con} className="text-sm text-zinc-700 dark:text-zinc-300 flex items-start gap-2">
                                 <span className="text-red-400 mt-0.5">✗</span>
                                 {con}
                               </li>
@@ -306,41 +306,41 @@ export default async function TypePage({
           </section>
         )}
 
-        <Separator className="bg-zinc-800 mb-10" />
+        <Separator className="bg-zinc-200 dark:bg-zinc-800 mb-10" />
 
         {/* FAQ */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-6">Frequently Asked Questions</h2>
+          <h2 className="text-2xl font-bold mb-6">Frequently Asked Questions</h2>
           <div className="space-y-4">
             {faqs.map((faq, i) => (
-              <div key={i} className="bg-zinc-900 border border-zinc-800 rounded-xl p-5">
-                <h3 className="font-semibold text-white mb-2">{faq.q}</h3>
-                <p className="text-zinc-400 text-sm leading-relaxed">{faq.a}</p>
+              <div key={i} className="bg-gray-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-xl p-5">
+                <h3 className="font-semibold mb-2">{faq.q}</h3>
+                <p className="text-zinc-500 dark:text-zinc-400 text-sm leading-relaxed">{faq.a}</p>
               </div>
             ))}
           </div>
         </section>
 
-        <Separator className="bg-zinc-800 mb-10" />
+        <Separator className="bg-zinc-200 dark:bg-zinc-800 mb-10" />
 
         {/* Related Types */}
         <section>
-          <h2 className="text-2xl font-bold text-white mb-6">Explore Other Pedal Types</h2>
+          <h2 className="text-2xl font-bold mb-6">Explore Other Pedal Types</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {relatedTypes.map((related) => {
               const count = pedals.filter((p) => p.type === related.id).length
               return (
                 <Link key={related.id} href={`/${related.slug}`}>
                   <Card className={cn(
-                    'bg-zinc-900 border-zinc-800 hover:border-orange-500/50 transition-all duration-200 cursor-pointer group h-full'
+                    'bg-gray-50 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800 hover:border-orange-500/50 transition-all duration-200 cursor-pointer group h-full'
                   )}>
                     <CardContent className="p-5">
                       <span className="text-3xl mb-3 block">{related.icon}</span>
-                      <h3 className="font-bold text-white group-hover:text-orange-400 transition-colors mb-1">
+                      <h3 className="font-bold group-hover:text-orange-400 transition-colors mb-1">
                         {related.name}
                       </h3>
                       <p className="text-zinc-500 text-sm leading-relaxed mb-3">{related.shortDescription}</p>
-                      <Badge variant="outline" className="text-xs border-zinc-700 text-zinc-400">
+                      <Badge variant="outline" className="text-xs border-zinc-200 dark:border-zinc-700 text-zinc-500 dark:text-zinc-400">
                         {count} pedals
                       </Badge>
                     </CardContent>

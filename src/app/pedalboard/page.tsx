@@ -78,38 +78,38 @@ const faqs = [
 
 export default function PedalboardPage() {
   return (
-    <main className="min-h-screen bg-zinc-950 text-zinc-100">
+    <main className="min-h-screen bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
       <div className="max-w-4xl mx-auto px-4 py-12">
 
         {/* Hero */}
-        <h1 className="text-4xl font-bold mb-4 text-white">
+        <h1 className="text-4xl font-bold mb-4">
           How to Build Your Perfect Pedalboard
         </h1>
-        <p className="text-zinc-400 text-lg mb-10 max-w-2xl">
+        <p className="text-zinc-500 dark:text-zinc-400 text-lg mb-10 max-w-2xl">
           A pedalboard turns a pile of pedals into a reliable, gig-ready rig. Get the size right,
           power it properly, and wire it clean — and your tone will thank you.
         </p>
 
-        <Separator className="bg-zinc-800 mb-10" />
+        <Separator className="bg-zinc-200 dark:bg-zinc-800 mb-10" />
 
         {/* Board Sizes */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-2 text-white">Pedalboard Size Guide</h2>
-          <p className="text-zinc-400 mb-6">Pick the right size from the start — it's cheaper than buying twice.</p>
+          <h2 className="text-2xl font-semibold mb-2">Pedalboard Size Guide</h2>
+          <p className="text-zinc-500 dark:text-zinc-400 mb-6">Pick the right size from the start — it's cheaper than buying twice.</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {boardSizes.map((size) => (
-              <Card key={size.name} className="bg-zinc-900 border-zinc-800">
+              <Card key={size.name} className="bg-gray-50 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800">
                 <CardHeader className="pb-2">
                   <div className="flex items-center justify-between">
-                    <CardTitle className="text-white text-xl">{size.name}</CardTitle>
+                    <CardTitle className="text-xl">{size.name}</CardTitle>
                     <Badge className="bg-orange-500 text-white text-xs">{size.badge}</Badge>
                   </div>
                   <p className="text-zinc-500 text-sm">{size.dimensions}</p>
                 </CardHeader>
                 <CardContent className="space-y-2 text-sm">
-                  <div><span className="text-zinc-400">Pedals: </span><span className="text-white">{size.pedals}</span></div>
-                  <div><span className="text-zinc-400">Best for: </span><span className="text-white">{size.bestFor}</span></div>
-                  <div><span className="text-zinc-400">Recommended: </span><span className="text-zinc-300">{size.recommended}</span></div>
+                  <div><span className="text-zinc-500 dark:text-zinc-400">Pedals: </span><span>{size.pedals}</span></div>
+                  <div><span className="text-zinc-500 dark:text-zinc-400">Best for: </span><span>{size.bestFor}</span></div>
+                  <div><span className="text-zinc-500 dark:text-zinc-400">Recommended: </span><span className="text-zinc-700 dark:text-zinc-300">{size.recommended}</span></div>
                 </CardContent>
               </Card>
             ))}
@@ -118,23 +118,23 @@ export default function PedalboardPage() {
 
         {/* Power */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-2 text-white">Power Supply Options</h2>
-          <p className="text-zinc-400 mb-4">
+          <h2 className="text-2xl font-semibold mb-2">Power Supply Options</h2>
+          <p className="text-zinc-500 dark:text-zinc-400 mb-4">
             Bad power is the #1 cause of pedalboard noise. Get this right and half your problems disappear.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-            <div className="bg-zinc-900 border border-zinc-800 rounded-lg p-4">
+            <div className="bg-gray-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-lg p-4">
               <h3 className="text-orange-500 font-semibold mb-2">Isolated Power ✓</h3>
-              <ul className="text-sm text-zinc-300 space-y-1">
+              <ul className="text-sm text-zinc-700 dark:text-zinc-300 space-y-1">
                 <li>✓ Each output is electrically isolated</li>
                 <li>✓ Eliminates ground loops and hum</li>
                 <li>✓ Works with digital and analog pedals</li>
                 <li>✗ More expensive ($80–$200+)</li>
               </ul>
             </div>
-            <div className="bg-zinc-900 border border-zinc-800 rounded-lg p-4">
-              <h3 className="text-zinc-300 font-semibold mb-2">Daisy Chain</h3>
-              <ul className="text-sm text-zinc-300 space-y-1">
+            <div className="bg-gray-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-lg p-4">
+              <h3 className="text-zinc-700 dark:text-zinc-300 font-semibold mb-2">Daisy Chain</h3>
+              <ul className="text-sm text-zinc-700 dark:text-zinc-300 space-y-1">
                 <li>✓ Cheap and simple ($10–$30)</li>
                 <li>✓ Fine for all-analog, low-current setups</li>
                 <li>✗ Shared ground = potential noise</li>
@@ -152,10 +152,10 @@ export default function PedalboardPage() {
 
         {/* Wiring Tips */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-white">Cable Management Tips</h2>
+          <h2 className="text-2xl font-semibold mb-4">Cable Management Tips</h2>
           <ol className="space-y-3">
             {wiringTips.map((tip, i) => (
-              <li key={i} className="flex gap-3 text-zinc-300">
+              <li key={i} className="flex gap-3 text-zinc-700 dark:text-zinc-300">
                 <span className="text-orange-500 font-bold shrink-0">{i + 1}.</span>
                 <span>{tip}</span>
               </li>
@@ -165,7 +165,7 @@ export default function PedalboardPage() {
 
         {/* Build Steps */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-6 text-white">How to Build Your Pedalboard: 6 Steps</h2>
+          <h2 className="text-2xl font-semibold mb-6">How to Build Your Pedalboard: 6 Steps</h2>
           <div className="space-y-4">
             {buildSteps.map(({ step, title, desc }) => (
               <div key={step} className="flex gap-4 items-start">
@@ -173,8 +173,8 @@ export default function PedalboardPage() {
                   {step}
                 </div>
                 <div>
-                  <h3 className="text-white font-semibold">{title}</h3>
-                  <p className="text-zinc-400 text-sm mt-0.5">{desc}</p>
+                  <h3 className="font-semibold">{title}</h3>
+                  <p className="text-zinc-500 dark:text-zinc-400 text-sm mt-0.5">{desc}</p>
                 </div>
               </div>
             ))}
@@ -182,9 +182,9 @@ export default function PedalboardPage() {
         </section>
 
         {/* CTA */}
-        <section className="mb-12 bg-zinc-900 border border-orange-500/30 rounded-xl p-8 text-center">
-          <h2 className="text-2xl font-bold text-white mb-2">Ready to Plan Your Rig?</h2>
-          <p className="text-zinc-400 mb-6">Drag, drop, and arrange your pedals visually before you buy a single cable.</p>
+        <section className="mb-12 bg-gray-50 dark:bg-zinc-900 border border-orange-500/30 rounded-xl p-8 text-center">
+          <h2 className="text-2xl font-bold mb-2">Ready to Plan Your Rig?</h2>
+          <p className="text-zinc-500 dark:text-zinc-400 mb-6">Drag, drop, and arrange your pedals visually before you buy a single cable.</p>
           <a
             href="/pedalboard/builder"
             className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-3 rounded-lg transition-colors"
@@ -195,13 +195,13 @@ export default function PedalboardPage() {
 
         {/* FAQ */}
         <section>
-          <h2 className="text-2xl font-semibold mb-6 text-white">Frequently Asked Questions</h2>
+          <h2 className="text-2xl font-semibold mb-6">Frequently Asked Questions</h2>
           <div className="space-y-6">
             {faqs.map(({ q, a }, i) => (
               <div key={i}>
-                <h3 className="text-white font-semibold mb-1">{q}</h3>
-                <p className="text-zinc-400 text-sm">{a}</p>
-                {i < faqs.length - 1 && <Separator className="bg-zinc-800 mt-6" />}
+                <h3 className="font-semibold mb-1">{q}</h3>
+                <p className="text-zinc-500 dark:text-zinc-400 text-sm">{a}</p>
+                {i < faqs.length - 1 && <Separator className="bg-zinc-200 dark:bg-zinc-800 mt-6" />}
               </div>
             ))}
           </div>

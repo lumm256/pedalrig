@@ -9,14 +9,14 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-zinc-950 text-zinc-100">
+    <main className="min-h-screen bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
       <div className="max-w-2xl mx-auto px-4 py-12">
-        <h1 className="text-3xl font-bold text-white mb-2">About PedalRig</h1>
+        <h1 className="text-3xl font-bold mb-2">About PedalRig</h1>
         <p className="text-orange-500 text-sm mb-8">Your guitar pedal guide</p>
 
-        <Separator className="bg-zinc-800 mb-8" />
+        <Separator className="bg-zinc-200 dark:bg-zinc-800 mb-8" />
 
-        <div className="space-y-6 text-zinc-300 leading-relaxed">
+        <div className="space-y-6 text-zinc-700 dark:text-zinc-300 leading-relaxed">
           <p>
             PedalRig is a guide website for guitarists who want to make smarter decisions about
             effects pedals and pedalboard setups. We cut through the noise — literally and
@@ -35,11 +35,11 @@ export default function AboutPage() {
             give guitarists the information they need to make confident gear decisions.
           </p>
 
-          <Separator className="bg-zinc-800" />
+          <Separator className="bg-zinc-200 dark:bg-zinc-800" />
 
           <div>
-            <h2 className="text-white font-semibold text-lg mb-2">What We Cover</h2>
-            <ul className="space-y-1 text-zinc-400">
+            <h2 className="font-semibold text-lg mb-2">What We Cover</h2>
+            <ul className="space-y-1 text-zinc-500 dark:text-zinc-400">
               <li>→ Pedal type guides (overdrive, delay, reverb, modulation, and more)</li>
               <li>→ Signal chain order and best practices</li>
               <li>→ Pedalboard sizing and setup guides</li>
@@ -48,7 +48,7 @@ export default function AboutPage() {
             </ul>
           </div>
 
-          <Separator className="bg-zinc-800" />
+          <Separator className="bg-zinc-200 dark:bg-zinc-800" />
 
           <p className="text-zinc-500 text-sm">
             PedalRig participates in the Amazon Associates program. Some links on this site are

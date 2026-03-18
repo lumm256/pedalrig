@@ -74,33 +74,33 @@ export default function PedalOrderPage() {
   const getPedalForType = (type: string) => pedals.find((p) => p.type === type);
 
   return (
-    <main className="min-h-screen bg-zinc-950 text-zinc-100">
+    <main className="min-h-screen bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
       <div className="max-w-4xl mx-auto px-4 py-12">
         {/* Hero */}
         <div className="mb-12">
           <Badge className="mb-4 bg-orange-500/20 text-orange-400 border-orange-500/30">
             Signal Chain Guide
           </Badge>
-          <h1 className="text-4xl font-bold mb-4 text-white">
+          <h1 className="text-4xl font-bold mb-4">
             Guitar Pedal Order — How to Arrange Your Signal Chain
           </h1>
-          <p className="text-lg text-zinc-400 leading-relaxed">
+          <p className="text-lg text-zinc-500 dark:text-zinc-400 leading-relaxed">
             The order you connect your pedals shapes your tone as much as the pedals themselves.
             Put reverb before distortion and you get a muddy mess. Get the order right and
             everything clicks into place. Here&apos;s the standard signal chain — and why it works.
           </p>
         </div>
 
-        <Separator className="mb-12 bg-zinc-800" />
+        <Separator className="mb-12 bg-zinc-200 dark:bg-zinc-800" />
 
         {/* Visual Signal Chain */}
         <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-6 text-white">The Complete Signal Chain</h2>
+          <h2 className="text-2xl font-bold mb-6">The Complete Signal Chain</h2>
           <div className="overflow-x-auto pb-4">
             <div className="flex items-center gap-2 min-w-max">
               {/* Guitar */}
               <div className="flex flex-col items-center gap-1">
-                <div className="w-14 h-14 rounded-lg bg-zinc-800 border border-zinc-700 flex items-center justify-center text-2xl">
+                <div className="w-14 h-14 rounded-lg bg-gray-100 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 flex items-center justify-center text-2xl">
                   🎸
                 </div>
                 <span className="text-xs text-zinc-500">Guitar</span>
@@ -110,10 +110,10 @@ export default function PedalOrderPage() {
               {chain.map((item, i) => (
                 <div key={item.type} className="flex items-center gap-2">
                   <div className="flex flex-col items-center gap-1">
-                    <div className="w-14 h-14 rounded-lg bg-zinc-900 border border-orange-500/30 flex items-center justify-center text-xl hover:border-orange-500/60 transition-colors">
+                    <div className="w-14 h-14 rounded-lg bg-gray-50 dark:bg-zinc-900 border border-orange-500/30 flex items-center justify-center text-xl hover:border-orange-500/60 transition-colors">
                       {item.icon}
                     </div>
-                    <span className="text-xs text-zinc-400 text-center w-14 leading-tight">
+                    <span className="text-xs text-zinc-500 dark:text-zinc-400 text-center w-14 leading-tight">
                       {item.label}
                     </span>
                   </div>
@@ -126,7 +126,7 @@ export default function PedalOrderPage() {
               <span className="text-zinc-600 text-lg">→</span>
               {/* Amp */}
               <div className="flex flex-col items-center gap-1">
-                <div className="w-14 h-14 rounded-lg bg-zinc-800 border border-zinc-700 flex items-center justify-center text-2xl">
+                <div className="w-14 h-14 rounded-lg bg-gray-100 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 flex items-center justify-center text-2xl">
                   🔊
                 </div>
                 <span className="text-xs text-zinc-500">Amp</span>
@@ -138,13 +138,13 @@ export default function PedalOrderPage() {
 
         {/* Detailed Sections */}
         <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-8 text-white">Position-by-Position Breakdown</h2>
+          <h2 className="text-2xl font-bold mb-8">Position-by-Position Breakdown</h2>
           <div className="space-y-6">
             {chain.map((item) => {
               const pedal = getPedalForType(item.type);
               const variantTip = VARIANT_TIPS[item.type];
               return (
-                <Card key={item.type} className="bg-zinc-900 border-zinc-800">
+                <Card key={item.type} className="bg-gray-50 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800">
                   <CardHeader className="pb-3">
                     <div className="flex items-center gap-3">
                       <div className="w-10 h-10 rounded-lg bg-orange-500/10 border border-orange-500/20 flex items-center justify-center text-xl shrink-0">
@@ -158,16 +158,16 @@ export default function PedalOrderPage() {
                           >
                             Position {item.position}
                           </Badge>
-                          <CardTitle className="text-base text-white">{item.label}</CardTitle>
+                          <CardTitle className="text-base">{item.label}</CardTitle>
                         </div>
                       </div>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-3">
-                    <p className="text-sm text-zinc-300">{item.reason}</p>
+                    <p className="text-sm text-zinc-700 dark:text-zinc-300">{item.reason}</p>
 
                     {pedal && (
-                      <div className="flex items-center gap-3 p-3 rounded-md bg-zinc-800/50 flex-wrap">
+                      <div className="flex items-center gap-3 p-3 rounded-md bg-gray-100 dark:bg-zinc-800/50 flex-wrap">
                         <span className="text-xs text-zinc-500">Recommended:</span>
                         <span className="text-sm font-medium text-orange-400">{pedal.name}</span>
                         <span className="text-sm text-zinc-500">${pedal.price}</span>
@@ -199,18 +199,18 @@ export default function PedalOrderPage() {
 
         {/* Rules You Can Break */}
         <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-2 text-white">Rules You Can Break</h2>
-          <p className="text-zinc-400 mb-6">
+          <h2 className="text-2xl font-bold mb-2">Rules You Can Break</h2>
+          <p className="text-zinc-500 dark:text-zinc-400 mb-6">
             These are guidelines, not laws. Some of the best tones come from breaking them.
           </p>
           <div className="space-y-3">
             {signalChainData.tips.map((tip, i) => (
               <div
                 key={i}
-                className="flex gap-3 p-4 rounded-lg bg-zinc-900 border border-zinc-800"
+                className="flex gap-3 p-4 rounded-lg bg-gray-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800"
               >
                 <span className="text-orange-400 font-bold shrink-0">{i + 1}.</span>
-                <p className="text-sm text-zinc-300">{tip}</p>
+                <p className="text-sm text-zinc-700 dark:text-zinc-300">{tip}</p>
               </div>
             ))}
           </div>
@@ -218,24 +218,24 @@ export default function PedalOrderPage() {
 
         {/* FAQ */}
         <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-8 text-white">FAQ</h2>
+          <h2 className="text-2xl font-bold mb-8">FAQ</h2>
           <div className="space-y-6">
             {FAQS.map((faq) => (
               <div key={faq.q}>
-                <p className="font-semibold text-white mb-2">{faq.q}</p>
-                <p className="text-zinc-400 text-sm leading-relaxed">{faq.a}</p>
-                <Separator className="mt-6 bg-zinc-800" />
+                <p className="font-semibold mb-2">{faq.q}</p>
+                <p className="text-zinc-500 dark:text-zinc-400 text-sm leading-relaxed">{faq.a}</p>
+                <Separator className="mt-6 bg-zinc-200 dark:bg-zinc-800" />
               </div>
             ))}
           </div>
         </section>
 
         {/* CTA */}
-        <section className="rounded-xl bg-gradient-to-br from-orange-500/10 to-zinc-900 border border-orange-500/20 p-8 text-center">
-          <h2 className="text-2xl font-bold text-white mb-3">
+        <section className="rounded-xl bg-gradient-to-br from-orange-500/10 to-zinc-100 dark:to-zinc-900 border border-orange-500/20 p-8 text-center">
+          <h2 className="text-2xl font-bold mb-3">
             Put your signal chain together
           </h2>
-          <p className="text-zinc-400 mb-6">
+          <p className="text-zinc-500 dark:text-zinc-400 mb-6">
             Use the Board Builder to arrange your pedals in the right order, check power
             requirements, and plan your pedalboard layout.
           </p>

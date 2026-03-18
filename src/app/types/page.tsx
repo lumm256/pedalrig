@@ -29,7 +29,7 @@ const pedals = pedalsData as Pedal[]
 
 export default function TypesPage() {
   return (
-    <main className="min-h-screen bg-zinc-950 text-zinc-100">
+    <main className="min-h-screen bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
       <div className="max-w-5xl mx-auto px-4 py-10">
 
         {/* Header */}
@@ -37,10 +37,10 @@ export default function TypesPage() {
           <Badge className="bg-orange-500/20 text-orange-400 border-orange-500/30 text-xs uppercase tracking-wider mb-4">
             Reference Guide
           </Badge>
-          <h1 className="text-4xl font-bold text-white mb-4">
+          <h1 className="text-4xl font-bold mb-4">
             Types of Guitar Pedals — Every Effect Explained
           </h1>
-          <p className="text-zinc-400 text-lg leading-relaxed max-w-3xl">
+          <p className="text-zinc-500 dark:text-zinc-400 text-lg leading-relaxed max-w-3xl">
             Whether you're building your first pedalboard or filling in the gaps, this guide covers
             every major effect type — what it does, where it goes in your chain, and who uses it.
           </p>
@@ -52,24 +52,24 @@ export default function TypesPage() {
             const count = pedals.filter((p) => p.type === type.id).length
             return (
               <Link key={type.id} href={`/${type.slug}`} className="group block">
-                <Card className="bg-zinc-900 border-zinc-800 h-full transition-all duration-200 group-hover:border-orange-500/50 group-hover:bg-zinc-800/80">
+                <Card className="bg-gray-50 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800 h-full transition-all duration-200 group-hover:border-orange-500/50 group-hover:bg-gray-100 dark:group-hover:bg-zinc-800/80">
                   <CardHeader className="pb-2">
                     <div className="flex items-start justify-between gap-2">
                       <div className="flex items-center gap-2">
                         <span className="text-2xl">{type.icon}</span>
-                        <CardTitle className="text-white text-lg group-hover:text-orange-400 transition-colors">
+                        <CardTitle className="text-lg group-hover:text-orange-400 transition-colors">
                           {type.name}
                         </CardTitle>
                       </div>
                       {count > 0 && (
-                        <Badge className="bg-zinc-800 text-zinc-400 border-zinc-700 text-xs shrink-0">
+                        <Badge className="bg-gray-100 dark:bg-zinc-800 text-zinc-500 dark:text-zinc-400 border-zinc-200 dark:border-zinc-700 text-xs shrink-0">
                           {count} pedal{count !== 1 ? 's' : ''}
                         </Badge>
                       )}
                     </div>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-zinc-400 text-sm leading-relaxed">
+                    <p className="text-zinc-500 dark:text-zinc-400 text-sm leading-relaxed">
                       {type.shortDescription}
                     </p>
                     <p className="text-orange-400 text-sm mt-3 font-medium group-hover:underline">

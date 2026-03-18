@@ -85,29 +85,29 @@ const faqs = [
 
 export default function PowerSupplyPage() {
   return (
-    <main className="min-h-screen bg-zinc-950 text-zinc-100">
+    <main className="min-h-screen bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
       <div className="max-w-4xl mx-auto px-4 py-12">
 
         {/* Hero */}
-        <h1 className="text-4xl font-bold mb-4 text-white">
+        <h1 className="text-4xl font-bold mb-4">
           Best Guitar Pedal Power Supplies in 2026
         </h1>
-        <p className="text-zinc-400 text-lg mb-10 max-w-2xl">
+        <p className="text-zinc-500 dark:text-zinc-400 text-lg mb-10 max-w-2xl">
           Your power supply is the foundation of your tone. Get it wrong and you get hum, noise,
           and headaches. Get it right and your pedals sing.
         </p>
 
-        <Separator className="bg-zinc-800 mb-10" />
+        <Separator className="bg-zinc-200 dark:bg-zinc-800 mb-10" />
 
         {/* Why Power Matters */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-3 text-white">Why Power Supply Matters</h2>
-          <p className="text-zinc-400 mb-3">
+          <h2 className="text-2xl font-semibold mb-3">Why Power Supply Matters</h2>
+          <p className="text-zinc-500 dark:text-zinc-400 mb-3">
             Every pedal on your board needs clean, stable DC power. When pedals share a power source
             without isolation, their ground connections interact — creating ground loops that produce
             audible hum and buzz.
           </p>
-          <p className="text-zinc-400">
+          <p className="text-zinc-500 dark:text-zinc-400">
             Digital pedals (loopers, multi-effects, modelers) are especially prone to injecting noise
             into analog pedals when sharing power. An isolated supply gives each pedal its own
             electrically separate output, eliminating the problem entirely.
@@ -116,12 +116,12 @@ export default function PowerSupplyPage() {
 
         {/* Comparison Table */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-white">Isolated vs Daisy Chain</h2>
-          <div className="rounded-lg border border-zinc-800 overflow-hidden">
+          <h2 className="text-2xl font-semibold mb-4">Isolated vs Daisy Chain</h2>
+          <div className="rounded-lg border border-zinc-200 dark:border-zinc-800 overflow-hidden">
             <Table>
               <TableHeader>
-                <TableRow className="border-zinc-800 bg-zinc-900">
-                  <TableHead className="text-zinc-300">Feature</TableHead>
+                <TableRow className="border-zinc-200 dark:border-zinc-800 bg-gray-50 dark:bg-zinc-900">
+                  <TableHead className="text-zinc-700 dark:text-zinc-300">Feature</TableHead>
                   <TableHead className="text-orange-500">Isolated</TableHead>
                   <TableHead className="text-zinc-300">Daisy Chain</TableHead>
                 </TableRow>
@@ -135,10 +135,10 @@ export default function PowerSupplyPage() {
                   ['Outputs', '6–10 typically', '8–10 typically'],
                   ['Recommended', 'Yes', 'Budget only'],
                 ].map(([feature, isolated, daisy]) => (
-                  <TableRow key={feature} className="border-zinc-800">
-                    <TableCell className="text-zinc-300 font-medium">{feature}</TableCell>
-                    <TableCell className="text-zinc-300">{isolated}</TableCell>
-                    <TableCell className="text-zinc-400">{daisy}</TableCell>
+                  <TableRow key={feature} className="border-zinc-200 dark:border-zinc-800">
+                    <TableCell className="text-zinc-700 dark:text-zinc-300 font-medium">{feature}</TableCell>
+                    <TableCell className="text-zinc-700 dark:text-zinc-300">{isolated}</TableCell>
+                    <TableCell className="text-zinc-500 dark:text-zinc-400">{daisy}</TableCell>
                   </TableRow>
                 ))}
               </TableBody>
@@ -148,18 +148,18 @@ export default function PowerSupplyPage() {
 
         {/* Product Cards */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-6 text-white">Recommended Power Supplies</h2>
+          <h2 className="text-2xl font-semibold mb-6">Recommended Power Supplies</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {powerSupplies.map((ps) => (
-              <Card key={ps.name} className="bg-zinc-900 border-zinc-800">
+              <Card key={ps.name} className="bg-gray-50 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800">
                 <CardHeader className="pb-2">
                   <div className="flex items-start justify-between gap-2">
-                    <CardTitle className="text-white text-base leading-snug">{ps.name}</CardTitle>
+                    <CardTitle className="text-base leading-snug">{ps.name}</CardTitle>
                     <Badge
                       className={
                         ps.type === 'Isolated'
                           ? 'bg-orange-500 text-white shrink-0'
-                          : 'bg-zinc-700 text-zinc-300 shrink-0'
+                          : 'bg-zinc-200 dark:bg-zinc-700 text-zinc-700 dark:text-zinc-300 shrink-0'
                       }
                     >
                       {ps.typeBadge}
@@ -175,7 +175,7 @@ export default function PowerSupplyPage() {
                     <p className="text-zinc-500 text-xs uppercase tracking-wide mb-1">Pros</p>
                     <ul className="space-y-0.5">
                       {ps.pros.map((pro) => (
-                        <li key={pro} className="text-zinc-300">✓ {pro}</li>
+                        <li key={pro} className="text-zinc-700 dark:text-zinc-300">✓ {pro}</li>
                       ))}
                     </ul>
                   </div>
@@ -183,7 +183,7 @@ export default function PowerSupplyPage() {
                     <p className="text-zinc-500 text-xs uppercase tracking-wide mb-1">Cons</p>
                     <ul className="space-y-0.5">
                       {ps.cons.map((con) => (
-                        <li key={con} className="text-zinc-400">✗ {con}</li>
+                        <li key={con} className="text-zinc-500 dark:text-zinc-400">✗ {con}</li>
                       ))}
                     </ul>
                   </div>
@@ -201,30 +201,30 @@ export default function PowerSupplyPage() {
 
         {/* Current Calculation */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-3 text-white">How to Calculate Your Power Needs</h2>
-          <p className="text-zinc-400 mb-4">
+          <h2 className="text-2xl font-semibold mb-3">How to Calculate Your Power Needs</h2>
+          <p className="text-zinc-500 dark:text-zinc-400 mb-4">
             Every pedal lists its current draw in milliamps (mA) — usually on the bottom or in the manual.
             Add them all up, then add 20% headroom.
           </p>
-          <div className="bg-zinc-900 border border-zinc-800 rounded-lg p-4 font-mono text-sm">
-            <p className="text-zinc-400 mb-2"># Example: 8-pedal board</p>
-            <p className="text-zinc-300">Tuner: 100mA</p>
-            <p className="text-zinc-300">Compressor: 50mA</p>
-            <p className="text-zinc-300">Overdrive × 2: 20mA each</p>
-            <p className="text-zinc-300">Chorus: 40mA</p>
-            <p className="text-zinc-300">Delay: 150mA</p>
-            <p className="text-zinc-300">Reverb: 120mA</p>
-            <p className="text-zinc-300">Looper: 200mA</p>
-            <Separator className="bg-zinc-700 my-2" />
-            <p className="text-zinc-300">Total: 700mA</p>
+          <div className="bg-gray-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-lg p-4 font-mono text-sm">
+            <p className="text-zinc-500 mb-2"># Example: 8-pedal board</p>
+            <p className="text-zinc-700 dark:text-zinc-300">Tuner: 100mA</p>
+            <p className="text-zinc-700 dark:text-zinc-300">Compressor: 50mA</p>
+            <p className="text-zinc-700 dark:text-zinc-300">Overdrive × 2: 20mA each</p>
+            <p className="text-zinc-700 dark:text-zinc-300">Chorus: 40mA</p>
+            <p className="text-zinc-700 dark:text-zinc-300">Delay: 150mA</p>
+            <p className="text-zinc-700 dark:text-zinc-300">Reverb: 120mA</p>
+            <p className="text-zinc-700 dark:text-zinc-300">Looper: 200mA</p>
+            <Separator className="bg-zinc-200 dark:bg-zinc-700 my-2" />
+            <p className="text-zinc-700 dark:text-zinc-300">Total: 700mA</p>
             <p className="text-orange-500 font-semibold">Required supply: 700 × 1.2 = 840mA minimum</p>
           </div>
         </section>
 
         {/* CTA */}
-        <section className="mb-12 bg-zinc-900 border border-orange-500/30 rounded-xl p-8 text-center">
-          <h2 className="text-2xl font-bold text-white mb-2">Plan Your Full Rig</h2>
-          <p className="text-zinc-400 mb-6">Use our free visual builder to arrange your pedals and plan your power needs.</p>
+        <section className="mb-12 bg-gray-50 dark:bg-zinc-900 border border-orange-500/30 rounded-xl p-8 text-center">
+          <h2 className="text-2xl font-bold mb-2">Plan Your Full Rig</h2>
+          <p className="text-zinc-500 dark:text-zinc-400 mb-6">Use our free visual builder to arrange your pedals and plan your power needs.</p>
           <a
             href="/pedalboard/builder"
             className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-3 rounded-lg transition-colors"
@@ -235,13 +235,13 @@ export default function PowerSupplyPage() {
 
         {/* FAQ */}
         <section>
-          <h2 className="text-2xl font-semibold mb-6 text-white">Frequently Asked Questions</h2>
+          <h2 className="text-2xl font-semibold mb-6">Frequently Asked Questions</h2>
           <div className="space-y-6">
             {faqs.map(({ q, a }, i) => (
               <div key={i}>
-                <h3 className="text-white font-semibold mb-1">{q}</h3>
-                <p className="text-zinc-400 text-sm">{a}</p>
-                {i < faqs.length - 1 && <Separator className="bg-zinc-800 mt-6" />}
+                <h3 className="font-semibold mb-1">{q}</h3>
+                <p className="text-zinc-500 dark:text-zinc-400 text-sm">{a}</p>
+                {i < faqs.length - 1 && <Separator className="bg-zinc-200 dark:bg-zinc-800 mt-6" />}
               </div>
             ))}
           </div>
