@@ -1,0 +1,15 @@
+[
+  { "id": "boss", "name": "Boss", "country": "Japan", "description": "The world's most popular pedal brand. Known for bulletproof build quality and consistent tone.", "founded": 1973 },
+  { "id": "ibanez", "name": "Ibanez", "country": "Japan", "description": "Home of the legendary Tube Screamer, Ibanez makes some of the most iconic overdrive pedals ever.", "founded": 1957 },
+  { "id": "electro-harmonix", "name": "Electro-Harmonix", "country": "USA", "description": "NYC-based maker of the Big Muff Pi and countless other legendary effects pedals.", "founded": 1968 },
+  { "id": "mxr", "name": "MXR", "country": "USA", "description": "Classic American pedal brand known for simple, great-sounding effects in compact enclosures.", "founded": 1972 },
+  { "id": "behringer", "name": "Behringer", "country": "Germany", "description": "Budget-friendly pedals that clone classic circuits at a fraction of the price.", "founded": 1989 },
+  { "id": "joyo", "name": "Joyo", "country": "China", "description": "Affordable pedals with surprisingly good tone. Great for beginners building their first board.", "founded": 2006 },
+  { "id": "tc-electronic", "name": "TC Electronic", "country": "Denmark", "description": "Known for pristine digital effects and the innovative TonePrint technology.", "founded": 1976 },
+  { "id": "walrus-audio", "name": "Walrus Audio", "country": "USA", "description": "Boutique pedal maker from Oklahoma known for creative designs and premium tone.", "founded": 2011 },
+  { "id": "jhs", "name": "JHS Pedals", "country": "USA", "description": "Boutique builder known for YouTube education and meticulously crafted effects.", "founded": 2007 },
+  { "id": "strymon", "name": "Strymon", "country": "USA", "description": "Premium digital effects with studio-quality algorithms. The gold standard for delay and reverb.", "founded": 2008 },
+  { "id": "proco", "name": "ProCo", "country": "USA", "description": "Makers of the legendary RAT distortion pedal since 1978.", "founded": 1974 },
+  { "id": "dunlop", "name": "Dunlop", "country": "USA", "description": "Home of the Cry Baby wah and Fuzz Face. Essential effects for every guitarist.", "founded": 1965 },
+  { "id": "eqd", "name": "EarthQuaker Devices", "country": "USA", "description": "Akron, Ohio boutique maker known for creative, hand-built effects pedals.", "founded": 2004 }
+]

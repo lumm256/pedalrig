@@ -1,0 +1,23 @@
+{
+  "order": [
+    { "position": 1, "type": "tuner", "label": "Tuner", "icon": "🎯", "reason": "Place your tuner first to get the cleanest, most accurate signal for tuning." },
+    { "position": 2, "type": "wah", "label": "Wah / Filter", "icon": "🎤", "reason": "Wah pedals respond best to a clean signal before any gain stages." },
+    { "position": 3, "type": "compressor", "label": "Compressor", "icon": "📊", "reason": "Compressor evens out your dynamics before hitting gain pedals." },
+    { "position": 4, "type": "overdrive", "label": "Overdrive", "icon": "🔥", "reason": "Light gain first. Overdrive stacks beautifully into distortion." },
+    { "position": 5, "type": "distortion", "label": "Distortion", "icon": "⚡", "reason": "Main gain stage. Place after overdrive for stacking." },
+    { "position": 6, "type": "fuzz", "label": "Fuzz", "icon": "💥", "reason": "Fuzz can go before or after other dirt — experiment with placement." },
+    { "position": 7, "type": "eq", "label": "EQ", "icon": "📈", "reason": "After gain stages to shape your distorted tone." },
+    { "position": 8, "type": "phaser", "label": "Phaser", "icon": "🌀", "reason": "Modulation effects after dirt for a cleaner sweep." },
+    { "position": 9, "type": "chorus", "label": "Chorus", "icon": "🌊", "reason": "Chorus after dirt adds lush width to your tone." },
+    { "position": 10, "type": "tremolo", "label": "Tremolo", "icon": "〰️", "reason": "Volume-based effect works best after gain and modulation." },
+    { "position": 11, "type": "delay", "label": "Delay", "icon": "🔁", "reason": "Time-based effects near the end so repeats stay clean." },
+    { "position": 12, "type": "reverb", "label": "Reverb", "icon": "🏔️", "reason": "Reverb last (before looper) for natural-sounding space." },
+    { "position": 13, "type": "looper", "label": "Looper", "icon": "⏺️", "reason": "Very last to capture your complete signal with all effects." }
+  ],
+  "tips": [
+    "There are no absolute rules — these are guidelines. Trust your ears.",
+    "Try your fuzz before the wah for a different, more aggressive sound.",
+    "Volume pedals can go in multiple positions depending on your needs.",
+    "If using an effects loop, place time-based effects (delay, reverb) in the loop."
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "types": [
+    {
+      "id": "overdrive",
+      "name": "Overdrive",
+      "slug": "overdrive",
+      "icon": "🔥",
+      "shortDescription": "Warm, amp-like breakup that responds to your playing dynamics.",
+      "description": "Overdrive pedals simulate the sound of a tube amp being pushed into natural breakup. They add warmth, sustain, and harmonic richness while preserving your guitar's character. From transparent boost to creamy saturation, overdrive is the most versatile gain pedal type.",
+      "signalChainPosition": 4,
+      "famousUsers": ["Stevie Ray Vaughan", "John Mayer", "The Edge"],
+      "keyFeatures": ["Dynamic response", "Amp-like breakup", "Stacks well with other pedals"],
+      "bestFor": ["Blues", "Rock", "Country", "Worship"]
+    },
+    {
+      "id": "distortion",
+      "name": "Distortion",
+      "slug": "distortion",
+      "icon": "⚡",
+      "shortDescription": "Harder clipping for rock and metal tones with more sustain.",
+      "description": "Distortion pedals use hard clipping to create a more aggressive, saturated tone than overdrive. They provide consistent gain regardless of picking dynamics, making them ideal for rock, punk, and metal. The tone is more compressed and sustaining than overdrive.",
+      "signalChainPosition": 5,
+      "famousUsers": ["Kurt Cobain", "Dimebag Darrell", "Jack White"],
+      "keyFeatures": ["Consistent gain", "High sustain", "Aggressive tone"],
+      "bestFor": ["Rock", "Metal", "Punk", "Grunge"]
+    },
+    {
+      "id": "fuzz",
+      "name": "Fuzz",
+      "slug": "fuzz",
+      "icon": "💥",
+      "shortDescription": "Thick, woolly, and wild — the original guitar effect.",
+      "description": "Fuzz was the first guitar effect ever created. It produces a thick, buzzy, harmonically rich tone that ranges from warm and woolly to sputtery and chaotic. Fuzz pedals are essential for psychedelic, shoegaze, and classic rock tones.",
+      "signalChainPosition": 6,
+      "famousUsers": ["Jimi Hendrix", "David Gilmour", "Jack White"],
+      "keyFeatures": ["Thick sustain", "Harmonic richness", "Vintage character"],
+      "bestFor": ["Psychedelic", "Shoegaze", "Classic Rock", "Blues"]
+    },
+    {
+      "id": "delay",
+      "name": "Delay",
+      "slug": "delay",
+      "icon": "🔁",
+      "shortDescription": "Echo and repeat effects that add depth and space.",
+      "description": "Delay pedals create echoes of your signal, from subtle slapback to cascading ambient washes. Types include analog (warm, dark repeats), digital (pristine, clear), and tape (vintage, modulated). Delay is one of the most essential effects for any guitarist.",
+      "signalChainPosition": 11,
+      "famousUsers": ["The Edge", "David Gilmour", "Brian May"],
+      "keyFeatures": ["Echo repeats", "Multiple delay types", "Ambient textures"],
+      "bestFor": ["Rock", "Ambient", "Country", "Worship"]
+    },
+    {
+      "id": "compressor",
+      "name": "Compressor",
+      "slug": "compressor",
+      "icon": "📊",
+      "shortDescription": "Evens out dynamics and adds sustain to your tone.",
+      "description": "Compressor pedals reduce the dynamic range of your signal — making quiet notes louder and loud notes quieter. This adds sustain, punch, and a polished feel to your playing. Essential for country chicken-picking, funk, and studio-quality clean tones.",
+      "signalChainPosition": 3,
+      "famousUsers": ["Mark Knopfler", "Trey Anastasio", "Brad Paisley"],
+      "keyFeatures": ["Dynamic control", "Added sustain", "Polished tone"],
+      "bestFor": ["Country", "Funk", "Clean", "Studio"]
+    },
+    {
+      "id": "chorus",
+      "name": "Chorus",
+      "slug": "chorus",
+      "icon": "🌊",
+      "shortDescription": "Lush, shimmering modulation that thickens your tone.",
+      "description": "Chorus pedals duplicate your signal and slightly detune the copy, creating a rich, shimmering effect that makes one guitar sound like two. From subtle thickening to deep, watery modulation, chorus is a staple of clean tones and 80s rock.",
+      "signalChainPosition": 9,
+      "famousUsers": ["Andy Summers", "Kurt Cobain", "John Frusciante"],
+      "keyFeatures": ["Signal thickening", "Shimmer effect", "Stereo width"],
+      "bestFor": ["Clean", "80s Rock", "Pop", "Shoegaze"]
+    },
+    {
+      "id": "looper",
+      "name": "Looper",
+      "slug": "looper",
+      "icon": "⏺️",
+      "shortDescription": "Record and layer loops for practice and performance.",
+      "description": "Looper pedals record your playing and play it back in a loop, letting you layer parts on top of each other. They are invaluable for practice, songwriting, and solo performance. From simple one-button loopers to multi-track stations.",
+      "signalChainPosition": 13,
+      "famousUsers": ["Ed Sheeran", "KT Tunstall", "Reggie Watts"],
+      "keyFeatures": ["Loop recording", "Overdub layers", "Practice tool"],
+      "bestFor": ["Practice", "Songwriting", "Solo Performance"]
+    },
+    {
+      "id": "tuner",
+      "name": "Tuner",
+      "slug": "tuner",
+      "icon": "🎯",
+      "shortDescription": "Stay in tune — the most important pedal on your board.",
+      "description": "A tuner pedal is the foundation of every pedalboard. It mutes your signal while you tune, provides accurate pitch detection, and some models can even power other pedals. Always place it first in your signal chain for the most accurate reading.",
+      "signalChainPosition": 1,
+      "famousUsers": ["Everyone"],
+      "keyFeatures": ["Accurate tuning", "Signal muting", "Visual display"],
+      "bestFor": ["Everyone"]
+    },
+    {
+      "id": "phaser",
+      "name": "Phaser",
+      "slug": "phaser",
+      "icon": "🌀",
+      "shortDescription": "Sweeping, jet-like modulation effect.",
+      "description": "Phaser pedals split your signal and shift the phase of one copy, creating a sweeping, jet-like sound when recombined. From subtle movement to dramatic swooshes, phasers add motion and psychedelic character to your tone.",
+      "signalChainPosition": 8,
+      "famousUsers": ["Eddie Van Halen", "David Gilmour", "Tame Impala"],
+      "keyFeatures": ["Phase shifting", "Sweeping motion", "Psychedelic tones"],
+      "bestFor": ["Rock", "Funk", "Psychedelic"]
+    },
+    {
+      "id": "tremolo",
+      "name": "Tremolo",
+      "slug": "tremolo",
+      "icon": "〰️",
+      "shortDescription": "Rhythmic volume modulation from subtle pulse to choppy stutter.",
+      "description": "Tremolo is one of the oldest guitar effects, built into many vintage amps. It modulates your volume at a set rate, creating a pulsing, rhythmic effect. From gentle surf vibes to aggressive choppy stutter, tremolo adds movement and character.",
+      "signalChainPosition": 10,
+      "famousUsers": ["Duane Eddy", "Radiohead", "Tame Impala"],
+      "keyFeatures": ["Volume modulation", "Rhythmic pulse", "Vintage character"],
+      "bestFor": ["Surf", "Country", "Indie", "Ambient"]
+    },
+    {
+      "id": "eq",
+      "name": "EQ",
+      "slug": "eq",
+      "icon": "📈",
+      "shortDescription": "Shape your tone with precise frequency control.",
+      "description": "EQ pedals give you control over specific frequency bands in your signal. Use them to boost mids for solos, cut harsh frequencies, or completely reshape your amp's tone. One of the most underrated and versatile pedals you can own.",
+      "signalChainPosition": 7,
+      "famousUsers": ["Dimebag Darrell", "Josh Homme", "Tom Morello"],
+      "keyFeatures": ["Frequency control", "Tone shaping", "Solo boost"],
+      "bestFor": ["Any Genre", "Tone Shaping", "Live Performance"]
+    },
+    {
+      "id": "wah",
+      "name": "Wah",
+      "slug": "wah",
+      "icon": "🎤",
+      "shortDescription": "Expressive filter sweep controlled by your foot.",
+      "description": "The wah pedal is one of the most expressive effects ever made. By rocking the treadle with your foot, you sweep a bandpass filter across your signal, creating the iconic 'wah-wah' sound. Essential for funk, rock solos, and psychedelic music.",
+      "signalChainPosition": 2,
+      "famousUsers": ["Jimi Hendrix", "Kirk Hammett", "Tom Morello"],
+      "keyFeatures": ["Foot-controlled filter", "Expressive playing", "Iconic sound"],
+      "bestFor": ["Funk", "Rock", "Blues", "Metal Solos"]
+    }
+  ]
+}
