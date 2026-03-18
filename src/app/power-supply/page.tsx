@@ -26,7 +26,7 @@ const powerSupplies = [
     typeBadge: 'Isolated',
     pros: ['Rock-solid isolated outputs', 'SAG control for vintage pedal feel', 'Industry standard for touring pros'],
     cons: ['Expensive', 'Bulky for small boards'],
-    amazonUrl: '#',
+    amazonUrl: 'https://www.amazon.com/s?k=Voodoo+Lab+Pedal+Power+2+Plus&tag=pedalrig-20',
   },
   {
     name: 'Truetone 1 Spot Pro CS7',
@@ -36,7 +36,7 @@ const powerSupplies = [
     typeBadge: 'Isolated',
     pros: ['Compact form factor', 'Handles high-current digital pedals', 'Great value for isolated power'],
     cons: ['Fewer outputs than competitors', 'No SAG control'],
-    amazonUrl: '#',
+    amazonUrl: 'https://www.amazon.com/s?k=Truetone+1+Spot+Pro+CS7&tag=pedalrig-20',
   },
   {
     name: 'MXR DC Brick',
@@ -46,7 +46,7 @@ const powerSupplies = [
     typeBadge: 'Daisy Chain',
     pros: ['10 outputs at a fair price', 'Solid build quality', 'Good for all-analog setups'],
     cons: ['Shared ground = potential noise', 'Not ideal with digital pedals'],
-    amazonUrl: '#',
+    amazonUrl: 'https://www.amazon.com/s?k=MXR+DC+Brick+Power+Supply&tag=pedalrig-20',
   },
   {
     name: 'Donner DP-1',
@@ -56,7 +56,7 @@ const powerSupplies = [
     typeBadge: 'Daisy Chain',
     pros: ['Budget-friendly entry point', '10 outputs', 'Good for beginners'],
     cons: ['Shared ground noise risk', 'Build quality reflects the price'],
-    amazonUrl: '#',
+    amazonUrl: 'https://www.amazon.com/s?k=Donner+DP-1+Guitar+Pedal+Power+Supply&tag=pedalrig-20',
   },
 ]
 
