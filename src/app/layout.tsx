@@ -39,6 +39,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <script defer data-domain="pedalrig.com" src="https://click.pageview.click/js/script.js" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GHMPSRSZSQ" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-GHMPSRSZSQ');
+            `,
+          }}
+        />
+      </head>
       <body className="bg-white text-gray-900 antialiased dark:bg-gray-950 dark:text-gray-100">
         <ThemeProvider>
           <Header />
