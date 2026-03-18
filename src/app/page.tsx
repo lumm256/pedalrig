@@ -6,7 +6,7 @@ import pedalTypesData from "@/data/pedal-types.json";
 import pedalsData from "@/data/pedals.json";
 
 export const metadata: Metadata = {
-  alternates: { canonical: "https://pedalrig.com/" },
+  alternates: { canonical: "/" },
   title: "Guitar Pedals Guide 2026 — Find Your Perfect Tone | PedalRig",
   description:
     "Complete guide to guitar pedals. Compare the best overdrive, distortion, delay, fuzz, and compressor pedals. Build your pedalboard with our free visual tool.",
