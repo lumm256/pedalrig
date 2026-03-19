@@ -278,9 +278,15 @@ function PedalCard({ pedal }: { pedal: Pedal }) {
   return (
     <Card className="text-center">
       <CardContent className="p-6">
-        <div className="mb-3 flex justify-center">
-          <TypeIcon icon={pedalTypesData.types.find((t) => t.id === pedal.type)?.icon || "🎸"} name={pedal.name} size={48} />
-        </div>
+        {pedal.imageUrl ? (
+          <div className="mb-3 flex justify-center h-32">
+            <img src={pedal.imageUrl} alt={pedal.name} className="max-h-full object-contain" loading="lazy" />
+          </div>
+        ) : (
+          <div className="mb-3 flex justify-center">
+            <TypeIcon icon={pedalTypesData.types.find((t) => t.id === pedal.type)?.icon || "🎸"} name={pedal.name} size={48} />
+          </div>
+        )}
         <h3 className="text-lg font-bold">{pedal.name}</h3>
         <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
           {pedal.brand} · {typeNames[pedal.type]}

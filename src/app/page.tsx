@@ -31,6 +31,7 @@ type Pedal = {
   rating: number;
   amazonUrl: string;
   description: string;
+  imageUrl?: string;
 };
 
 function StarRating({ rating }: { rating: number }) {
@@ -57,13 +58,22 @@ export default function HomePage() {
   return (
     <main>
       {/* Hero */}
-      <section className="relative px-6 py-28 text-center bg-gradient-to-b from-gray-100 to-white dark:from-gray-900 dark:to-gray-950">
-        <div className="max-w-3xl mx-auto">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-4">
+      <section className="relative px-6 py-28 text-center overflow-hidden">
+        {/* Background image */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.unsplash.com/photo-1558098329-a11cff621064?w=1920&q=80"
+            alt=""
+            className="h-full w-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/80" />
+        </div>
+        <div className="relative z-10 max-w-3xl mx-auto">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-4 text-white">
             Find Your Perfect{" "}
-            <span className="text-orange-500">Guitar Pedals</span>
+            <span className="text-orange-400">Guitar Pedals</span>
           </h1>
-          <p className="text-xl text-gray-500 dark:text-gray-400 mb-10 max-w-xl mx-auto">
+          <p className="text-xl text-gray-300 mb-10 max-w-xl mx-auto">
             Explore every effect type, discover top-rated pedals, and build
             your dream pedalboard — all in one place.
           </p>
@@ -76,13 +86,13 @@ export default function HomePage() {
             </Link>
             <Link
               href="/pedalboard/builder"
-              className="inline-flex items-center justify-center rounded-md border border-gray-300 dark:border-gray-600 px-6 py-3 text-base text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+              className="inline-flex items-center justify-center rounded-md border border-white/30 px-6 py-3 text-base text-white hover:bg-white/10 transition-colors"
             >
               Build Your Board
             </Link>
             <Link
               href="/compare"
-              className="inline-flex items-center justify-center rounded-md border border-gray-300 dark:border-gray-600 px-6 py-3 text-base text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+              className="inline-flex items-center justify-center rounded-md border border-white/30 px-6 py-3 text-base text-white hover:bg-white/10 transition-colors"
             >
               Compare Pedals
             </Link>
@@ -118,7 +128,17 @@ export default function HomePage() {
           <p className="text-gray-500 dark:text-gray-400 mb-10">Highest-rated pedals trusted by guitarists worldwide.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {topPedals.map((pedal) => (
-              <Card key={pedal.id} className="bg-white dark:bg-gray-950 border-gray-200 dark:border-gray-800 flex flex-col">
+              <Card key={pedal.id} className="bg-white dark:bg-gray-950 border-gray-200 dark:border-gray-800 flex flex-col overflow-hidden">
+                {pedal.imageUrl && (
+                  <div className="h-48 bg-gray-100 dark:bg-gray-900 flex items-center justify-center p-4">
+                    <img
+                      src={pedal.imageUrl}
+                      alt={pedal.name}
+                      className="max-h-full max-w-full object-contain"
+                      loading="lazy"
+                    />
+                  </div>
+                )}
                 <CardHeader className="pb-2">
                   <div className="flex items-start justify-between gap-2">
                     <CardTitle className="text-base font-semibold leading-tight">

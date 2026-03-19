@@ -41,6 +41,7 @@ type Pedal = {
   reviewCount: number
   amazonUrl: string
   image: string
+  imageUrl?: string
   description: string
   pros: string[]
   cons: string[]
@@ -236,12 +237,16 @@ export default async function TypePage({
               {typePedals.map((pedal, i) => (
                 <Card key={pedal.id} className="bg-gray-50 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800 overflow-hidden">
                   <div className="flex flex-col sm:flex-row">
-                    {/* Image placeholder */}
-                    <div className="sm:w-48 sm:shrink-0 bg-gray-100 dark:bg-zinc-800 flex items-center justify-center min-h-[160px]">
-                      <div className="text-center p-4">
-                        <TypeIcon icon={type.icon} name={type.name} size={48} />
-                        <p className="text-zinc-600 text-xs mt-2">{pedal.brand}</p>
-                      </div>
+                    {/* Product image */}
+                    <div className="sm:w-48 sm:shrink-0 bg-gray-100 dark:bg-zinc-800 flex items-center justify-center min-h-[160px] p-4">
+                      {pedal.imageUrl ? (
+                        <img src={pedal.imageUrl} alt={pedal.name} className="max-h-40 max-w-full object-contain" loading="lazy" />
+                      ) : (
+                        <div className="text-center">
+                          <TypeIcon icon={type.icon} name={type.name} size={48} />
+                          <p className="text-zinc-600 text-xs mt-2">{pedal.brand}</p>
+                        </div>
+                      )}
                     </div>
                     <div className="flex-1 p-6">
                       <div className="flex items-start justify-between gap-4 mb-3">
