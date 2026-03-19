@@ -154,6 +154,7 @@ function Footer() {
             <p className="font-semibold text-gray-700 dark:text-gray-300">Info</p>
             <ul className="mt-2 space-y-1 text-sm text-gray-500 dark:text-gray-400">
               <li><a href="/about" className="hover:text-orange-500 dark:hover:text-orange-400">About</a></li>
+              <li><a href="/feedback" className="hover:text-orange-500 dark:hover:text-orange-400">Feedback</a></li>
               <li><a href="/disclaimer" className="hover:text-orange-500 dark:hover:text-orange-400">Affiliate Disclosure</a></li>
               <li><a href="/privacy" className="hover:text-orange-500 dark:hover:text-orange-400">Privacy Policy</a></li>
             </ul>

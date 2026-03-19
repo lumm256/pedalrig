@@ -204,6 +204,12 @@ export default function HomePage() {
           >
             Start Building →
           </Link>
+          <p className="mt-6 text-sm text-gray-400 dark:text-gray-500">
+            Have a suggestion?{" "}
+            <Link href="/feedback" className="text-orange-500 hover:text-orange-400 underline">
+              Share your feedback
+            </Link>
+          </p>
         </div>
       </section>
     </main>
