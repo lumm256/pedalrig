@@ -27,7 +27,7 @@ export default function FeedbackPage() {
         <iframe
           src="https://tally.so/r/vG2WKg?transparentBackground=1"
           width="100%"
-          height="800"
+          height="1200"
           frameBorder={0}
           title="PedalRig Feedback Form"
           className="w-full"

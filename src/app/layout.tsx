@@ -15,6 +15,10 @@ export const metadata: Metadata = {
   },
   description:
     "Complete guide to guitar pedals. Compare overdrive, distortion, delay, fuzz pedals and more. Build your pedalboard with our free visual tool.",
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
