@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Pedal body -->
+  <rect x="96" y="56" width="320" height="420" rx="40" fill="#f97316"/>
+  
+  <!-- Top panel / label area -->
+  <rect x="136" y="90" width="240" height="90" rx="16" fill="white" opacity="0.2"/>
+  
+  <!-- Three knobs -->
+  <circle cx="192" cy="250" r="36" fill="#fdba74"/>
+  <circle cx="192" cy="250" r="16" fill="white" opacity="0.4"/>
+  <line x1="192" y1="218" x2="192" y2="230" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  
+  <circle cx="320" cy="250" r="36" fill="#fdba74"/>
+  <circle cx="320" cy="250" r="16" fill="white" opacity="0.4"/>
+  <line x1="332" y1="220" x2="326" y2="232" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  
+  <circle cx="256" cy="250" r="36" fill="#fdba74"/>
+  <circle cx="256" cy="250" r="16" fill="white" opacity="0.4"/>
+  <line x1="246" y1="218" x2="250" y2="230" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- LED indicator -->
+  <circle cx="256" cy="330" r="8" fill="#fef2f2"/>
+  <circle cx="256" cy="330" r="5" fill="white"/>
+  
+  <!-- Footswitch -->
+  <circle cx="256" cy="400" r="38" fill="#ea580c"/>
+  <circle cx="256" cy="400" r="26" fill="#c2410c"/>
+  <circle cx="256" cy="400" r="10" fill="#fdba74"/>
+  
+  <!-- Input/Output jacks (top) -->
+  <rect x="148" y="56" width="20" height="12" rx="4" fill="#ea580c"/>
+  <rect x="344" y="56" width="20" height="12" rx="4" fill="#ea580c"/>
+</svg>
