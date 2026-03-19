@@ -90,6 +90,9 @@ function Header() {
           <a href="/beginners" className="text-gray-600 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-400 transition-colors">
             Beginners
           </a>
+          <a href="/compare" className="text-gray-600 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-400 transition-colors">
+            Compare
+          </a>
           <a
             href="/pedalboard/builder"
             className="rounded-lg bg-orange-600 px-4 py-2 font-medium text-white hover:bg-orange-500 transition-colors"
@@ -140,6 +143,7 @@ function Footer() {
             <p className="font-semibold text-gray-700 dark:text-gray-300">Tools & Guides</p>
             <ul className="mt-2 space-y-1 text-sm text-gray-500 dark:text-gray-400">
               <li><a href="/pedalboard/builder" className="hover:text-orange-500 dark:hover:text-orange-400">Board Builder</a></li>
+              <li><a href="/compare" className="hover:text-orange-500 dark:hover:text-orange-400">Compare Pedals</a></li>
               <li><a href="/pedal-order" className="hover:text-orange-500 dark:hover:text-orange-400">Signal Chain Guide</a></li>
               <li><a href="/power-supply" className="hover:text-orange-500 dark:hover:text-orange-400">Power Supply Guide</a></li>
               <li><a href="/beginners" className="hover:text-orange-500 dark:hover:text-orange-400">Beginner Guide</a></li>

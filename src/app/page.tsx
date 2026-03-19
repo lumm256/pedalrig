@@ -79,6 +79,12 @@ export default function HomePage() {
             >
               Build Your Board
             </Link>
+            <Link
+              href="/compare"
+              className="inline-flex items-center justify-center rounded-md border border-gray-300 dark:border-gray-600 px-6 py-3 text-base text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+            >
+              Compare Pedals
+            </Link>
           </div>
         </div>
       </section>
@@ -204,6 +210,13 @@ export default function HomePage() {
           >
             Start Building →
           </Link>
+          <p className="mt-4 text-sm text-gray-500 dark:text-gray-400">
+            Or{" "}
+            <Link href="/compare" className="text-orange-500 hover:text-orange-400 underline">
+              compare two pedals head-to-head
+            </Link>
+            {" "}to find your perfect match.
+          </p>
           <p className="mt-6 text-sm text-gray-400 dark:text-gray-500">
             Have a suggestion?{" "}
             <Link href="/feedback" className="text-orange-500 hover:text-orange-400 underline">

@@ -7,6 +7,7 @@ const navLinks = [
   { href: "/pedal-order", label: "Signal Chain" },
   { href: "/pedalboard", label: "Pedalboard" },
   { href: "/beginners", label: "Beginners" },
+  { href: "/compare", label: "Compare Pedals" },
   { href: "/power-supply", label: "Power Supply" },
   { href: "/boss", label: "Boss Pedals" },
   { href: "/behringer", label: "Behringer Pedals" },
