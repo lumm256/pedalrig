@@ -1,0 +1,98 @@
+[
+  {
+    "id": "john-mayer",
+    "name": "John Mayer",
+    "slug": "john-mayer",
+    "image": "/images/artists/john-mayer.jpg",
+    "genre": "Blues / Pop / Rock",
+    "description": "John Mayer's tone is defined by smooth, dynamic overdrive and lush reverb. His pedalboard has evolved over the years but always centers around transparent drive and expressive dynamics.",
+    "famousSongs": ["Gravity", "Slow Dancing in a Burning Room", "Belief"],
+    "pedals": [
+      {"name": "Klon Centaur", "type": "overdrive", "matchId": "ehx-soul-food", "note": "The original Klon is rare — Soul Food is the closest affordable clone"},
+      {"name": "Ibanez TS10 Tube Screamer", "type": "overdrive", "matchId": "tube-screamer-ts9", "note": "Mayer uses a vintage TS10, the TS9 is nearly identical"},
+      {"name": "Strymon Flint", "type": "reverb", "matchId": "boss-rv6", "note": "Tremolo + Reverb combo — RV-6 covers the reverb side"},
+      {"name": "Way Huge Aqua-Puss", "type": "delay", "matchId": "mxr-carbon-copy", "note": "Analog delay for slapback — Carbon Copy is a great alternative"},
+      {"name": "Boss TU-3 Tuner", "type": "tuner", "matchId": "boss-tu3", "note": "Standard tuner on Mayer's board"}
+    ]
+  },
+  {
+    "id": "jimi-hendrix",
+    "name": "Jimi Hendrix",
+    "slug": "jimi-hendrix",
+    "image": "/images/artists/jimi-hendrix.jpg",
+    "genre": "Psychedelic Rock / Blues",
+    "description": "Hendrix pioneered the use of effects in rock music. His setup was simple but revolutionary — a wah, a fuzz, and a Uni-Vibe were all he needed to change music forever.",
+    "famousSongs": ["Purple Haze", "Voodoo Child", "All Along the Watchtower"],
+    "pedals": [
+      {"name": "Dallas Arbiter Fuzz Face", "type": "fuzz", "matchId": "dunlop-fuzz-face", "note": "The FFM3 Mini captures the classic silicon Fuzz Face tone"},
+      {"name": "Vox Wah", "type": "wah", "matchId": "vox-v847a", "note": "Hendrix made the wah pedal famous"},
+      {"name": "Uni-Vibe", "type": "phaser", "matchId": "mxr-phase90", "note": "Uni-Vibe is a unique effect — Phase 90 gets you in the ballpark"},
+      {"name": "Octavia", "type": "octave", "matchId": "ehx-pog2", "note": "Octave-up fuzz effect heard on Purple Haze"}
+    ]
+  },
+  {
+    "id": "david-gilmour",
+    "name": "David Gilmour",
+    "slug": "david-gilmour",
+    "image": "/images/artists/david-gilmour.jpg",
+    "genre": "Progressive Rock / Art Rock",
+    "description": "Gilmour's tone is all about sustain, space, and emotion. His massive pedalboard features multiple delays, a Big Muff for soaring leads, and subtle modulation.",
+    "famousSongs": ["Comfortably Numb", "Time", "Shine On You Crazy Diamond"],
+    "pedals": [
+      {"name": "Electro-Harmonix Big Muff Pi", "type": "fuzz", "matchId": "ehx-big-muff", "note": "The Big Muff is essential for Gilmour's lead tone"},
+      {"name": "Boss CS-2 Compressor", "type": "compressor", "matchId": "boss-cs3", "note": "CS-3 is the modern successor to Gilmour's CS-2"},
+      {"name": "MXR Dyna Comp", "type": "compressor", "matchId": "mxr-dyna-comp", "note": "Used alongside the Boss compressor"},
+      {"name": "TC Electronic 2290 Delay", "type": "delay", "matchId": "strymon-timeline", "note": "Studio-grade delay — Timeline is the modern equivalent"},
+      {"name": "Boss RV-6 Reverb", "type": "reverb", "matchId": "boss-rv6", "note": "Lush reverb for ambient passages"},
+      {"name": "MXR Phase 90", "type": "phaser", "matchId": "mxr-phase90", "note": "Subtle phaser on clean passages"}
+    ]
+  },
+  {
+    "id": "the-edge",
+    "name": "The Edge (U2)",
+    "slug": "the-edge",
+    "image": "/images/artists/the-edge.jpg",
+    "genre": "Alternative Rock / Post-Punk",
+    "description": "The Edge built his entire sound around delay. His rhythmic, dotted-eighth-note delays create the shimmering, atmospheric sound that defines U2.",
+    "famousSongs": ["Where the Streets Have No Name", "With or Without You", "Pride"],
+    "pedals": [
+      {"name": "Boss DD-8 Digital Delay", "type": "delay", "matchId": "boss-dd8", "note": "The Edge uses multiple delays — DD series is a staple"},
+      {"name": "Strymon Timeline", "type": "delay", "matchId": "strymon-timeline", "note": "For complex delay patterns and presets"},
+      {"name": "Electro-Harmonix POG2", "type": "octave", "matchId": "ehx-pog2", "note": "Organ-like tones on songs like 'Mysterious Ways'"},
+      {"name": "Korg SDD-3000", "type": "delay", "matchId": "tc-flashback2", "note": "Legendary rack delay — Flashback 2 has an SDD preset"},
+      {"name": "TC Electronic Corona Chorus", "type": "chorus", "matchId": "tc-corona", "note": "Subtle chorus for width"},
+      {"name": "Boss TU-3 Tuner", "type": "tuner", "matchId": "boss-tu3", "note": "Standard tuner"}
+    ]
+  },
+  {
+    "id": "kurt-cobain",
+    "name": "Kurt Cobain",
+    "slug": "kurt-cobain",
+    "image": "/images/artists/kurt-cobain.jpg",
+    "genre": "Grunge / Alternative",
+    "description": "Cobain's setup was deliberately simple and raw. A Boss DS-1 or DS-2 for distortion, a Small Clone for the iconic 'Come As You Are' chorus, and that's about it.",
+    "famousSongs": ["Smells Like Teen Spirit", "Come As You Are", "Heart-Shaped Box"],
+    "pedals": [
+      {"name": "Boss DS-1 Distortion", "type": "distortion", "matchId": "boss-ds1", "note": "Cobain's go-to distortion pedal"},
+      {"name": "Boss DS-2 Turbo Distortion", "type": "distortion", "matchId": "boss-ds1", "note": "Used later — DS-1 is the closest in our database"},
+      {"name": "Electro-Harmonix Small Clone", "type": "chorus", "matchId": "ehx-small-clone", "note": "The chorus sound on 'Come As You Are'"},
+      {"name": "Tech 21 SansAmp", "type": "distortion", "matchId": "boss-mt2", "note": "Used for recording — MT-2 gives similar heavy tones"}
+    ]
+  },
+  {
+    "id": "josh-klinghoffer",
+    "name": "John Frusciante",
+    "slug": "john-frusciante",
+    "image": "/images/artists/john-frusciante.jpg",
+    "genre": "Funk Rock / Alternative",
+    "description": "Frusciante's tone blends funk, punk, and psychedelia. His board features a mix of vintage and modern effects with an emphasis on modulation and dynamic playing.",
+    "famousSongs": ["Under the Bridge", "Snow (Hey Oh)", "Californication"],
+    "pedals": [
+      {"name": "Boss DS-2 Turbo Distortion", "type": "distortion", "matchId": "boss-ds1", "note": "His signature distortion — DS-1 is the closest match"},
+      {"name": "Ibanez WH10 Wah", "type": "wah", "matchId": "dunlop-crybaby", "note": "Unique wah tone — Cry Baby is the standard alternative"},
+      {"name": "Boss CE-1 Chorus Ensemble", "type": "chorus", "matchId": "boss-ce5", "note": "Vintage chorus — CE-5 is the modern Boss chorus"},
+      {"name": "Electro-Harmonix Big Muff Pi", "type": "fuzz", "matchId": "ehx-big-muff", "note": "Used for heavy, sustaining fuzz tones"},
+      {"name": "MXR Micro Amp", "type": "overdrive", "matchId": "ehx-soul-food", "note": "Clean boost — Soul Food can serve as a transparent boost"}
+    ]
+  }
+]
