@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { MobileMenu } from "@/components/mobile-menu";
+import { NavLinks } from "@/components/nav-links";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -76,27 +77,13 @@ function Header() {
     <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/90 backdrop-blur dark:border-gray-800 dark:bg-gray-950/90">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
         <a href="/" className="flex items-center gap-2 text-xl font-bold">
-          <img src="/icon-pedal-v2.svg" alt="PedalRig" width={28} height={28} />
+          <img src="/logo.svg" alt="PedalRig" width={28} height={28} />
           <span>
             Pedal<span className="text-orange-500">Rig</span>
           </span>
         </a>
         <div className="hidden items-center gap-6 text-sm md:flex">
-          <a href="/types" className="text-gray-600 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-400 transition-colors">
-            Pedal Types
-          </a>
-          <a href="/pedal-order" className="text-gray-600 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-400 transition-colors">
-            Signal Chain
-          </a>
-          <a href="/pedalboard" className="text-gray-600 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-400 transition-colors">
-            Pedalboard
-          </a>
-          <a href="/beginners" className="text-gray-600 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-400 transition-colors">
-            Beginners
-          </a>
-          <a href="/compare" className="text-gray-600 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-400 transition-colors">
-            Compare
-          </a>
+          <NavLinks />
           <a
             href="/pedalboard/builder"
             className="rounded-lg bg-orange-600 px-4 py-2 font-medium text-white hover:bg-orange-500 transition-colors"
@@ -121,7 +108,7 @@ function Footer() {
         <div className="grid gap-8 md:grid-cols-4">
           <div>
             <p className="text-lg font-bold">
-              <img src="/icon-pedal-v2.svg" alt="PedalRig" width={24} height={24} className="inline-block mr-1 align-text-bottom" />
+              <img src="/logo.svg" alt="PedalRig" width={24} height={24} className="inline-block mr-1 align-text-bottom" />
               Pedal
               <span className="text-orange-500">Rig</span>
             </p>
