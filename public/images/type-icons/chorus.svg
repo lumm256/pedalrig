@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#f97316" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Doubled wave lines for chorus shimmer -->
+  <path d="M8,28 Q16,16 24,28 Q32,40 40,28 Q48,16 56,28"/>
+  <path d="M8,36 Q16,24 24,36 Q32,48 40,36 Q48,24 56,36" opacity="0.5"/>
+</svg>

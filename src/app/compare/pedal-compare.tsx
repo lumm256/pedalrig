@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { TypeIcon } from "@/components/type-icon";
 import pedalsData from "@/data/pedals.json";
 import pedalTypesData from "@/data/pedal-types.json";
 
@@ -277,8 +278,8 @@ function PedalCard({ pedal }: { pedal: Pedal }) {
   return (
     <Card className="text-center">
       <CardContent className="p-6">
-        <div className="mb-3 text-4xl">
-          {pedalTypesData.types.find((t) => t.id === pedal.type)?.icon || "🎸"}
+        <div className="mb-3 flex justify-center">
+          <TypeIcon icon={pedalTypesData.types.find((t) => t.id === pedal.type)?.icon || "🎸"} name={pedal.name} size={48} />
         </div>
         <h3 className="text-lg font-bold">{pedal.name}</h3>
         <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">

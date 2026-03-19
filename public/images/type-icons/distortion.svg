@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#f97316" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Hard clipped square wave -->
+  <path d="M8,38 L16,38 L16,20 L28,20 L28,44 L40,44 L40,20 L52,20 L52,38 L56,38"/>
+  <path d="M8,52 L56,52" stroke-width="2" opacity="0.3"/>
+</svg>

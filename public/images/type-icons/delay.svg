@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#f97316" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Repeating echoes fading out -->
+  <path d="M8,32 Q14,18 20,32 Q26,46 32,32" opacity="1"/>
+  <path d="M24,32 Q30,22 36,32 Q42,42 48,32" opacity="0.6"/>
+  <path d="M40,32 Q44,26 48,32 Q52,38 56,32" opacity="0.3"/>
+</svg>

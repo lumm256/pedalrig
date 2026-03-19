@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
+import { TypeIcon } from "@/components/type-icon";
 import pedalsData from "@/data/pedals.json";
 import pedalTypesData from "@/data/pedal-types.json";
 
@@ -144,7 +145,7 @@ export default function BestPage() {
             <section key={typeId} className="mb-16">
               <div className="flex items-center justify-between gap-4 mb-6 flex-wrap">
                 <h2 className="text-2xl font-bold flex items-center gap-2">
-                  <span>{typeInfo.icon}</span>
+                  <TypeIcon icon={typeInfo.icon} name={typeInfo.name} size={32} />
                   Best {typeInfo.name} Pedal
                 </h2>
                 <Link

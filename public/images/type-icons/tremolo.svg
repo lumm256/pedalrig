@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#f97316" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Amplitude modulation wave -->
+  <path d="M8,32 Q12,20 16,32 Q20,44 24,32 Q28,26 32,32 Q36,38 40,32 Q44,20 48,32 Q52,44 56,32"/>
+  <!-- Envelope outline -->
+  <path d="M8,32 Q20,14 32,28 Q44,14 56,32" stroke-width="1.5" opacity="0.3" stroke-dasharray="3,3"/>
+  <path d="M8,32 Q20,50 32,36 Q44,50 56,32" stroke-width="1.5" opacity="0.3" stroke-dasharray="3,3"/>
+</svg>

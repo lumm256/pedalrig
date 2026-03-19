@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#f97316" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Tuning fork shape -->
+  <line x1="24" y1="12" x2="24" y2="36"/>
+  <line x1="40" y1="12" x2="40" y2="36"/>
+  <path d="M24,36 Q32,44 40,36"/>
+  <line x1="32" y1="40" x2="32" y2="56"/>
+  <!-- Pitch indicator -->
+  <circle cx="32" cy="56" r="4" fill="#f97316" stroke="none"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#f97316" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Multi-effects: grid of small effect symbols -->
+  <!-- Knob -->
+  <circle cx="18" cy="18" r="8"/>
+  <line x1="18" y1="12" x2="18" y2="18"/>
+  <!-- Wave -->
+  <path d="M36,18 Q40,10 44,18 Q48,26 52,18" stroke-width="2"/>
+  <!-- Slider -->
+  <line x1="18" y1="38" x2="18" y2="54"/>
+  <circle cx="18" cy="44" r="3" fill="#f97316" stroke="none"/>
+  <!-- Footswitch -->
+  <circle cx="44" cy="46" r="8"/>
+  <circle cx="44" cy="46" r="4" fill="#f97316" stroke="none"/>
+</svg>

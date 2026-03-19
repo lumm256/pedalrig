@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#f97316" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Spiral for phase shifting -->
+  <path d="M32,8 A12,12 0 0,1 44,20 A12,12 0 0,1 32,32 A8,8 0 0,0 24,40 A8,8 0 0,0 32,48"/>
+  <circle cx="32" cy="48" r="3" fill="#f97316" stroke="none"/>
+</svg>

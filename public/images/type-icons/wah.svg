@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#f97316" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Wah pedal treadle shape (side view) -->
+  <path d="M12,48 L52,48 L52,36 L16,20 L12,48 Z"/>
+  <!-- Pivot point -->
+  <circle cx="52" cy="42" r="3" fill="#f97316" stroke="none"/>
+  <!-- Frequency sweep arrow -->
+  <path d="M24,14 L36,14" stroke-width="2"/>
+  <path d="M33,10 L37,14 L33,18" stroke-width="2" fill="none"/>
+</svg>

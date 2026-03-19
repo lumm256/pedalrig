@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#f97316" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Reverb: sound waves expanding in a room -->
+  <path d="M12,32 Q18,20 24,32 Q30,44 36,32"/>
+  <path d="M36,32 Q40,26 44,32" opacity="0.6"/>
+  <path d="M44,32 Q46,29 48,32" opacity="0.3"/>
+  <!-- Room reflection arcs -->
+  <path d="M50,16 Q56,32 50,48" stroke-width="2" opacity="0.4"/>
+  <path d="M46,20 Q52,32 46,44" stroke-width="2" opacity="0.25"/>
+</svg>

@@ -44,6 +44,13 @@ function getTypeInfo(typeId: string): PedalType | undefined {
   return pedalTypesData.types.find((t) => t.id === typeId);
 }
 
+function TypeImg({ icon, size = 20 }: { icon?: string; size?: number }) {
+  if (icon && icon.startsWith("/")) {
+    return <img src={icon} alt="" width={size} height={size} />;
+  }
+  return <span>{icon || "🎵"}</span>;
+}
+
 function getChainInfo(typeId: string): ChainPosition | undefined {
   return signalChainData.order.find((c) => c.type === typeId);
 }
@@ -90,7 +97,7 @@ function SortableChainItem({
         </svg>
       </button>
       <div className="w-8 h-8 rounded bg-gray-100 dark:bg-gray-800 flex items-center justify-center text-lg shrink-0">
-        {typeInfo?.icon || "🎵"}
+        <TypeImg icon={typeInfo?.icon} />
       </div>
       <div className="flex-1 min-w-0">
         <p className="text-sm font-medium truncate">{pedal.name}</p>
@@ -132,7 +139,7 @@ function CatalogItem({
       className="w-full flex items-center gap-3 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-3 text-left hover:border-orange-500 transition-colors disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:border-gray-200 dark:disabled:hover:border-gray-800"
     >
       <div className="w-8 h-8 rounded bg-gray-100 dark:bg-gray-800 flex items-center justify-center text-lg shrink-0">
-        {typeInfo?.icon || "🎵"}
+        <TypeImg icon={typeInfo?.icon} />
       </div>
       <div className="flex-1 min-w-0">
         <p className="text-sm font-medium truncate">{pedal.name}</p>
@@ -301,7 +308,7 @@ export function PedalboardBuilder() {
                       : "bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-700"
                   }`}
                 >
-                  {info?.icon} {info?.name || type}
+                  <TypeImg icon={info?.icon} size={14} /> {info?.name || type}
                 </button>
               );
             })}
@@ -437,7 +444,7 @@ export function PedalboardBuilder() {
                 {activePedal ? (
                   <div className="flex items-center gap-3 rounded-lg border-2 border-orange-500 bg-white dark:bg-gray-900 p-3 shadow-lg shadow-orange-500/10">
                     <div className="w-8 h-8 rounded bg-gray-100 dark:bg-gray-800 flex items-center justify-center text-lg">
-                      {getTypeInfo(activePedal.type)?.icon || "🎵"}
+                      <TypeImg icon={getTypeInfo(activePedal.type)?.icon} />
                     </div>
                     <div>
                       <p className="text-sm font-medium">{activePedal.name}</p>

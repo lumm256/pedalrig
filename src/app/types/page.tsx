@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { Metadata } from 'next'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
+import { TypeIcon } from '@/components/type-icon'
 import pedalTypesData from '@/data/pedal-types.json'
 import pedalsData from '@/data/pedals.json'
 
@@ -57,7 +58,7 @@ export default function TypesPage() {
                   <CardHeader className="pb-2">
                     <div className="flex items-start justify-between gap-2">
                       <div className="flex items-center gap-2">
-                        <span className="text-2xl">{type.icon}</span>
+                        <TypeIcon icon={type.icon} name={type.name} size={32} />
                         <CardTitle className="text-lg group-hover:text-orange-400 transition-colors">
                           {type.name}
                         </CardTitle>

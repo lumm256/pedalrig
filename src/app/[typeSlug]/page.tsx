@@ -14,6 +14,7 @@ import {
   TableRow,
 } from '@/components/ui/table'
 import { cn } from '@/lib/utils'
+import { TypeIcon } from '@/components/type-icon'
 import pedalTypesData from '@/data/pedal-types.json'
 import pedalsData from '@/data/pedals.json'
 
@@ -130,7 +131,7 @@ export default async function TypePage({
         {/* Hero */}
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-3">
-            <span className="text-4xl">{type.icon}</span>
+            <TypeIcon icon={type.icon} name={type.name} size={48} />
             <Badge className="bg-orange-500/20 text-orange-400 border-orange-500/30 text-xs uppercase tracking-wider">
               {type.name}
             </Badge>
@@ -238,7 +239,7 @@ export default async function TypePage({
                     {/* Image placeholder */}
                     <div className="sm:w-48 sm:shrink-0 bg-gray-100 dark:bg-zinc-800 flex items-center justify-center min-h-[160px]">
                       <div className="text-center p-4">
-                        <span className="text-4xl">{type.icon}</span>
+                        <TypeIcon icon={type.icon} name={type.name} size={48} />
                         <p className="text-zinc-600 text-xs mt-2">{pedal.brand}</p>
                       </div>
                     </div>
@@ -336,7 +337,7 @@ export default async function TypePage({
                     'bg-gray-50 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800 hover:border-orange-500/50 transition-all duration-200 cursor-pointer group h-full'
                   )}>
                     <CardContent className="p-5">
-                      <span className="text-3xl mb-3 block">{related.icon}</span>
+                      <div className="mb-3 block"><TypeIcon icon={related.icon} name={related.name} size={40} /></div>
                       <h3 className="font-bold group-hover:text-orange-400 transition-colors mb-1">
                         {related.name}
                       </h3>

@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { TypeIcon } from "@/components/type-icon";
 import pedalTypesData from "@/data/pedal-types.json";
 import pedalsData from "@/data/pedals.json";
 
@@ -98,7 +99,7 @@ export default function HomePage() {
             <Link key={type.id} href={`/${type.slug}`} className="group">
               <Card className="bg-gray-50 dark:bg-gray-900 border-gray-200 dark:border-gray-800 hover:border-orange-500 transition-colors h-full cursor-pointer">
                 <CardContent className="p-5">
-                  <div className="text-3xl mb-3">{type.icon}</div>
+                  <div className="mb-3"><TypeIcon icon={type.icon} name={type.name} size={48} /></div>
                   <h3 className="font-semibold group-hover:text-orange-500 dark:group-hover:text-orange-400 transition-colors mb-1">
                     {type.name}
                   </h3>
