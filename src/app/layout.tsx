@@ -77,7 +77,7 @@ function Header() {
     <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/90 backdrop-blur dark:border-gray-800 dark:bg-gray-950/90">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
         <a href="/" className="flex items-center gap-2 text-xl font-bold">
-          <img src="/logo-icon.png" alt="PedalRig" width={32} height={32} />
+          <img src="/logo-icon.png" alt="PedalRig" width={40} height={40} />
           <span>
             Pedal<span className="text-orange-500">Rig</span>
           </span>
@@ -108,7 +108,7 @@ function Footer() {
         <div className="grid gap-8 md:grid-cols-4">
           <div>
             <p className="text-lg font-bold">
-              <img src="/logo-icon.png" alt="PedalRig" width={28} height={28} className="inline-block mr-1 align-text-bottom" />
+              <img src="/logo-icon.png" alt="PedalRig" width={36} height={36} className="inline-block mr-1 align-text-bottom" />
               Pedal
               <span className="text-orange-500">Rig</span>
             </p>
