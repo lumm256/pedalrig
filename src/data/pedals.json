@@ -7,7 +7,7 @@
     "price": 62,
     "rating": 4.7,
     "reviewCount": 3200,
-    "amazonUrl": "https://www.amazon.com/dp/B000RW0GT6?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Boss+SD-1+Super+Overdrive&tag=pedalrig-20",
     "image": "/images/pedals/boss-sd1.jpg",
     "description": "The Boss SD-1 is one of the most iconic overdrive pedals ever made. Its asymmetric clipping circuit delivers a warm, natural overdrive that responds beautifully to your playing dynamics.",
     "pros": [
@@ -47,7 +47,7 @@
     "price": 99,
     "rating": 4.7,
     "reviewCount": 2800,
-    "amazonUrl": "https://www.amazon.com/dp/B000T4SI2K?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Ibanez+TS9+Tube+Screamer&tag=pedalrig-20",
     "image": "/images/pedals/ibanez-ts9.jpg",
     "description": "The Tube Screamer is the overdrive pedal that defined a genre. Its mid-focused tone cuts through any mix and pairs perfectly with a cranked tube amp.",
     "pros": [
@@ -86,7 +86,7 @@
     "price": 62,
     "rating": 4.6,
     "reviewCount": 4100,
-    "amazonUrl": "https://www.amazon.com/dp/B000RW0GJE?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Boss+DS-1+Distortion&tag=pedalrig-20",
     "image": "/images/pedals/boss-ds1.jpg",
     "description": "The Boss DS-1 has been the go-to distortion pedal since 1978. Used by Kurt Cobain, Steve Vai, and countless others, it delivers everything from mild grit to full-on distortion.",
     "pros": [
@@ -126,7 +126,7 @@
     "price": 79,
     "rating": 4.7,
     "reviewCount": 1900,
-    "amazonUrl": "https://www.amazon.com/dp/B0002CZVA6?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=ProCo+RAT2+Distortion&tag=pedalrig-20",
     "image": "/images/pedals/proco-rat2.jpg",
     "description": "The RAT is a desert-island distortion pedal. Its unique filter control lets you shape the tone from bright and cutting to dark and fuzzy, covering an enormous range of gain textures.",
     "pros": [
@@ -166,7 +166,7 @@
     "price": 89,
     "rating": 4.6,
     "reviewCount": 2200,
-    "amazonUrl": "https://www.amazon.com/dp/B000BREQHQ?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Electro-Harmonix+Big+Muff+Pi&tag=pedalrig-20",
     "image": "/images/pedals/ehx-big-muff.jpg",
     "description": "The Big Muff Pi is the sound of grunge, shoegaze, and psychedelic rock. Its massive, sustaining fuzz tone has been a staple on pedalboards since the 1970s.",
     "pros": [
@@ -206,7 +206,7 @@
     "price": 99,
     "rating": 4.5,
     "reviewCount": 800,
-    "amazonUrl": "https://www.amazon.com/dp/B00CD2PQKW?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Dunlop+FFM3+Jimi+Hendrix+Fuzz+Face+Mini&tag=pedalrig-20",
     "image": "/images/pedals/dunlop-fuzz-face.jpg",
     "description": "The Fuzz Face is where it all started. This mini version captures the classic silicon Fuzz Face tone that Jimi Hendrix made legendary, in a pedalboard-friendly size.",
     "pros": [
@@ -245,7 +245,7 @@
     "price": 169,
     "rating": 4.7,
     "reviewCount": 900,
-    "amazonUrl": "https://www.amazon.com/dp/B0842Y5GBQ?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Boss+DD-8+Digital+Delay&tag=pedalrig-20",
     "image": "/images/pedals/boss-dd8.jpg",
     "description": "The Boss DD-8 packs 11 delay modes into a compact pedal. From pristine digital repeats to warm analog-style echoes and shimmer, it covers every delay sound you could need.",
     "pros": [
@@ -286,7 +286,7 @@
     "price": 149,
     "rating": 4.7,
     "reviewCount": 1500,
-    "amazonUrl": "https://www.amazon.com/dp/B0014H5CW6?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=MXR+M169+Carbon+Copy+Analog+Delay&tag=pedalrig-20",
     "image": "/images/pedals/mxr-carbon-copy.jpg",
     "description": "The Carbon Copy is the gold standard of analog delay. Its warm, dark repeats add depth without cluttering your tone, making it perfect for any genre.",
     "pros": [
@@ -326,7 +326,7 @@
     "price": 99,
     "rating": 4.5,
     "reviewCount": 1200,
-    "amazonUrl": "https://www.amazon.com/dp/B000RW0HZI?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Boss+CS-3+Compression+Sustainer&tag=pedalrig-20",
     "image": "/images/pedals/boss-cs3.jpg",
     "description": "The Boss CS-3 is a studio-quality compressor in a pedal. It evens out your dynamics, adds sustain, and gives your clean tone that polished, professional feel.",
     "pros": [
@@ -367,7 +367,7 @@
     "price": 149,
     "rating": 4.8,
     "reviewCount": 600,
-    "amazonUrl": "https://www.amazon.com/dp/B01LXZFMRB?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Keeley+Compressor+Plus&tag=pedalrig-20",
     "image": "/images/pedals/keeley-comp-plus.jpg",
     "description": "The Keeley Compressor Plus is a boutique-quality compressor that adds sustain and sparkle without squashing your dynamics. The blend knob lets you mix compressed and dry signal for transparent compression.",
     "pros": [
@@ -408,7 +408,7 @@
     "price": 109,
     "rating": 4.6,
     "reviewCount": 800,
-    "amazonUrl": "https://www.amazon.com/dp/B000RW0N1G?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Boss+CE-5+Chorus+Ensemble&tag=pedalrig-20",
     "image": "/images/pedals/boss-ce5.jpg",
     "description": "The Boss CE-5 delivers lush, shimmering chorus with high and low filter controls that let you shape the effect precisely. From subtle shimmer to deep warble, it does it all.",
     "pros": [
@@ -450,7 +450,7 @@
     "price": 199,
     "rating": 4.8,
     "reviewCount": 500,
-    "amazonUrl": "https://www.amazon.com/dp/B09BFHD7QN?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Walrus+Audio+Julia+V2+Chorus+Vibrato&tag=pedalrig-20",
     "image": "/images/pedals/walrus-julia.jpg",
     "description": "The Julia V2 is a modern classic. Its lag control adds a unique character to the chorus effect, and the dry/wet blend lets you dial in everything from subtle shimmer to seasick vibrato.",
     "pros": [
@@ -491,7 +491,7 @@
     "price": 199,
     "rating": 4.7,
     "reviewCount": 700,
-    "amazonUrl": "https://www.amazon.com/dp/B08L3XBKQN?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Boss+RC-5+Loop+Station&tag=pedalrig-20",
     "image": "/images/pedals/boss-rc5.jpg",
     "description": "The Boss RC-5 is a powerful looper in a compact pedal. With 13 hours of recording time, 99 phrase memories, and built-in drum rhythms, it is perfect for practice and performance.",
     "pros": [
@@ -531,9 +531,9 @@
     "price": 99,
     "rating": 4.6,
     "reviewCount": 2500,
-    "amazonUrl": "https://www.amazon.com/dp/B00B3MKFPS?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=TC+Electronic+Ditto+Looper&tag=pedalrig-20",
     "image": "/images/pedals/tc-ditto.jpg",
-    "description": "The Ditto is the simplest looper you can buy. One knob, one switch, 5 minutes of loop time. It does one thing and does it perfectly — no menus, no complications.",
+    "description": "The Ditto is the simplest looper you can buy. One knob, one switch, 5 minutes of loop time. It does one thing and does it perfectly \u2014 no menus, no complications.",
     "pros": [
       "Dead simple to use",
       "Tiny footprint",
@@ -568,7 +568,7 @@
     "price": 99,
     "rating": 4.8,
     "reviewCount": 3500,
-    "amazonUrl": "https://www.amazon.com/dp/B004OR1GBO?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Boss+TU-3+Chromatic+Tuner&tag=pedalrig-20",
     "image": "/images/pedals/boss-tu3.jpg",
     "description": "The Boss TU-3 is the industry standard tuner pedal. Bright LED display visible in any lighting, accurate to +/- 1 cent, and it mutes your signal while tuning.",
     "pros": [
@@ -604,7 +604,7 @@
     "price": 89,
     "rating": 4.7,
     "reviewCount": 1800,
-    "amazonUrl": "https://www.amazon.com/dp/B0002GYNAO?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=MXR+Phase+90&tag=pedalrig-20",
     "image": "/images/pedals/mxr-phase90.jpg",
     "description": "The MXR Phase 90 is the phaser that defined the effect. One knob controls the speed, and the lush, swirling tone adds movement to clean and dirty tones alike. Used by Van Halen and countless others.",
     "pros": [
@@ -642,7 +642,7 @@
     "price": 109,
     "rating": 4.5,
     "reviewCount": 600,
-    "amazonUrl": "https://www.amazon.com/dp/B000RW0IYE?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Boss+TR-2+Tremolo&tag=pedalrig-20",
     "image": "/images/pedals/boss-tr2.jpg",
     "description": "The Boss TR-2 delivers classic tremolo from subtle pulse to choppy stutter. The wave control lets you shape the tremolo from smooth sine wave to hard square wave.",
     "pros": [
@@ -682,7 +682,7 @@
     "price": 109,
     "rating": 4.6,
     "reviewCount": 1100,
-    "amazonUrl": "https://www.amazon.com/dp/B000RW0HZS?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Boss+GE-7+Graphic+Equalizer&tag=pedalrig-20",
     "image": "/images/pedals/boss-ge7.jpg",
     "description": "The Boss GE-7 gives you surgical control over your tone with 7 frequency bands. Use it to shape your amp tone, boost for solos, or tame problem frequencies in your signal chain.",
     "pros": [
@@ -726,7 +726,7 @@
     "price": 89,
     "rating": 4.5,
     "reviewCount": 900,
-    "amazonUrl": "https://www.amazon.com/dp/B0002GZMAG?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Electro-Harmonix+Small+Clone&tag=pedalrig-20",
     "image": "/images/pedals/ehx-small-clone.jpg",
     "description": "The Small Clone is the chorus pedal that Kurt Cobain made famous. Its lush, watery chorus tone is instantly recognizable and adds a haunting depth to clean tones.",
     "pros": [
@@ -765,9 +765,9 @@
     "price": 109,
     "rating": 4.4,
     "reviewCount": 2000,
-    "amazonUrl": "https://www.amazon.com/dp/B000RW0HYO?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Boss+MT-2+Metal+Zone&tag=pedalrig-20",
     "image": "/images/pedals/boss-mt2.jpg",
-    "description": "The Metal Zone is the most divisive pedal ever made — and one of the best-selling. Its parametric EQ and extreme gain make it a metal machine when dialed in correctly.",
+    "description": "The Metal Zone is the most divisive pedal ever made \u2014 and one of the best-selling. Its parametric EQ and extreme gain make it a metal machine when dialed in correctly.",
     "pros": [
       "Extreme gain on tap",
       "Parametric mid EQ",
@@ -807,7 +807,7 @@
     "price": 75,
     "rating": 4.7,
     "reviewCount": 2100,
-    "amazonUrl": "https://www.amazon.com/dp/B00HBRAKWI?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Electro-Harmonix+Soul+Food&tag=pedalrig-20",
     "image": "/images/pedals/ehx-soul-food.jpg",
     "description": "Klon Centaur clone at a fraction of the price. Transparent overdrive with touch-sensitive dynamics that clean up beautifully with your guitar's volume knob.",
     "pros": [
@@ -846,7 +846,7 @@
     "price": 219,
     "rating": 4.8,
     "reviewCount": 600,
-    "amazonUrl": "https://www.amazon.com/dp/B07YJLKFNQ?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=JHS+Morning+Glory+V4+Overdrive&tag=pedalrig-20",
     "image": "/images/pedals/jhs-morning-glory.jpg",
     "description": "Transparent overdrive inspired by the Marshall Bluesbreaker circuit. Touch-sensitive and dynamic, it preserves your guitar's natural voice.",
     "pros": [
@@ -856,7 +856,7 @@
     ],
     "cons": [
       "Expensive for an overdrive",
-      "Subtle — not for heavy gain"
+      "Subtle \u2014 not for heavy gain"
     ],
     "bestFor": [
       "blues",
@@ -886,7 +886,7 @@
     "price": 69,
     "rating": 4.6,
     "reviewCount": 1800,
-    "amazonUrl": "https://www.amazon.com/dp/B000RW0GU0?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Boss+OD-3+OverDrive&tag=pedalrig-20",
     "image": "/images/pedals/boss-od3.jpg",
     "description": "Dual-stage overdrive circuit for rich, natural breakup. More gain on tap than the SD-1 while keeping that classic Boss reliability.",
     "pros": [
@@ -924,7 +924,7 @@
     "price": 25,
     "rating": 4.3,
     "reviewCount": 3500,
-    "amazonUrl": "https://www.amazon.com/dp/B002BWZH9U?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Behringer+TO800+Vintage+Tube+Overdrive&tag=pedalrig-20",
     "image": "/images/pedals/behringer-to800.jpg",
     "description": "Budget Tube Screamer clone that punches way above its price. Same JRC4558 chip as the original TS808.",
     "pros": [
@@ -962,7 +962,7 @@
     "price": 89,
     "rating": 4.5,
     "reviewCount": 1200,
-    "amazonUrl": "https://www.amazon.com/dp/B0002CZUAG?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=MXR+Distortion+&tag=pedalrig-20",
     "image": "/images/pedals/mxr-distortion-plus.jpg",
     "description": "One of the first distortion pedals ever made. Simple two-knob design beloved by Randy Rhoads and Jerry Garcia.",
     "pros": [
@@ -999,7 +999,7 @@
     "price": 189,
     "rating": 4.8,
     "reviewCount": 700,
-    "amazonUrl": "https://www.amazon.com/dp/B01LZKNX3S?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Friedman+BE-OD&tag=pedalrig-20",
     "image": "/images/pedals/friedman-be-od.jpg",
     "description": "Captures the legendary Friedman BE-100 amp tone in a pedal. From classic crunch to searing high-gain lead tones.",
     "pros": [
@@ -1040,7 +1040,7 @@
     "price": 49,
     "rating": 4.4,
     "reviewCount": 1500,
-    "amazonUrl": "https://www.amazon.com/dp/B00JBKVSNO?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=TC+Electronic+Dark+Matter&tag=pedalrig-20",
     "image": "/images/pedals/tc-dark-matter.jpg",
     "description": "Versatile distortion with a voice switch for extra tonal range. From warm crunch to aggressive high-gain.",
     "pros": [
@@ -1079,7 +1079,7 @@
     "price": 99,
     "rating": 4.7,
     "reviewCount": 400,
-    "amazonUrl": "https://www.amazon.com/dp/B08WRQHXJN?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=EarthQuaker+Devices+Hizumitas&tag=pedalrig-20",
     "image": "/images/pedals/eqd-hizumitas.jpg",
     "description": "Designed with Wata of Boris. Massive, crushing fuzz with a surprisingly musical tone control.",
     "pros": [
@@ -1118,7 +1118,7 @@
     "price": 129,
     "rating": 4.6,
     "reviewCount": 800,
-    "amazonUrl": "https://www.amazon.com/dp/B001DLTD0O?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Way+Huge+Swollen+Pickle+MkIIS&tag=pedalrig-20",
     "image": "/images/pedals/way-huge-swollen-pickle.jpg",
     "description": "Super versatile fuzz with extensive tone-shaping controls. From smooth sustain to sputtery chaos.",
     "pros": [
@@ -1159,7 +1159,7 @@
     "price": 449,
     "rating": 4.9,
     "reviewCount": 500,
-    "amazonUrl": "https://www.amazon.com/dp/B005MIHMGE?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Strymon+Timeline+Multidimensional+Delay&tag=pedalrig-20",
     "image": "/images/pedals/strymon-timeline.jpg",
     "description": "The gold standard of delay pedals. 12 studio-class delay machines with MIDI, presets, and pristine audio quality.",
     "pros": [
@@ -1200,7 +1200,7 @@
     "price": 149,
     "rating": 4.6,
     "reviewCount": 900,
-    "amazonUrl": "https://www.amazon.com/dp/B075FQJHKR?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=TC+Electronic+Flashback+2&tag=pedalrig-20",
     "image": "/images/pedals/tc-flashback2.jpg",
     "description": "Versatile delay with TonePrint and MASH pressure-sensitive footswitch for expressive control.",
     "pros": [
@@ -1239,7 +1239,7 @@
     "price": 149,
     "rating": 4.7,
     "reviewCount": 1100,
-    "amazonUrl": "https://www.amazon.com/dp/B06XWQHQJN?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Electro-Harmonix+Canyon&tag=pedalrig-20",
     "image": "/images/pedals/ehx-canyon.jpg",
     "description": "11 delay modes plus a 62-second looper in a compact pedal. From tape echo to shimmer.",
     "pros": [
@@ -1278,7 +1278,7 @@
     "price": 89,
     "rating": 4.5,
     "reviewCount": 1600,
-    "amazonUrl": "https://www.amazon.com/dp/B0002GYNAO?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=MXR+Dyna+Comp&tag=pedalrig-20",
     "image": "/images/pedals/mxr-dyna-comp.jpg",
     "description": "Classic Ross-style compressor. Simple two-knob design that adds sustain and punch to your tone.",
     "pros": [
@@ -1316,7 +1316,7 @@
     "price": 199,
     "rating": 4.8,
     "reviewCount": 500,
-    "amazonUrl": "https://www.amazon.com/dp/B00ABYQFHQ?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Wampler+Ego+Compressor&tag=pedalrig-20",
     "image": "/images/pedals/wampler-ego.jpg",
     "description": "Studio-quality compression with a blend knob for parallel compression. Transparent and musical.",
     "pros": [
@@ -1357,7 +1357,7 @@
     "price": 99,
     "rating": 4.6,
     "reviewCount": 1300,
-    "amazonUrl": "https://www.amazon.com/dp/B004XJGBIQ?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=TC+Electronic+Corona+Chorus&tag=pedalrig-20",
     "image": "/images/pedals/tc-corona.jpg",
     "description": "Versatile chorus with TonePrint for custom tones. From subtle shimmer to deep, watery modulation.",
     "pros": [
@@ -1397,7 +1397,7 @@
     "price": 149,
     "rating": 4.5,
     "reviewCount": 700,
-    "amazonUrl": "https://www.amazon.com/dp/B01LZKNX3S?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Electro-Harmonix+720+Stereo+Looper&tag=pedalrig-20",
     "image": "/images/pedals/ehx-720.jpg",
     "description": "10 minutes of recording time with 12 memory slots. Unlimited overdubs and reverse playback.",
     "pros": [
@@ -1433,7 +1433,7 @@
     "price": 99,
     "rating": 4.6,
     "reviewCount": 2000,
-    "amazonUrl": "https://www.amazon.com/dp/B00OQHQO1C?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Boss+RC-1+Loop+Station&tag=pedalrig-20",
     "image": "/images/pedals/boss-rc1.jpg",
     "description": "Simple one-button looper with a unique circular LED indicator showing loop position. 12 minutes of recording.",
     "pros": [
@@ -1469,9 +1469,9 @@
     "price": 99,
     "rating": 4.7,
     "reviewCount": 1500,
-    "amazonUrl": "https://www.amazon.com/dp/B075FQ8GBQ?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=TC+Electronic+PolyTune+3&tag=pedalrig-20",
     "image": "/images/pedals/tc-polytune3.jpg",
-    "description": "Polyphonic tuning — strum all strings at once to see which are out. Built-in BonaFide buffer.",
+    "description": "Polyphonic tuning \u2014 strum all strings at once to see which are out. Built-in BonaFide buffer.",
     "pros": [
       "Polyphonic tuning",
       "Built-in buffer",
@@ -1504,9 +1504,9 @@
     "price": 69,
     "rating": 4.6,
     "reviewCount": 1200,
-    "amazonUrl": "https://www.amazon.com/dp/B07BFHD7QN?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Korg+Pitchblack+Advance&tag=pedalrig-20",
     "image": "/images/pedals/korg-pitchblack.jpg",
-    "description": "Ultra-bright display visible in any lighting condition. Four display modes and ±0.1 cent accuracy.",
+    "description": "Ultra-bright display visible in any lighting condition. Four display modes and \u00b10.1 cent accuracy.",
     "pros": [
       "Ultra-bright display",
       "4 display modes",
@@ -1539,7 +1539,7 @@
     "price": 169,
     "rating": 4.8,
     "reviewCount": 1100,
-    "amazonUrl": "https://www.amazon.com/dp/B015FKUCAQ?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Boss+RV-6+Reverb&tag=pedalrig-20",
     "image": "/images/pedals/boss-rv6.jpg",
     "description": "8 reverb modes from subtle room to massive shimmer. The go-to reverb pedal for working musicians.",
     "pros": [
@@ -1579,7 +1579,7 @@
     "price": 129,
     "rating": 4.6,
     "reviewCount": 900,
-    "amazonUrl": "https://www.amazon.com/dp/B001FSIBN4?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Electro-Harmonix+Holy+Grail+Neo&tag=pedalrig-20",
     "image": "/images/pedals/ehx-holy-grail.jpg",
     "description": "Three classic reverb types: spring, hall, and plate. Simple one-knob design with lush, natural tones.",
     "pros": [
@@ -1617,7 +1617,7 @@
     "price": 479,
     "rating": 4.9,
     "reviewCount": 400,
-    "amazonUrl": "https://www.amazon.com/dp/B00FXLCFHQ?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Strymon+BigSky+Reverb&tag=pedalrig-20",
     "image": "/images/pedals/strymon-bigsky.jpg",
     "description": "12 studio-class reverb machines. The ultimate reverb pedal for ambient, worship, and studio work.",
     "pros": [
@@ -1658,7 +1658,7 @@
     "price": 149,
     "rating": 4.7,
     "reviewCount": 1400,
-    "amazonUrl": "https://www.amazon.com/dp/B075FQJHKR?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=TC+Electronic+Hall+of+Fame+2&tag=pedalrig-20",
     "image": "/images/pedals/tc-hof2.jpg",
     "description": "Versatile reverb with MASH footswitch for expressive control and TonePrint for custom reverb algorithms.",
     "pros": [
@@ -1697,7 +1697,7 @@
     "price": 89,
     "rating": 4.6,
     "reviewCount": 4000,
-    "amazonUrl": "https://www.amazon.com/dp/B0002CZVA6?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Dunlop+Cry+Baby+GCB95&tag=pedalrig-20",
     "image": "/images/pedals/dunlop-crybaby.jpg",
     "description": "The original wah pedal. Used by more guitarists than any other wah. Iconic vocal sweep.",
     "pros": [
@@ -1734,7 +1734,7 @@
     "price": 99,
     "rating": 4.5,
     "reviewCount": 800,
-    "amazonUrl": "https://www.amazon.com/dp/B01BXBZ3FQ?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Dunlop+Cry+Baby+Mini&tag=pedalrig-20",
     "image": "/images/pedals/dunlop-crybaby-mini.jpg",
     "description": "Half the size of the original with three voicing options. Perfect for tight pedalboards.",
     "pros": [
@@ -1771,7 +1771,7 @@
     "price": 99,
     "rating": 4.5,
     "reviewCount": 600,
-    "amazonUrl": "https://www.amazon.com/dp/B001L8NFWI?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Vox+V847-A+Wah&tag=pedalrig-20",
     "image": "/images/pedals/vox-v847a.jpg",
     "description": "Vintage Italian-style wah with warm, vocal sweep. The choice for classic rock and blues players.",
     "pros": [
@@ -1807,7 +1807,7 @@
     "price": 299,
     "rating": 4.7,
     "reviewCount": 500,
-    "amazonUrl": "https://www.amazon.com/dp/B003XVHFHQ?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Electro-Harmonix+POG2&tag=pedalrig-20",
     "image": "/images/pedals/ehx-pog2.jpg",
     "description": "Polyphonic octave generator with incredible tracking. Sub octave, octave up, detune, and attack control.",
     "pros": [
@@ -1849,7 +1849,7 @@
     "price": 129,
     "rating": 4.4,
     "reviewCount": 300,
-    "amazonUrl": "https://www.amazon.com/dp/B00LXZKNX3?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=MXR+Sub+Machine&tag=pedalrig-20",
     "image": "/images/pedals/mxr-sub-machine.jpg",
     "description": "Octave fuzz with sub-octave for massive low-end. Two voice modes for different fuzz characters.",
     "pros": [
@@ -1888,7 +1888,7 @@
     "price": 89,
     "rating": 4.6,
     "reviewCount": 2500,
-    "amazonUrl": "https://www.amazon.com/dp/B000OZSOLE?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Ernie+Ball+VP+Jr+250K&tag=pedalrig-20",
     "image": "/images/pedals/ernie-ball-vp-jr.jpg",
     "description": "Industry standard volume pedal. Smooth taper with tuner output for silent tuning.",
     "pros": [
@@ -1925,7 +1925,7 @@
     "price": 109,
     "rating": 4.5,
     "reviewCount": 800,
-    "amazonUrl": "https://www.amazon.com/dp/B000RW0IYE?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Boss+FV-500H+Volume+Pedal&tag=pedalrig-20",
     "image": "/images/pedals/boss-fv500h.jpg",
     "description": "Heavy-duty volume pedal with adjustable minimum volume. Built like a tank for touring.",
     "pros": [
@@ -1962,7 +1962,7 @@
     "price": 599,
     "rating": 4.8,
     "reviewCount": 1200,
-    "amazonUrl": "https://www.amazon.com/dp/B07GY1BFPV?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Line+6+HX+Stomp&tag=pedalrig-20",
     "image": "/images/pedals/line6-hx-stomp.jpg",
     "description": "Over 300 effects and amp models from the Helix family in a compact pedal. The Swiss Army knife of guitar effects.",
     "pros": [
@@ -1999,7 +1999,7 @@
     "price": 299,
     "rating": 4.5,
     "reviewCount": 1800,
-    "amazonUrl": "https://www.amazon.com/dp/B00IEUIO5E?tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/s?k=Boss+ME-80&tag=pedalrig-20",
     "image": "/images/pedals/boss-me80.jpg",
     "description": "Intuitive knob-per-function layout with COSM amp models. Easy to use without menu diving.",
     "pros": [
