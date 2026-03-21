@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import pedalTypesData from "@/data/pedal-types.json";
 import famousBoardsData from "@/data/famous-boards.json";
+import pedalsData from "@/data/pedals.json";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://pedalrig.com";
@@ -44,5 +45,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...typePages, ...famousPages];
+  const pedalPages = (pedalsData as Array<{ id: string }>).map((pedal) => ({
+    url: `${baseUrl}/pedals/${pedal.id}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
+  return [...staticPages, ...typePages, ...famousPages, ...pedalPages];
 }
