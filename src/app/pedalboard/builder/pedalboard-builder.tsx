@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo, useCallback } from "react";
+import Link from "next/link";
 import {
   DndContext,
   DragOverlay,
@@ -100,7 +101,11 @@ function SortableChainItem({
         <TypeImg icon={typeInfo?.icon} />
       </div>
       <div className="flex-1 min-w-0">
-        <p className="text-sm font-medium truncate">{pedal.name}</p>
+        <p className="text-sm font-medium truncate">
+          <Link href={`/pedals/${pedal.id}`} className="hover:text-orange-400 transition-colors hover:underline underline-offset-2">
+            {pedal.name}
+          </Link>
+        </p>
         <p className="text-xs text-gray-500 dark:text-gray-400">
           {pedal.brand} · ${pedal.price} · {pedal.powerMa}mA
         </p>
@@ -468,7 +473,9 @@ export function PedalboardBuilder() {
                   className="flex items-center justify-between text-sm"
                 >
                   <span>
-                    {pedal.name}{" "}
+                    <Link href={`/pedals/${pedal.id}`} className="hover:text-orange-400 transition-colors hover:underline underline-offset-2">
+                      {pedal.name}
+                    </Link>{" "}
                     <span className="text-gray-500 dark:text-gray-400">({pedal.brand})</span>
                   </span>
                   <div className="flex items-center gap-3">

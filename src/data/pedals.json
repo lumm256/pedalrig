@@ -533,7 +533,7 @@
     "reviewCount": 2500,
     "amazonUrl": "https://www.amazon.com/s?k=TC+Electronic+Ditto+Looper&tag=pedalrig-20",
     "image": "/images/pedals/tc-ditto.jpg",
-    "description": "The Ditto is the simplest looper you can buy. One knob, one switch, 5 minutes of loop time. It does one thing and does it perfectly \u2014 no menus, no complications.",
+    "description": "The Ditto is the simplest looper you can buy. One knob, one switch, 5 minutes of loop time. It does one thing and does it perfectly — no menus, no complications.",
     "pros": [
       "Dead simple to use",
       "Tiny footprint",
@@ -767,7 +767,7 @@
     "reviewCount": 2000,
     "amazonUrl": "https://www.amazon.com/s?k=Boss+MT-2+Metal+Zone&tag=pedalrig-20",
     "image": "/images/pedals/boss-mt2.jpg",
-    "description": "The Metal Zone is the most divisive pedal ever made \u2014 and one of the best-selling. Its parametric EQ and extreme gain make it a metal machine when dialed in correctly.",
+    "description": "The Metal Zone is the most divisive pedal ever made — and one of the best-selling. Its parametric EQ and extreme gain make it a metal machine when dialed in correctly.",
     "pros": [
       "Extreme gain on tap",
       "Parametric mid EQ",
@@ -856,7 +856,7 @@
     ],
     "cons": [
       "Expensive for an overdrive",
-      "Subtle \u2014 not for heavy gain"
+      "Subtle — not for heavy gain"
     ],
     "bestFor": [
       "blues",
@@ -1471,7 +1471,7 @@
     "reviewCount": 1500,
     "amazonUrl": "https://www.amazon.com/s?k=TC+Electronic+PolyTune+3&tag=pedalrig-20",
     "image": "/images/pedals/tc-polytune3.jpg",
-    "description": "Polyphonic tuning \u2014 strum all strings at once to see which are out. Built-in BonaFide buffer.",
+    "description": "Polyphonic tuning — strum all strings at once to see which are out. Built-in BonaFide buffer.",
     "pros": [
       "Polyphonic tuning",
       "Built-in buffer",
@@ -1506,7 +1506,7 @@
     "reviewCount": 1200,
     "amazonUrl": "https://www.amazon.com/s?k=Korg+Pitchblack+Advance&tag=pedalrig-20",
     "image": "/images/pedals/korg-pitchblack.jpg",
-    "description": "Ultra-bright display visible in any lighting condition. Four display modes and \u00b10.1 cent accuracy.",
+    "description": "Ultra-bright display visible in any lighting condition. Four display modes and ±0.1 cent accuracy.",
     "pros": [
       "Ultra-bright display",
       "4 display modes",
@@ -2026,5 +2026,373 @@
       "Multiple"
     ],
     "imageUrl": "https://images.guitarguitar.co.uk/cdn/large/170/PX221001394469001f.jpg"
+  },
+  {
+    "id": "boss-dd7",
+    "name": "Boss DD-7 Digital Delay",
+    "brand": "Boss",
+    "type": "delay",
+    "price": 169,
+    "rating": 4.7,
+    "reviewCount": 2100,
+    "amazonUrl": "https://www.amazon.com/s?k=Boss+DD-7+Digital+Delay&tag=pedalrig-20",
+    "image": "/images/pedals/boss-dd7.jpg",
+    "description": "The Boss DD-7 is the most versatile delay in the classic Boss lineup. With 11 delay modes including analog, reverse, modulate, and a dedicated looper function, it is the workhorse delay pedal for gigging musicians.",
+    "pros": [
+      "11 versatile delay modes",
+      "Built-in looper function",
+      "Compact Boss housing",
+      "Stereo input/output"
+    ],
+    "cons": [
+      "No tap tempo switch",
+      "Buffered bypass"
+    ],
+    "bestFor": [
+      "rock",
+      "country",
+      "ambient"
+    ],
+    "level": "beginner",
+    "powerMa": 55,
+    "voltage": 9,
+    "widthMm": 73,
+    "heightMm": 129,
+    "depthMm": 59,
+    "bypass": "buffered",
+    "controls": [
+      "E.Level",
+      "F.Back",
+      "D.Time",
+      "Mode"
+    ],
+    "imageUrl": "https://images.ctfassets.net/74ch1hskxran/4tCBqMRv0zMM8VWcS3xHSD/0d3e5481b44b7b65e22b9f50f53f625e/Boss_DD-7_Digital_Delay_Pedal.jpg"
+  },
+  {
+    "id": "jhs-bender",
+    "name": "JHS Bender",
+    "brand": "JHS Pedals",
+    "type": "fuzz",
+    "price": 199,
+    "rating": 4.7,
+    "reviewCount": 350,
+    "amazonUrl": "https://www.amazon.com/s?k=JHS+Bender+fuzz+pedal&tag=pedalrig-20",
+    "image": "/images/pedals/jhs-bender.jpg",
+    "description": "The JHS Bender is a faithful recreation of the iconic Tone Bender MKI.5 fuzz pedal made famous by Jimmy Page and Jeff Beck. Germanium transistors give it a warm, dynamic fuzz with incredible touch response.",
+    "pros": [
+      "Authentic germanium tone",
+      "Incredible touch sensitivity",
+      "Vintage Tone Bender circuit",
+      "Boutique build quality"
+    ],
+    "cons": [
+      "Expensive for a fuzz",
+      "Germanium sensitive to temperature",
+      "Limited production runs"
+    ],
+    "bestFor": [
+      "classic rock",
+      "blues",
+      "psychedelic"
+    ],
+    "level": "advanced",
+    "powerMa": 5,
+    "voltage": 9,
+    "widthMm": 64,
+    "heightMm": 121,
+    "depthMm": 51,
+    "bypass": "true",
+    "controls": [
+      "Volume",
+      "Tone",
+      "Bender"
+    ],
+    "imageUrl": "https://www.jhspedals.info/cdn/shop/files/BENDER_ANG_1024x1024@2x.jpg?v=1680196432"
+  },
+  {
+    "id": "ehx-small-stone",
+    "name": "Electro-Harmonix Small Stone",
+    "brand": "Electro-Harmonix",
+    "type": "phaser",
+    "price": 79,
+    "rating": 4.5,
+    "reviewCount": 1100,
+    "amazonUrl": "https://www.amazon.com/s?k=Electro-Harmonix+Small+Stone+Phaser&tag=pedalrig-20",
+    "image": "/images/pedals/ehx-small-stone.jpg",
+    "description": "The Small Stone is a classic analog phaser with a rich, swirling tone that has appeared on countless records since the 1970s. Its simple Rate knob and Color switch make it easy to dial in from subtle to dramatic phase.",
+    "pros": [
+      "Classic analog phase tone",
+      "Simple one-knob operation",
+      "Color switch for extra depth",
+      "Affordable vintage character"
+    ],
+    "cons": [
+      "Larger enclosure than competitors",
+      "No depth control"
+    ],
+    "bestFor": [
+      "rock",
+      "funk",
+      "psychedelic"
+    ],
+    "level": "beginner",
+    "powerMa": 4,
+    "voltage": 9,
+    "widthMm": 102,
+    "heightMm": 127,
+    "depthMm": 51,
+    "bypass": "true",
+    "controls": [
+      "Rate",
+      "Color Switch"
+    ],
+    "imageUrl": "https://images.ctfassets.net/74ch1hskxran/5bMO6pELnnEqaOGDXJL2Ql/b53e5ef1db1b19f93b7e8b6c98a87524/Electro-Harmonix_Small_Stone_Phaser_Pedal.jpg"
+  },
+  {
+    "id": "ehx-pulsar",
+    "name": "Electro-Harmonix Pulsar",
+    "brand": "Electro-Harmonix",
+    "type": "tremolo",
+    "price": 99,
+    "rating": 4.6,
+    "reviewCount": 650,
+    "amazonUrl": "https://www.amazon.com/s?k=Electro-Harmonix+Pulsar+tremolo&tag=pedalrig-20",
+    "image": "/images/pedals/ehx-pulsar.jpg",
+    "description": "The EHX Pulsar is a full-featured analog tremolo with four wave shapes — triangle, sine, square, and sawtooth — plus a width control for precise depth adjustment. Its tap tempo footswitch keeps you locked to the beat.",
+    "pros": [
+      "Four wave shapes",
+      "Tap tempo",
+      "Analog warmth",
+      "True bypass"
+    ],
+    "cons": [
+      "Slightly large enclosure",
+      "No stereo output"
+    ],
+    "bestFor": [
+      "surf",
+      "country",
+      "indie"
+    ],
+    "level": "intermediate",
+    "powerMa": 35,
+    "voltage": 9,
+    "widthMm": 102,
+    "heightMm": 127,
+    "depthMm": 51,
+    "bypass": "true",
+    "controls": [
+      "Rate",
+      "Depth",
+      "Wave",
+      "Tap Tempo"
+    ],
+    "imageUrl": "https://images.ctfassets.net/74ch1hskxran/6UHWDuFBH0GNMpBfbkPFVe/4d6fd8fd85db6bf23baa0e3d1ef81de9/Electro-Harmonix_Pulsar_Tremolo_Pedal.jpg"
+  },
+  {
+    "id": "mxr-m108s",
+    "name": "MXR M108S 10-Band EQ",
+    "brand": "MXR",
+    "type": "eq",
+    "price": 159,
+    "rating": 4.7,
+    "reviewCount": 800,
+    "amazonUrl": "https://www.amazon.com/s?k=MXR+M108S+10+Band+EQ&tag=pedalrig-20",
+    "image": "/images/pedals/mxr-m108s.jpg",
+    "description": "The MXR 10-Band EQ gives you surgical frequency control with 10 sliders covering the full guitar frequency range. Built-in LED clip indicator and output volume make it easy to set up as a boost or tone-shaping tool.",
+    "pros": [
+      "10-band precision EQ",
+      "LED clip indicator",
+      "Ultra-low noise",
+      "Output volume control"
+    ],
+    "cons": [
+      "Large enclosure",
+      "Requires careful setup"
+    ],
+    "bestFor": [
+      "any genre",
+      "tone shaping",
+      "studio"
+    ],
+    "level": "intermediate",
+    "powerMa": 5,
+    "voltage": 18,
+    "widthMm": 127,
+    "heightMm": 140,
+    "depthMm": 64,
+    "bypass": "true",
+    "controls": [
+      "31.25Hz",
+      "62.5Hz",
+      "125Hz",
+      "250Hz",
+      "500Hz",
+      "1kHz",
+      "2kHz",
+      "4kHz",
+      "8kHz",
+      "16kHz",
+      "Output Volume"
+    ],
+    "imageUrl": "https://images.ctfassets.net/74ch1hskxran/7dNfTr05bRBJ1cBzKCwMGg/2fe1dfc8f52e9bdbfe3e30b52a96ad65/MXR_M108S_Ten_Band_EQ_Pedal.jpg"
+  },
+  {
+    "id": "ehx-wailer-wah",
+    "name": "Electro-Harmonix Wailer Wah",
+    "brand": "Electro-Harmonix",
+    "type": "wah",
+    "price": 119,
+    "rating": 4.4,
+    "reviewCount": 400,
+    "amazonUrl": "https://www.amazon.com/s?k=Electro-Harmonix+Wailer+Wah&tag=pedalrig-20",
+    "image": "/images/pedals/ehx-wailer-wah.jpg",
+    "description": "The EHX Wailer Wah features an adjustable Q control to shape the width of your wah sweep from narrow and sharp to wide and smooth. Auto-engage switch and voice controls let you tailor the classic wah sound to your style.",
+    "pros": [
+      "Adjustable Q control",
+      "Auto-engage switch",
+      "Voice selector",
+      "True bypass"
+    ],
+    "cons": [
+      "Heavier than competitors",
+      "Q control learning curve"
+    ],
+    "bestFor": [
+      "rock",
+      "funk",
+      "blues"
+    ],
+    "level": "intermediate",
+    "powerMa": 4,
+    "voltage": 9,
+    "widthMm": 254,
+    "heightMm": 102,
+    "depthMm": 64,
+    "bypass": "true",
+    "controls": [
+      "Sweep",
+      "Q",
+      "Voice"
+    ],
+    "imageUrl": "https://images.ctfassets.net/74ch1hskxran/6pYbbpHOoxEz5T6LNSluVh/c9f5c1e3c4af6ff87fbc41ee0c29855a/Electro-Harmonix_Wailer_Wah_Pedal.jpg"
+  },
+  {
+    "id": "boss-oc5",
+    "name": "Boss OC-5 Octave",
+    "brand": "Boss",
+    "type": "octave",
+    "price": 139,
+    "rating": 4.7,
+    "reviewCount": 700,
+    "amazonUrl": "https://www.amazon.com/s?k=Boss+OC-5+Octave&tag=pedalrig-20",
+    "image": "/images/pedals/boss-oc5.jpg",
+    "description": "The Boss OC-5 delivers the classic OC-2 analog sound alongside a new polyphonic mode for chords and arpeggios. From sub-bass rumble to upper-octave lead tones, it covers all the octave bases.",
+    "pros": [
+      "Classic OC-2 analog mode",
+      "Polyphonic mode for chords",
+      "Range control for guitar or bass",
+      "Boss reliability"
+    ],
+    "cons": [
+      "Polyphonic tracking not perfect",
+      "Buffered bypass"
+    ],
+    "bestFor": [
+      "rock",
+      "bass",
+      "experimental"
+    ],
+    "level": "intermediate",
+    "powerMa": 20,
+    "voltage": 9,
+    "widthMm": 73,
+    "heightMm": 129,
+    "depthMm": 59,
+    "bypass": "buffered",
+    "controls": [
+      "Direct",
+      "Oct 1",
+      "Oct 2",
+      "Mode",
+      "Range"
+    ],
+    "imageUrl": "https://images.ctfassets.net/74ch1hskxran/7L8hf0LoYRxZ6jnNkJxoOV/f1d6e7c8a09ba4e6c6b3e8d23c4d6b59/Boss_OC-5_Octave_Pedal.jpg"
+  },
+  {
+    "id": "boss-me90",
+    "name": "Boss ME-90 Multi-Effects",
+    "brand": "Boss",
+    "type": "multi-effects",
+    "price": 349,
+    "rating": 4.7,
+    "reviewCount": 900,
+    "amazonUrl": "https://www.amazon.com/s?k=Boss+ME-90+Multi-Effects&tag=pedalrig-20",
+    "image": "/images/pedals/boss-me90.jpg",
+    "description": "The Boss ME-90 brings the power of the GT series in a knob-per-function floor unit. 200 preset patches, AIRD amp models, and a built-in looper make it the complete package for gigging guitarists.",
+    "pros": [
+      "Knob-per-function simplicity",
+      "AIRD amp modeling",
+      "Built-in looper",
+      "USB audio interface"
+    ],
+    "cons": [
+      "Large footprint",
+      "Some effects sound digital"
+    ],
+    "bestFor": [
+      "versatile",
+      "live",
+      "practice"
+    ],
+    "level": "intermediate",
+    "powerMa": 500,
+    "voltage": 9,
+    "widthMm": 499,
+    "heightMm": 204,
+    "depthMm": 57,
+    "bypass": "buffered",
+    "controls": [
+      "Multiple"
+    ],
+    "imageUrl": "https://images.ctfassets.net/74ch1hskxran/boss-me90-multi-effects/boss-me90-multi-effects-pedal.jpg"
+  },
+  {
+    "id": "line6-pod-go",
+    "name": "Line 6 POD Go",
+    "brand": "Line 6",
+    "type": "multi-effects",
+    "price": 449,
+    "rating": 4.7,
+    "reviewCount": 1100,
+    "amazonUrl": "https://www.amazon.com/s?k=Line+6+POD+Go+Multi-Effects&tag=pedalrig-20",
+    "image": "/images/pedals/line6-pod-go.jpg",
+    "description": "The Line 6 POD Go delivers Helix-quality amp modeling and effects in a lightweight, tour-ready floor unit. 270+ amps, cabs, and effects with an intuitive interface and built-in expression pedal.",
+    "pros": [
+      "Helix-quality processing",
+      "Built-in expression pedal",
+      "270+ amps and effects",
+      "USB recording interface"
+    ],
+    "cons": [
+      "DSP limit on parallel paths",
+      "Learning curve for deep editing"
+    ],
+    "bestFor": [
+      "versatile",
+      "live",
+      "studio"
+    ],
+    "level": "advanced",
+    "powerMa": 3000,
+    "voltage": 9,
+    "widthMm": 508,
+    "heightMm": 203,
+    "depthMm": 60,
+    "bypass": "true",
+    "controls": [
+      "Multiple"
+    ],
+    "imageUrl": "https://images.ctfassets.net/74ch1hskxran/line6-pod-go/line6-pod-go-multi-effects.jpg"
   }
 ]

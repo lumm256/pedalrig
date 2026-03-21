@@ -130,19 +130,21 @@ export default function HomePage() {
             {topPedals.map((pedal) => (
               <Card key={pedal.id} className="bg-white dark:bg-gray-950 border-gray-200 dark:border-gray-800 flex flex-col overflow-hidden">
                 {pedal.imageUrl && (
-                  <div className="h-48 bg-gray-100 dark:bg-gray-900 flex items-center justify-center p-4">
+                  <Link href={`/pedals/${pedal.id}`} className="h-48 bg-gray-100 dark:bg-gray-900 flex items-center justify-center p-4 hover:opacity-90 transition-opacity">
                     <img
                       src={pedal.imageUrl}
                       alt={pedal.name}
                       className="max-h-full max-w-full object-contain"
                       loading="lazy"
                     />
-                  </div>
+                  </Link>
                 )}
                 <CardHeader className="pb-2">
                   <div className="flex items-start justify-between gap-2">
                     <CardTitle className="text-base font-semibold leading-tight">
-                      {pedal.name}
+                      <Link href={`/pedals/${pedal.id}`} className="hover:text-orange-400 transition-colors underline-offset-2 hover:underline">
+                        {pedal.name}
+                      </Link>
                     </CardTitle>
                     <Badge className="bg-orange-500/10 dark:bg-orange-500/20 text-orange-600 dark:text-orange-400 border-orange-500/20 dark:border-orange-500/30 shrink-0 capitalize">
                       {pedal.type}

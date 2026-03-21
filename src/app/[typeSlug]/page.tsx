@@ -207,7 +207,11 @@ export default async function TypePage({
                 <TableBody>
                   {typePedals.map((pedal) => (
                     <TableRow key={pedal.id} className="border-zinc-200 dark:border-zinc-800 hover:bg-gray-50 dark:hover:bg-zinc-900/50 transition-colors">
-                      <TableCell className="font-medium">{pedal.name}</TableCell>
+                      <TableCell className="font-medium">
+                        <Link href={`/pedals/${pedal.id}`} className="hover:text-orange-400 transition-colors hover:underline underline-offset-2">
+                          {pedal.name}
+                        </Link>
+                      </TableCell>
                       <TableCell className="text-zinc-500 dark:text-zinc-400">{pedal.brand}</TableCell>
                       <TableCell className="text-orange-400 font-semibold">${pedal.price}</TableCell>
                       <TableCell><StarRating rating={pedal.rating} /></TableCell>
@@ -259,7 +263,11 @@ export default async function TypePage({
                               {pedal.level}
                             </Badge>
                           </div>
-                          <h3 className="text-xl font-bold">{pedal.name}</h3>
+                          <h3 className="text-xl font-bold">
+                            <Link href={`/pedals/${pedal.id}`} className="hover:text-orange-400 transition-colors hover:underline underline-offset-2">
+                              {pedal.name}
+                            </Link>
+                          </h3>
                           <div className="flex items-center gap-3 mt-1">
                             <StarRating rating={pedal.rating} />
                             <span className="text-zinc-500 text-sm">({pedal.reviewCount.toLocaleString()} reviews)</span>

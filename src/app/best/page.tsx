@@ -64,7 +64,11 @@ function PedalCard({ pedal, badge }: { pedal: Pedal; badge?: string }) {
                 {badge}
               </span>
             )}
-            <CardTitle className="text-base leading-snug">{pedal.name}</CardTitle>
+            <CardTitle className="text-base leading-snug">
+                <Link href={`/pedals/${pedal.id}`} className="hover:text-orange-400 transition-colors hover:underline underline-offset-2">
+                  {pedal.name}
+                </Link>
+              </CardTitle>
             <p className="text-sm text-zinc-400 dark:text-zinc-500">{pedal.brand}</p>
           </div>
           <div className="text-right flex-shrink-0">
@@ -160,7 +164,11 @@ export default function BestPage() {
                 <div className="mt-3 px-4 py-3 rounded-lg bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 flex items-center justify-between gap-4 flex-wrap">
                   <div>
                     <span className="text-xs font-semibold text-zinc-400 uppercase tracking-wide">Runner Up</span>
-                    <p className="text-sm font-medium mt-0.5">{runnerUp.name}</p>
+                    <p className="text-sm font-medium mt-0.5">
+                      <Link href={`/pedals/${runnerUp.id}`} className="hover:text-orange-400 transition-colors hover:underline underline-offset-2">
+                        {runnerUp.name}
+                      </Link>
+                    </p>
                   </div>
                   <div className="flex items-center gap-3">
                     <StarRating rating={runnerUp.rating} />
