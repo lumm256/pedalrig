@@ -7,8 +7,8 @@ const navLinks = [
   { href: "/types", label: "Pedal Types" },
   { href: "/pedal-order", label: "Signal Chain" },
   { href: "/pedalboard", label: "Pedalboard", exact: false },
-  { href: "/beginners", label: "Beginners" },
   { href: "/compare", label: "Compare" },
+  { href: "/blog", label: "Blog", exact: false },
 ];
 
 export function NavLinks() {

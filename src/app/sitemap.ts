@@ -3,6 +3,7 @@ import pedalTypesData from "@/data/pedal-types.json";
 import famousBoardsData from "@/data/famous-boards.json";
 import pedalsData from "@/data/pedals.json";
 import vsPairsData from "@/data/vs-pairs.json";
+import { getAllPosts } from "@/lib/blog";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://pedalrig.com";
@@ -26,6 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/explained`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${baseUrl}/best`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${baseUrl}/famous`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${baseUrl}/blog`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.9 },
     { url: `${baseUrl}/feedback`, lastModified: now, changeFrequency: "yearly" as const, priority: 0.3 },
     { url: `${baseUrl}/about`, lastModified: now, changeFrequency: "yearly" as const, priority: 0.3 },
     { url: `${baseUrl}/disclaimer`, lastModified: now, changeFrequency: "yearly" as const, priority: 0.3 },
@@ -60,5 +62,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...typePages, ...famousPages, ...pedalPages, ...vsPages];
+  const blogPosts = getAllPosts().map((post) => ({
+    url: `${baseUrl}/blog/${post.slug}`,
+    lastModified: post.updated || post.date,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...typePages, ...famousPages, ...pedalPages, ...vsPages, ...blogPosts];
 }

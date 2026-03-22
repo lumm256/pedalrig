@@ -14,6 +14,8 @@ const navLinks = [
   { href: "/style/blues", label: "Blues Pedals" },
   { href: "/style/rock", label: "Rock Pedals" },
   { href: "/style/metal", label: "Metal Pedals" },
+  { href: "/famous", label: "Famous Pedalboards" },
+  { href: "/blog", label: "Blog" },
 ];
 
 export function MobileMenu() {
