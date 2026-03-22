@@ -162,6 +162,11 @@ export default function PedalboardPage() {
               </li>
             ))}
           </ol>
+          <div className="mt-4">
+            <a href="/pedalboard/cable-management" className="text-orange-500 hover:underline text-sm font-medium">
+              Read our full Cable Management Guide →
+            </a>
+          </div>
         </section>
 
         {/* Build Steps */}
