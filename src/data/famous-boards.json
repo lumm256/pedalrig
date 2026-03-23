@@ -5,15 +5,50 @@
     "slug": "john-mayer",
     "genre": "Blues / Pop / Rock",
     "description": "John Mayer's tone is defined by smooth, dynamic overdrive and lush reverb. His pedalboard has evolved over the years but always centers around transparent drive and expressive dynamics. From his PRS Silver Sky through a Dumble or Two-Rock, Mayer's signal chain is all about feel and touch sensitivity.",
-    "famousSongs": ["Gravity", "Slow Dancing in a Burning Room", "Belief", "Waiting on the World to Change"],
+    "famousSongs": [
+      "Gravity",
+      "Slow Dancing in a Burning Room",
+      "Belief",
+      "Waiting on the World to Change"
+    ],
     "signatureSound": "Clean to crunch with transparent overdrive. Smooth, warm lead tones with rich sustain and subtle reverb.",
     "pedals": [
-      {"name": "Klon Centaur", "type": "overdrive", "matchId": "ehx-soul-food", "note": "The original Klon is rare and expensive — Soul Food is the most popular affordable clone, capturing that transparent mid-push"},
-      {"name": "Ibanez TS10 Tube Screamer", "type": "overdrive", "matchId": "tube-screamer-ts9", "note": "Mayer uses a vintage TS10 — the TS9 is nearly identical in circuit and tone"},
-      {"name": "Strymon Flint", "type": "reverb", "matchId": "boss-rv6", "note": "Tremolo + Reverb combo — the RV-6 covers the reverb side beautifully"},
-      {"name": "Way Huge Aqua-Puss", "type": "delay", "matchId": "mxr-carbon-copy", "note": "Analog delay for warm slapback — Carbon Copy is a great alternative with similar character"},
-      {"name": "Boss TU-3 Tuner", "type": "tuner", "matchId": "boss-tu3", "note": "Standard tuner on Mayer's board — reliable and ubiquitous"},
-      {"name": "Keeley Compressor", "type": "compressor", "matchId": "keeley-compressor-plus", "note": "Adds sustain and polish to clean tones — the Compressor Plus is the updated version"}
+      {
+        "name": "Klon Centaur",
+        "type": "overdrive",
+        "matchId": "ehx-soul-food",
+        "note": "The original Klon is rare and expensive — Soul Food is the most popular affordable clone, capturing that transparent mid-push"
+      },
+      {
+        "name": "Ibanez TS10 Tube Screamer",
+        "type": "overdrive",
+        "matchId": "tube-screamer-ts9",
+        "note": "Mayer uses a vintage TS10 — the TS9 is nearly identical in circuit and tone"
+      },
+      {
+        "name": "Strymon Flint",
+        "type": "reverb",
+        "matchId": "boss-rv6",
+        "note": "Tremolo + Reverb combo — the RV-6 covers the reverb side beautifully"
+      },
+      {
+        "name": "Way Huge Aqua-Puss",
+        "type": "delay",
+        "matchId": "mxr-carbon-copy",
+        "note": "Analog delay for warm slapback — Carbon Copy is a great alternative with similar character"
+      },
+      {
+        "name": "Boss TU-3 Tuner",
+        "type": "tuner",
+        "matchId": "boss-tu3",
+        "note": "Standard tuner on Mayer's board — reliable and ubiquitous"
+      },
+      {
+        "name": "Keeley Compressor",
+        "type": "compressor",
+        "matchId": "keeley-compressor-plus",
+        "note": "Adds sustain and polish to clean tones — the Compressor Plus is the updated version"
+      }
     ]
   },
   {
@@ -22,13 +57,38 @@
     "slug": "jimi-hendrix",
     "genre": "Psychedelic Rock / Blues",
     "description": "Hendrix pioneered the use of effects in rock music. His setup was simple but revolutionary — a wah, a fuzz, and a Uni-Vibe were all he needed to change music forever. Playing a right-handed Stratocaster flipped upside-down through Marshall stacks, Hendrix created sounds nobody had heard before.",
-    "famousSongs": ["Purple Haze", "Voodoo Child (Slight Return)", "All Along the Watchtower", "Little Wing"],
+    "famousSongs": [
+      "Purple Haze",
+      "Voodoo Child (Slight Return)",
+      "All Along the Watchtower",
+      "Little Wing"
+    ],
     "signatureSound": "Aggressive fuzz with vocal wah sweeps, swirling Uni-Vibe modulation, and explosive octave effects.",
     "pedals": [
-      {"name": "Dallas Arbiter Fuzz Face", "type": "fuzz", "matchId": "dunlop-fuzz-face", "note": "The FFM3 Mini captures the classic germanium Fuzz Face tone in a pedalboard-friendly size"},
-      {"name": "Vox Wah", "type": "wah", "matchId": "vox-v847a", "note": "Hendrix made the wah pedal famous — the V847-A is a faithful reissue"},
-      {"name": "Uni-Vibe", "type": "phaser", "matchId": "mxr-phase90", "note": "The Uni-Vibe is a unique photocell-based modulation — Phase 90 gets you in the neighborhood"},
-      {"name": "Roger Mayer Octavia", "type": "octave", "matchId": "ehx-pog2", "note": "Octave-up fuzz effect heard on Purple Haze and other psychedelic moments"}
+      {
+        "name": "Dallas Arbiter Fuzz Face",
+        "type": "fuzz",
+        "matchId": "dunlop-fuzz-face",
+        "note": "The FFM3 Mini captures the classic germanium Fuzz Face tone in a pedalboard-friendly size"
+      },
+      {
+        "name": "Vox Wah",
+        "type": "wah",
+        "matchId": "vox-v847a",
+        "note": "Hendrix made the wah pedal famous — the V847-A is a faithful reissue"
+      },
+      {
+        "name": "Uni-Vibe",
+        "type": "phaser",
+        "matchId": "mxr-phase90",
+        "note": "The Uni-Vibe is a unique photocell-based modulation — Phase 90 gets you in the neighborhood"
+      },
+      {
+        "name": "Roger Mayer Octavia",
+        "type": "octave",
+        "matchId": "ehx-pog2",
+        "note": "Octave-up fuzz effect heard on Purple Haze and other psychedelic moments"
+      }
     ]
   },
   {
@@ -37,15 +97,50 @@
     "slug": "david-gilmour",
     "genre": "Progressive Rock / Art Rock",
     "description": "Gilmour's tone is all about sustain, space, and emotion. His massive pedalboard features multiple delays, a Big Muff for soaring leads, and subtle modulation. Every note breathes. His playing with Pink Floyd created some of the most recognizable guitar sounds in rock history.",
-    "famousSongs": ["Comfortably Numb", "Time", "Shine On You Crazy Diamond", "Money"],
+    "famousSongs": [
+      "Comfortably Numb",
+      "Time",
+      "Shine On You Crazy Diamond",
+      "Money"
+    ],
     "signatureSound": "Singing lead tones with enormous sustain, lush delay trails, and tasteful modulation. Clean tones shimmer with compression and chorus.",
     "pedals": [
-      {"name": "Electro-Harmonix Big Muff Pi", "type": "fuzz", "matchId": "ehx-big-muff", "note": "The Big Muff is essential for Gilmour's singing, sustaining lead tone"},
-      {"name": "Boss CS-2 Compressor", "type": "compressor", "matchId": "boss-cs3", "note": "CS-3 is the modern successor to Gilmour's CS-2 — adds sustain and polish"},
-      {"name": "MXR Dyna Comp", "type": "compressor", "matchId": "mxr-dyna-comp", "note": "Used alongside the Boss compressor for extra squeeze"},
-      {"name": "TC Electronic 2290 Delay", "type": "delay", "matchId": "strymon-timeline", "note": "Studio-grade digital delay — Timeline is the modern equivalent"},
-      {"name": "Boss RV-6 Reverb", "type": "reverb", "matchId": "boss-rv6", "note": "Lush reverb for those atmospheric Pink Floyd passages"},
-      {"name": "MXR Phase 90", "type": "phaser", "matchId": "mxr-phase90", "note": "Subtle phaser on clean passages — adds gentle movement"}
+      {
+        "name": "Electro-Harmonix Big Muff Pi",
+        "type": "fuzz",
+        "matchId": "ehx-big-muff",
+        "note": "The Big Muff is essential for Gilmour's singing, sustaining lead tone"
+      },
+      {
+        "name": "Boss CS-2 Compressor",
+        "type": "compressor",
+        "matchId": "boss-cs3",
+        "note": "CS-3 is the modern successor to Gilmour's CS-2 — adds sustain and polish"
+      },
+      {
+        "name": "MXR Dyna Comp",
+        "type": "compressor",
+        "matchId": "mxr-dyna-comp",
+        "note": "Used alongside the Boss compressor for extra squeeze"
+      },
+      {
+        "name": "TC Electronic 2290 Delay",
+        "type": "delay",
+        "matchId": "strymon-timeline",
+        "note": "Studio-grade digital delay — Timeline is the modern equivalent"
+      },
+      {
+        "name": "Boss RV-6 Reverb",
+        "type": "reverb",
+        "matchId": "boss-rv6",
+        "note": "Lush reverb for those atmospheric Pink Floyd passages"
+      },
+      {
+        "name": "MXR Phase 90",
+        "type": "phaser",
+        "matchId": "mxr-phase90",
+        "note": "Subtle phaser on clean passages — adds gentle movement"
+      }
     ]
   },
   {
@@ -54,15 +149,50 @@
     "slug": "the-edge",
     "genre": "Alternative Rock / Post-Punk",
     "description": "The Edge built his entire sound around delay. His rhythmic, dotted-eighth-note delays create the shimmering, atmospheric sound that defines U2. His rack system and pedalboard are among the most complex in rock, but the core idea is simple: delay as a compositional tool.",
-    "famousSongs": ["Where the Streets Have No Name", "With or Without You", "Pride (In the Name of Love)", "Sunday Bloody Sunday"],
+    "famousSongs": [
+      "Where the Streets Have No Name",
+      "With or Without You",
+      "Pride (In the Name of Love)",
+      "Sunday Bloody Sunday"
+    ],
     "signatureSound": "Shimmering, rhythmic delays that create cascading patterns. Clean tone with chiming overtones and atmospheric depth.",
     "pedals": [
-      {"name": "Boss DD-8 Digital Delay", "type": "delay", "matchId": "boss-dd8", "note": "The Edge uses multiple delays — DD series is a staple for the basic patterns"},
-      {"name": "Strymon Timeline", "type": "delay", "matchId": "strymon-timeline", "note": "For complex delay patterns and preset recall on stage"},
-      {"name": "Electro-Harmonix POG2", "type": "octave", "matchId": "ehx-pog2", "note": "Organ-like tones heard on songs like 'Mysterious Ways'"},
-      {"name": "Korg SDD-3000 Delay", "type": "delay", "matchId": "tc-flashback2", "note": "Legendary rack delay — Flashback 2 has an SDD preset"},
-      {"name": "TC Electronic Corona Chorus", "type": "chorus", "matchId": "tc-corona", "note": "Subtle chorus for stereo width"},
-      {"name": "Boss TU-3 Tuner", "type": "tuner", "matchId": "boss-tu3", "note": "Standard tuner — essential for keeping those delay patterns in tune"}
+      {
+        "name": "Boss DD-8 Digital Delay",
+        "type": "delay",
+        "matchId": "boss-dd8",
+        "note": "The Edge uses multiple delays — DD series is a staple for the basic patterns"
+      },
+      {
+        "name": "Strymon Timeline",
+        "type": "delay",
+        "matchId": "strymon-timeline",
+        "note": "For complex delay patterns and preset recall on stage"
+      },
+      {
+        "name": "Electro-Harmonix POG2",
+        "type": "octave",
+        "matchId": "ehx-pog2",
+        "note": "Organ-like tones heard on songs like 'Mysterious Ways'"
+      },
+      {
+        "name": "Korg SDD-3000 Delay",
+        "type": "delay",
+        "matchId": "tc-flashback2",
+        "note": "Legendary rack delay — Flashback 2 has an SDD preset"
+      },
+      {
+        "name": "TC Electronic Corona Chorus",
+        "type": "chorus",
+        "matchId": "tc-corona",
+        "note": "Subtle chorus for stereo width"
+      },
+      {
+        "name": "Boss TU-3 Tuner",
+        "type": "tuner",
+        "matchId": "boss-tu3",
+        "note": "Standard tuner — essential for keeping those delay patterns in tune"
+      }
     ]
   },
   {
@@ -71,13 +201,38 @@
     "slug": "kurt-cobain",
     "genre": "Grunge / Alternative",
     "description": "Cobain's setup was deliberately simple and raw. A Boss DS-1 or DS-2 for distortion, a Small Clone for the iconic 'Come As You Are' chorus, and that's about it. His approach proved you don't need a massive pedalboard to write songs that change the world.",
-    "famousSongs": ["Smells Like Teen Spirit", "Come As You Are", "Heart-Shaped Box", "Lithium"],
+    "famousSongs": [
+      "Smells Like Teen Spirit",
+      "Come As You Are",
+      "Heart-Shaped Box",
+      "Lithium"
+    ],
     "signatureSound": "Raw, aggressive distortion with dynamic clean-to-heavy shifts. Simple, effective use of chorus for haunting clean tones.",
     "pedals": [
-      {"name": "Boss DS-1 Distortion", "type": "distortion", "matchId": "boss-ds1", "note": "Cobain's go-to distortion — cheap, simple, effective"},
-      {"name": "Boss DS-2 Turbo Distortion", "type": "distortion", "matchId": "boss-ds1", "note": "Used in later years — the DS-1 is the closest in our database"},
-      {"name": "Electro-Harmonix Small Clone", "type": "chorus", "matchId": "ehx-small-clone", "note": "THE chorus sound on 'Come As You Are' — unmistakable"},
-      {"name": "Tech 21 SansAmp", "type": "distortion", "matchId": "boss-mt2", "note": "Used for recording — adds amp-like saturation to DI signal"}
+      {
+        "name": "Boss DS-1 Distortion",
+        "type": "distortion",
+        "matchId": "boss-ds1",
+        "note": "Cobain's go-to distortion — cheap, simple, effective"
+      },
+      {
+        "name": "Boss DS-2 Turbo Distortion",
+        "type": "distortion",
+        "matchId": "boss-ds1",
+        "note": "Used in later years — the DS-1 is the closest in our database"
+      },
+      {
+        "name": "Electro-Harmonix Small Clone",
+        "type": "chorus",
+        "matchId": "ehx-small-clone",
+        "note": "THE chorus sound on 'Come As You Are' — unmistakable"
+      },
+      {
+        "name": "Tech 21 SansAmp",
+        "type": "distortion",
+        "matchId": "boss-mt2",
+        "note": "Used for recording — adds amp-like saturation to DI signal"
+      }
     ]
   },
   {
@@ -86,14 +241,44 @@
     "slug": "john-frusciante",
     "genre": "Funk Rock / Alternative",
     "description": "Frusciante's tone blends funk, punk, and psychedelia. His board features a mix of vintage and modern effects with an emphasis on modulation and dynamic playing. His work with Red Hot Chili Peppers showcases one of the most expressive and varied guitar tones in rock.",
-    "famousSongs": ["Under the Bridge", "Snow (Hey Oh)", "Californication", "Can't Stop"],
+    "famousSongs": [
+      "Under the Bridge",
+      "Snow (Hey Oh)",
+      "Californication",
+      "Can't Stop"
+    ],
     "signatureSound": "Funky clean tones with expressive wah, thick fuzz for solos, and swirling vintage chorus and modulation.",
     "pedals": [
-      {"name": "Boss DS-2 Turbo Distortion", "type": "distortion", "matchId": "boss-ds1", "note": "His signature distortion pedal — the DS-1 is the closest match"},
-      {"name": "Ibanez WH10 Wah", "type": "wah", "matchId": "dunlop-crybaby", "note": "Unique vocal wah tone — Cry Baby is the standard, widely available alternative"},
-      {"name": "Boss CE-1 Chorus Ensemble", "type": "chorus", "matchId": "boss-ce5", "note": "Vintage stereo chorus — CE-5 is the modern Boss chorus pedal"},
-      {"name": "Electro-Harmonix Big Muff Pi", "type": "fuzz", "matchId": "ehx-big-muff", "note": "Used for heavy, sustaining fuzz tones on songs like 'Dani California'"},
-      {"name": "MXR Micro Amp", "type": "overdrive", "matchId": "ehx-soul-food", "note": "Clean boost for pushing the amp — Soul Food can serve as a transparent boost"}
+      {
+        "name": "Boss DS-2 Turbo Distortion",
+        "type": "distortion",
+        "matchId": "boss-ds1",
+        "note": "His signature distortion pedal — the DS-1 is the closest match"
+      },
+      {
+        "name": "Ibanez WH10 Wah",
+        "type": "wah",
+        "matchId": "dunlop-crybaby",
+        "note": "Unique vocal wah tone — Cry Baby is the standard, widely available alternative"
+      },
+      {
+        "name": "Boss CE-1 Chorus Ensemble",
+        "type": "chorus",
+        "matchId": "boss-ce5",
+        "note": "Vintage stereo chorus — CE-5 is the modern Boss chorus pedal"
+      },
+      {
+        "name": "Electro-Harmonix Big Muff Pi",
+        "type": "fuzz",
+        "matchId": "ehx-big-muff",
+        "note": "Used for heavy, sustaining fuzz tones on songs like 'Dani California'"
+      },
+      {
+        "name": "MXR Micro Amp",
+        "type": "overdrive",
+        "matchId": "ehx-soul-food",
+        "note": "Clean boost for pushing the amp — Soul Food can serve as a transparent boost"
+      }
     ]
   },
   {
@@ -102,15 +287,50 @@
     "slug": "justin-chancellor",
     "genre": "Progressive Metal / Alternative Metal",
     "description": "Tool's bassist Justin Chancellor uses an extensive array of effects to create the band's dark, hypnotic soundscapes. His playing is as much about texture and atmosphere as it is about groove. His rig produces sounds that blur the line between bass guitar and synthesizer.",
-    "famousSongs": ["Schism", "Lateralus", "Forty Six & 2", "Parabola"],
+    "famousSongs": [
+      "Schism",
+      "Lateralus",
+      "Forty Six & 2",
+      "Parabola"
+    ],
     "signatureSound": "Dark, growling bass with heavy distortion, delay-driven textures, and flanger creating an eerie, otherworldly quality.",
     "pedals": [
-      {"name": "Boss BF-2 Flanger", "type": "chorus", "matchId": "boss-ce5", "note": "Chancellor's signature flanger sound — the CE-5 covers modulation territory"},
-      {"name": "ProCo RAT", "type": "distortion", "matchId": "proco-rat2", "note": "Aggressive distortion for that grinding Tool bass tone"},
-      {"name": "Boss DD-3 Delay", "type": "delay", "matchId": "boss-dd7", "note": "Short delay for rhythmic patterns — DD-7 is the modern successor"},
-      {"name": "Electro-Harmonix Bass Big Muff", "type": "fuzz", "matchId": "ehx-big-muff", "note": "Massive fuzz for heavy breakdowns"},
-      {"name": "MXR M-108 10-Band EQ", "type": "eq", "matchId": "mxr-m108s", "note": "Shapes his bass tone precisely — same pedal in our database"},
-      {"name": "Dunlop Cry Baby Bass Wah", "type": "wah", "matchId": "dunlop-crybaby", "note": "Wah for those eerie vocal textures on songs like 'Schism'"}
+      {
+        "name": "Boss BF-2 Flanger",
+        "type": "chorus",
+        "matchId": "boss-ce5",
+        "note": "Chancellor's signature flanger sound — the CE-5 covers modulation territory"
+      },
+      {
+        "name": "ProCo RAT",
+        "type": "distortion",
+        "matchId": "proco-rat2",
+        "note": "Aggressive distortion for that grinding Tool bass tone"
+      },
+      {
+        "name": "Boss DD-3 Delay",
+        "type": "delay",
+        "matchId": "boss-dd7",
+        "note": "Short delay for rhythmic patterns — DD-7 is the modern successor"
+      },
+      {
+        "name": "Electro-Harmonix Bass Big Muff",
+        "type": "fuzz",
+        "matchId": "ehx-big-muff",
+        "note": "Massive fuzz for heavy breakdowns"
+      },
+      {
+        "name": "MXR M-108 10-Band EQ",
+        "type": "eq",
+        "matchId": "mxr-m108s",
+        "note": "Shapes his bass tone precisely — same pedal in our database"
+      },
+      {
+        "name": "Dunlop Cry Baby Bass Wah",
+        "type": "wah",
+        "matchId": "dunlop-crybaby",
+        "note": "Wah for those eerie vocal textures on songs like 'Schism'"
+      }
     ]
   },
   {
@@ -119,15 +339,50 @@
     "slug": "slash",
     "genre": "Hard Rock / Blues Rock",
     "description": "Slash's tone is the sound of hard rock itself. A Les Paul through a cranked Marshall with a wah pedal — that's the foundation. His pedalboard is relatively simple because his tone comes primarily from his fingers, his guitar, and his amp. The pedals are accents, not the main course.",
-    "famousSongs": ["Sweet Child O' Mine", "November Rain", "Paradise City", "Welcome to the Jungle"],
+    "famousSongs": [
+      "Sweet Child O' Mine",
+      "November Rain",
+      "Paradise City",
+      "Welcome to the Jungle"
+    ],
     "signatureSound": "Thick, creamy Marshall overdrive with singing sustain. Expressive wah for leads and a warm, woody clean tone.",
     "pedals": [
-      {"name": "Dunlop Cry Baby Wah", "type": "wah", "matchId": "dunlop-crybaby", "note": "Slash's signature wah — his name is literally on a Dunlop signature model"},
-      {"name": "MXR EQ", "type": "eq", "matchId": "boss-ge7", "note": "Shapes his amp tone — the GE-7 is a comparable graphic EQ"},
-      {"name": "Boss DD-3 Delay", "type": "delay", "matchId": "boss-dd7", "note": "Subtle delay for solos — DD-7 is the direct successor"},
-      {"name": "Boss CE-5 Chorus", "type": "chorus", "matchId": "boss-ce5", "note": "Chorus for clean sections — notably on 'Paradise City' intro"},
-      {"name": "MXR Dyna Comp", "type": "compressor", "matchId": "mxr-dyna-comp", "note": "Tightens his clean tone"},
-      {"name": "Dunlop Rotovibe", "type": "phaser", "matchId": "mxr-phase90", "note": "Uni-Vibe style modulation — Phase 90 captures similar movement"}
+      {
+        "name": "Dunlop Cry Baby Wah",
+        "type": "wah",
+        "matchId": "dunlop-crybaby",
+        "note": "Slash's signature wah — his name is literally on a Dunlop signature model"
+      },
+      {
+        "name": "MXR EQ",
+        "type": "eq",
+        "matchId": "boss-ge7",
+        "note": "Shapes his amp tone — the GE-7 is a comparable graphic EQ"
+      },
+      {
+        "name": "Boss DD-3 Delay",
+        "type": "delay",
+        "matchId": "boss-dd7",
+        "note": "Subtle delay for solos — DD-7 is the direct successor"
+      },
+      {
+        "name": "Boss CE-5 Chorus",
+        "type": "chorus",
+        "matchId": "boss-ce5",
+        "note": "Chorus for clean sections — notably on 'Paradise City' intro"
+      },
+      {
+        "name": "MXR Dyna Comp",
+        "type": "compressor",
+        "matchId": "mxr-dyna-comp",
+        "note": "Tightens his clean tone"
+      },
+      {
+        "name": "Dunlop Rotovibe",
+        "type": "phaser",
+        "matchId": "mxr-phase90",
+        "note": "Uni-Vibe style modulation — Phase 90 captures similar movement"
+      }
     ]
   },
   {
@@ -136,14 +391,44 @@
     "slug": "kevin-shields",
     "genre": "Shoegaze / Alternative",
     "description": "My Bloody Valentine's Kevin Shields created some of the most influential guitar sounds of the 20th century. His use of reverse reverb, heavy tremolo bar abuse, and walls of layered effects defined the entire shoegaze genre. His pedalboard is chaos by design.",
-    "famousSongs": ["Only Shallow", "When You Sleep", "Sometimes", "To Here Knows When"],
+    "famousSongs": [
+      "Only Shallow",
+      "When You Sleep",
+      "Sometimes",
+      "To Here Knows When"
+    ],
     "signatureSound": "Massive walls of reverb-drenched, pitch-bent noise. Reverse reverb, extreme tremolo bar vibrato, and layers of distorted shimmer.",
     "pedals": [
-      {"name": "Boss RV-3 Reverb/Delay", "type": "reverb", "matchId": "boss-rv6", "note": "Shields' most important pedal — the RV-6 continues the Boss reverb legacy"},
-      {"name": "EHX Small Clone Chorus", "type": "chorus", "matchId": "ehx-small-clone", "note": "Lush chorus adding width to the wall of sound"},
-      {"name": "Boss DS-1 Distortion", "type": "distortion", "matchId": "boss-ds1", "note": "Surprisingly simple gain pedal driving those massive textures"},
-      {"name": "Boss TR-2 Tremolo", "type": "tremolo", "matchId": "boss-tr2", "note": "Tremolo adding rhythmic pulsing to the ambient wash"},
-      {"name": "Electro-Harmonix Big Muff Pi", "type": "fuzz", "matchId": "ehx-big-muff", "note": "Thick, sustaining fuzz for shoegaze walls of sound"}
+      {
+        "name": "Boss RV-3 Reverb/Delay",
+        "type": "reverb",
+        "matchId": "boss-rv6",
+        "note": "Shields' most important pedal — the RV-6 continues the Boss reverb legacy"
+      },
+      {
+        "name": "EHX Small Clone Chorus",
+        "type": "chorus",
+        "matchId": "ehx-small-clone",
+        "note": "Lush chorus adding width to the wall of sound"
+      },
+      {
+        "name": "Boss DS-1 Distortion",
+        "type": "distortion",
+        "matchId": "boss-ds1",
+        "note": "Surprisingly simple gain pedal driving those massive textures"
+      },
+      {
+        "name": "Boss TR-2 Tremolo",
+        "type": "tremolo",
+        "matchId": "boss-tr2",
+        "note": "Tremolo adding rhythmic pulsing to the ambient wash"
+      },
+      {
+        "name": "Electro-Harmonix Big Muff Pi",
+        "type": "fuzz",
+        "matchId": "ehx-big-muff",
+        "note": "Thick, sustaining fuzz for shoegaze walls of sound"
+      }
     ]
   },
   {
@@ -152,14 +437,44 @@
     "slug": "tom-morello",
     "genre": "Alternative Metal / Rap Rock",
     "description": "Morello treats the guitar like a turntable, a synthesizer, and a weapon. His unconventional techniques — toggle switch kills, feedback manipulation, and creative effects routing — made Rage Against the Machine one of the most sonically inventive bands in rock.",
-    "famousSongs": ["Killing in the Name", "Bulls on Parade", "Guerrilla Radio", "Like a Stone"],
+    "famousSongs": [
+      "Killing in the Name",
+      "Bulls on Parade",
+      "Guerrilla Radio",
+      "Like a Stone"
+    ],
     "signatureSound": "DJ-like scratching effects via toggle switch, screaming wah solos, heavy dropped-D riffs with minimal effects but maximum impact.",
     "pedals": [
-      {"name": "Dunlop Cry Baby Wah", "type": "wah", "matchId": "dunlop-crybaby", "note": "Essential for Morello's aggressive, screaming lead tones"},
-      {"name": "DigiTech Whammy", "type": "octave", "matchId": "ehx-pog2", "note": "Pitch-shifting for those wild, otherworldly sounds — POG2 covers octave territory"},
-      {"name": "Boss DD-3 Delay", "type": "delay", "matchId": "boss-dd7", "note": "Delay for spacey textures and rhythmic patterns"},
-      {"name": "MXR Phase 90", "type": "phaser", "matchId": "mxr-phase90", "note": "Sweeping phaser on clean sections"},
-      {"name": "Boss EQ", "type": "eq", "matchId": "boss-ge7", "note": "Tone shaping for different guitar/amp combinations"}
+      {
+        "name": "Dunlop Cry Baby Wah",
+        "type": "wah",
+        "matchId": "dunlop-crybaby",
+        "note": "Essential for Morello's aggressive, screaming lead tones"
+      },
+      {
+        "name": "DigiTech Whammy",
+        "type": "octave",
+        "matchId": "ehx-pog2",
+        "note": "Pitch-shifting for those wild, otherworldly sounds — POG2 covers octave territory"
+      },
+      {
+        "name": "Boss DD-3 Delay",
+        "type": "delay",
+        "matchId": "boss-dd7",
+        "note": "Delay for spacey textures and rhythmic patterns"
+      },
+      {
+        "name": "MXR Phase 90",
+        "type": "phaser",
+        "matchId": "mxr-phase90",
+        "note": "Sweeping phaser on clean sections"
+      },
+      {
+        "name": "Boss EQ",
+        "type": "eq",
+        "matchId": "boss-ge7",
+        "note": "Tone shaping for different guitar/amp combinations"
+      }
     ]
   },
   {
@@ -168,14 +483,44 @@
     "slug": "eddie-van-halen",
     "genre": "Hard Rock / Glam Metal",
     "description": "Eddie Van Halen revolutionized electric guitar with his tapping technique, divebombs, and the iconic 'brown sound.' His rig was famously modified and experimental — he wired his own pickups, ran a variac on his Marshall, and used minimal effects to get maximum tone.",
-    "famousSongs": ["Eruption", "Jump", "Panama", "Hot for Teacher"],
+    "famousSongs": [
+      "Eruption",
+      "Jump",
+      "Panama",
+      "Hot for Teacher"
+    ],
     "signatureSound": "The 'brown sound' — warm, harmonically rich overdrive from a modified Marshall. Bright, attacking leads with extreme sustain and controlled feedback.",
     "pedals": [
-      {"name": "MXR Phase 90", "type": "phaser", "matchId": "mxr-phase90", "note": "The Phase 90 is all over Van Halen I — 'Ain't Talkin' 'Bout Love', 'Eruption'"},
-      {"name": "MXR Flanger", "type": "chorus", "matchId": "boss-ce5", "note": "Jet-like flanging on 'Unchained' — CE-5 covers modulation basics"},
-      {"name": "Boss OC-3 Octave", "type": "octave", "matchId": "boss-oc5", "note": "Octave effects for heavier passages — OC-5 is the latest Boss octave"},
-      {"name": "Dunlop Cry Baby", "type": "wah", "matchId": "dunlop-crybaby", "note": "Wah for specific solo moments"},
-      {"name": "MXR EQ", "type": "eq", "matchId": "boss-ge7", "note": "Tone sculpting for the brown sound"}
+      {
+        "name": "MXR Phase 90",
+        "type": "phaser",
+        "matchId": "mxr-phase90",
+        "note": "The Phase 90 is all over Van Halen I — 'Ain't Talkin' 'Bout Love', 'Eruption'"
+      },
+      {
+        "name": "MXR Flanger",
+        "type": "chorus",
+        "matchId": "boss-ce5",
+        "note": "Jet-like flanging on 'Unchained' — CE-5 covers modulation basics"
+      },
+      {
+        "name": "Boss OC-3 Octave",
+        "type": "octave",
+        "matchId": "boss-oc5",
+        "note": "Octave effects for heavier passages — OC-5 is the latest Boss octave"
+      },
+      {
+        "name": "Dunlop Cry Baby",
+        "type": "wah",
+        "matchId": "dunlop-crybaby",
+        "note": "Wah for specific solo moments"
+      },
+      {
+        "name": "MXR EQ",
+        "type": "eq",
+        "matchId": "boss-ge7",
+        "note": "Tone sculpting for the brown sound"
+      }
     ]
   },
   {
@@ -184,13 +529,38 @@
     "slug": "jack-white",
     "genre": "Garage Rock / Blues Rock / Alternative",
     "description": "Jack White embraces raw, lo-fi tone with a punk attitude. From The White Stripes through The Raconteurs and solo work, his setup is deliberately rough around the edges. Cheap guitars, heavy effects, and a 'broken is beautiful' philosophy.",
-    "famousSongs": ["Seven Nation Army", "Icky Thump", "Ball and Biscuit", "Steady, as She Goes"],
+    "famousSongs": [
+      "Seven Nation Army",
+      "Icky Thump",
+      "Ball and Biscuit",
+      "Steady, as She Goes"
+    ],
     "signatureSound": "Raw, aggressive fuzz and octave effects with a lo-fi, garage-band aesthetic. Heavy distortion meets blues feel.",
     "pedals": [
-      {"name": "Electro-Harmonix Big Muff Pi", "type": "fuzz", "matchId": "ehx-big-muff", "note": "Jack White's go-to fuzz for that thick, buzzy distortion"},
-      {"name": "Electro-Harmonix POG", "type": "octave", "matchId": "ehx-pog2", "note": "Octave effects for the iconic Seven Nation Army bass line (played on guitar)"},
-      {"name": "DigiTech Whammy", "type": "octave", "matchId": "ehx-pog2", "note": "Pitch-shifting for wild solo textures"},
-      {"name": "Boss TU-3 Tuner", "type": "tuner", "matchId": "boss-tu3", "note": "Even lo-fi players need to tune up"}
+      {
+        "name": "Electro-Harmonix Big Muff Pi",
+        "type": "fuzz",
+        "matchId": "ehx-big-muff",
+        "note": "Jack White's go-to fuzz for that thick, buzzy distortion"
+      },
+      {
+        "name": "Electro-Harmonix POG",
+        "type": "octave",
+        "matchId": "ehx-pog2",
+        "note": "Octave effects for the iconic Seven Nation Army bass line (played on guitar)"
+      },
+      {
+        "name": "DigiTech Whammy",
+        "type": "octave",
+        "matchId": "ehx-pog2",
+        "note": "Pitch-shifting for wild solo textures"
+      },
+      {
+        "name": "Boss TU-3 Tuner",
+        "type": "tuner",
+        "matchId": "boss-tu3",
+        "note": "Even lo-fi players need to tune up"
+      }
     ]
   },
   {
@@ -199,14 +569,44 @@
     "slug": "josh-homme",
     "genre": "Stoner Rock / Desert Rock / Alternative",
     "description": "Queens of the Stone Age frontman Josh Homme has one of the most distinctive guitar tones in modern rock. Tuned to C-standard with a mid-heavy EQ and tight, gated distortion, his sound is heavy without being traditionally 'metal.'",
-    "famousSongs": ["No One Knows", "Go with the Flow", "Little Sister", "Song for the Dead"],
+    "famousSongs": [
+      "No One Knows",
+      "Go with the Flow",
+      "Little Sister",
+      "Song for the Dead"
+    ],
     "signatureSound": "Tight, mid-heavy distortion with a scooped-then-boosted EQ. Rhythmically precise, almost robotic tightness with an aggressive edge.",
     "pedals": [
-      {"name": "Boss GE-7 EQ", "type": "eq", "matchId": "boss-ge7", "note": "Critical to Homme's mid-heavy tone sculpting — exact match in our database"},
-      {"name": "Fulltone OCD", "type": "overdrive", "matchId": "jhs-morning-glory", "note": "Dynamic overdrive — Morning Glory provides similar transparent drive"},
-      {"name": "Boss TR-2 Tremolo", "type": "tremolo", "matchId": "boss-tr2", "note": "Tremolo on 'No One Knows' and other QOTSA tracks"},
-      {"name": "Boss DD-7 Delay", "type": "delay", "matchId": "boss-dd7", "note": "Subtle delay for depth — exact match in our database"},
-      {"name": "MXR Phase 90", "type": "phaser", "matchId": "mxr-phase90", "note": "Occasional phaser for psychedelic passages"}
+      {
+        "name": "Boss GE-7 EQ",
+        "type": "eq",
+        "matchId": "boss-ge7",
+        "note": "Critical to Homme's mid-heavy tone sculpting — exact match in our database"
+      },
+      {
+        "name": "Fulltone OCD",
+        "type": "overdrive",
+        "matchId": "jhs-morning-glory",
+        "note": "Dynamic overdrive — Morning Glory provides similar transparent drive"
+      },
+      {
+        "name": "Boss TR-2 Tremolo",
+        "type": "tremolo",
+        "matchId": "boss-tr2",
+        "note": "Tremolo on 'No One Knows' and other QOTSA tracks"
+      },
+      {
+        "name": "Boss DD-7 Delay",
+        "type": "delay",
+        "matchId": "boss-dd7",
+        "note": "Subtle delay for depth — exact match in our database"
+      },
+      {
+        "name": "MXR Phase 90",
+        "type": "phaser",
+        "matchId": "mxr-phase90",
+        "note": "Occasional phaser for psychedelic passages"
+      }
     ]
   },
   {
@@ -215,15 +615,50 @@
     "slug": "tame-impala",
     "genre": "Psychedelic Rock / Synth Pop",
     "description": "Kevin Parker single-handedly records Tame Impala's albums, layering guitars with heavy phasing, reverb, and tape-style effects. His sound bridges 60s psychedelia and modern production, creating dense, swirling sonic landscapes.",
-    "famousSongs": ["Let It Happen", "The Less I Know the Better", "Elephant", "Feels Like We Only Go Backwards"],
+    "famousSongs": [
+      "Let It Happen",
+      "The Less I Know the Better",
+      "Elephant",
+      "Feels Like We Only Go Backwards"
+    ],
     "signatureSound": "Heavy phaser and flanger modulation, drenched in reverb with a vintage, lo-fi warmth. Drums and guitars processed to sound like they're melting.",
     "pedals": [
-      {"name": "Electro-Harmonix Small Stone Phaser", "type": "phaser", "matchId": "ehx-small-stone", "note": "Kevin Parker's go-to phaser — exact match in our database"},
-      {"name": "Boss RV-6 Reverb", "type": "reverb", "matchId": "boss-rv6", "note": "Lush reverb for psychedelic washes"},
-      {"name": "Boss DS-1 Distortion", "type": "distortion", "matchId": "boss-ds1", "note": "Simple, effective distortion for heavier sections"},
-      {"name": "Boss DD-7 Delay", "type": "delay", "matchId": "boss-dd7", "note": "Tape-style delay repeats that degrade naturally"},
-      {"name": "Electro-Harmonix Big Muff Pi", "type": "fuzz", "matchId": "ehx-big-muff", "note": "Fuzzy sustain for the 'Elephant' riff and similar heavy moments"},
-      {"name": "Boss TR-2 Tremolo", "type": "tremolo", "matchId": "boss-tr2", "note": "Pulsing tremolo adding movement to clean passages"}
+      {
+        "name": "Electro-Harmonix Small Stone Phaser",
+        "type": "phaser",
+        "matchId": "ehx-small-stone",
+        "note": "Kevin Parker's go-to phaser — exact match in our database"
+      },
+      {
+        "name": "Boss RV-6 Reverb",
+        "type": "reverb",
+        "matchId": "boss-rv6",
+        "note": "Lush reverb for psychedelic washes"
+      },
+      {
+        "name": "Boss DS-1 Distortion",
+        "type": "distortion",
+        "matchId": "boss-ds1",
+        "note": "Simple, effective distortion for heavier sections"
+      },
+      {
+        "name": "Boss DD-7 Delay",
+        "type": "delay",
+        "matchId": "boss-dd7",
+        "note": "Tape-style delay repeats that degrade naturally"
+      },
+      {
+        "name": "Electro-Harmonix Big Muff Pi",
+        "type": "fuzz",
+        "matchId": "ehx-big-muff",
+        "note": "Fuzzy sustain for the 'Elephant' riff and similar heavy moments"
+      },
+      {
+        "name": "Boss TR-2 Tremolo",
+        "type": "tremolo",
+        "matchId": "boss-tr2",
+        "note": "Pulsing tremolo adding movement to clean passages"
+      }
     ]
   },
   {
@@ -232,13 +667,38 @@
     "slug": "noel-gallagher",
     "genre": "Britpop / Alternative Rock",
     "description": "Oasis guitarist Noel Gallagher kept things simple: Les Paul, Marshall, and a few key effects. His approach to tone was no-nonsense British rock — big chords, catchy melodies, and enough gain to fill stadiums without overcomplicating things.",
-    "famousSongs": ["Wonderwall", "Don't Look Back in Anger", "Live Forever", "Champagne Supernova"],
+    "famousSongs": [
+      "Wonderwall",
+      "Don't Look Back in Anger",
+      "Live Forever",
+      "Champagne Supernova"
+    ],
     "signatureSound": "Thick British crunch from Les Paul into Marshall, with delay and chorus for stadium-sized atmosphere.",
     "pedals": [
-      {"name": "Boss DS-1 Distortion", "type": "distortion", "matchId": "boss-ds1", "note": "Gallagher's main distortion — same pedal, same attitude"},
-      {"name": "Boss DD-3 Delay", "type": "delay", "matchId": "boss-dd7", "note": "Delay for those epic, anthemic outros"},
-      {"name": "Boss CE-5 Chorus", "type": "chorus", "matchId": "boss-ce5", "note": "Chorus on 'Champagne Supernova' and other atmospheric tracks"},
-      {"name": "Boss TU-2 Tuner", "type": "tuner", "matchId": "boss-tu3", "note": "Standard Boss tuner — TU-3 is the current version"}
+      {
+        "name": "Boss DS-1 Distortion",
+        "type": "distortion",
+        "matchId": "boss-ds1",
+        "note": "Gallagher's main distortion — same pedal, same attitude"
+      },
+      {
+        "name": "Boss DD-3 Delay",
+        "type": "delay",
+        "matchId": "boss-dd7",
+        "note": "Delay for those epic, anthemic outros"
+      },
+      {
+        "name": "Boss CE-5 Chorus",
+        "type": "chorus",
+        "matchId": "boss-ce5",
+        "note": "Chorus on 'Champagne Supernova' and other atmospheric tracks"
+      },
+      {
+        "name": "Boss TU-2 Tuner",
+        "type": "tuner",
+        "matchId": "boss-tu3",
+        "note": "Standard Boss tuner — TU-3 is the current version"
+      }
     ]
   },
   {
@@ -247,13 +707,38 @@
     "slug": "dimebag-darrell",
     "genre": "Groove Metal / Thrash Metal",
     "description": "Pantera's Dimebag Darrell had one of the heaviest, most distinctive guitar tones in metal history. His scooped MXR EQ, the Randall amp's brutal gain, and his aggressive playing style created a sound that was both crushing and melodically expressive.",
-    "famousSongs": ["Walk", "Cowboys from Hell", "Cemetery Gates", "Floods"],
+    "famousSongs": [
+      "Walk",
+      "Cowboys from Hell",
+      "Cemetery Gates",
+      "Floods"
+    ],
     "signatureSound": "Extremely scooped mids with crushing high-gain. Razor-sharp harmonics, dramatic wah solos, and that iconic 'buzzing chainsaw' rhythm tone.",
     "pedals": [
-      {"name": "MXR M-108 10-Band EQ", "type": "eq", "matchId": "mxr-m108s", "note": "THE Dimebag tone secret — scooped mids, boosted highs and lows. Exact match."},
-      {"name": "Dunlop Cry Baby from Hell", "type": "wah", "matchId": "dunlop-crybaby", "note": "Signature wah for his legendary solos"},
-      {"name": "MXR Flanger", "type": "chorus", "matchId": "boss-ce5", "note": "Flanging on specific solos and clean sections"},
-      {"name": "Boss NS-2 Noise Suppressor", "type": "eq", "matchId": "boss-ge7", "note": "Taming the noise from extreme gain settings"}
+      {
+        "name": "MXR M-108 10-Band EQ",
+        "type": "eq",
+        "matchId": "mxr-m108s",
+        "note": "THE Dimebag tone secret — scooped mids, boosted highs and lows. Exact match."
+      },
+      {
+        "name": "Dunlop Cry Baby from Hell",
+        "type": "wah",
+        "matchId": "dunlop-crybaby",
+        "note": "Signature wah for his legendary solos"
+      },
+      {
+        "name": "MXR Flanger",
+        "type": "chorus",
+        "matchId": "boss-ce5",
+        "note": "Flanging on specific solos and clean sections"
+      },
+      {
+        "name": "Boss NS-2 Noise Suppressor",
+        "type": "eq",
+        "matchId": "boss-ge7",
+        "note": "Taming the noise from extreme gain settings"
+      }
     ]
   },
   {
@@ -262,14 +747,44 @@
     "slug": "billy-corgan",
     "genre": "Alternative Rock / Shoegaze",
     "description": "Smashing Pumpkins frontman Billy Corgan layered multiple Big Muffs and Op-Amps to create walls of thick, buzzing fuzz that became the band's signature. His approach was more-is-more: stack effects, layer guitars, and bury everything in gain.",
-    "famousSongs": ["Cherub Rock", "Today", "1979", "Bullet with Butterfly Wings"],
+    "famousSongs": [
+      "Cherub Rock",
+      "Today",
+      "1979",
+      "Bullet with Butterfly Wings"
+    ],
     "signatureSound": "Walls of layered fuzz with a buzzing, sustained quality. Multiple distorted guitar tracks creating a massive, enveloping sound.",
     "pedals": [
-      {"name": "EHX Op-Amp Big Muff", "type": "fuzz", "matchId": "ehx-big-muff", "note": "Corgan's primary fuzz — the Big Muff is the foundation of the Pumpkins' sound"},
-      {"name": "Boss DS-1 Distortion", "type": "distortion", "matchId": "boss-ds1", "note": "Additional gain stage for stacking"},
-      {"name": "MXR Phase 90", "type": "phaser", "matchId": "mxr-phase90", "note": "Phaser for swirling psychedelic textures"},
-      {"name": "EHX Small Clone Chorus", "type": "chorus", "matchId": "ehx-small-clone", "note": "Lush chorus on cleaner passages like '1979'"},
-      {"name": "Boss DD-3 Delay", "type": "delay", "matchId": "boss-dd7", "note": "Delay for ambient buildup sections"}
+      {
+        "name": "EHX Op-Amp Big Muff",
+        "type": "fuzz",
+        "matchId": "ehx-big-muff",
+        "note": "Corgan's primary fuzz — the Big Muff is the foundation of the Pumpkins' sound"
+      },
+      {
+        "name": "Boss DS-1 Distortion",
+        "type": "distortion",
+        "matchId": "boss-ds1",
+        "note": "Additional gain stage for stacking"
+      },
+      {
+        "name": "MXR Phase 90",
+        "type": "phaser",
+        "matchId": "mxr-phase90",
+        "note": "Phaser for swirling psychedelic textures"
+      },
+      {
+        "name": "EHX Small Clone Chorus",
+        "type": "chorus",
+        "matchId": "ehx-small-clone",
+        "note": "Lush chorus on cleaner passages like '1979'"
+      },
+      {
+        "name": "Boss DD-3 Delay",
+        "type": "delay",
+        "matchId": "boss-dd7",
+        "note": "Delay for ambient buildup sections"
+      }
     ]
   },
   {
@@ -278,12 +793,32 @@
     "slug": "kirk-hammett",
     "genre": "Thrash Metal / Heavy Metal",
     "description": "Metallica's lead guitarist Kirk Hammett is famous for two things: his wah pedal and his shredding solos. His wah-driven lead tone is instantly recognizable, and his Dunlop signature wah is one of the best-selling pedals of all time.",
-    "famousSongs": ["Enter Sandman", "One", "Master of Puppets", "Fade to Black"],
+    "famousSongs": [
+      "Enter Sandman",
+      "One",
+      "Master of Puppets",
+      "Fade to Black"
+    ],
     "signatureSound": "High-gain metal rhythm with aggressive, wah-soaked lead tones. Precise, fast alternate picking with melodic phrasing.",
     "pedals": [
-      {"name": "Dunlop KH95X Kirk Hammett Wah", "type": "wah", "matchId": "dunlop-crybaby", "note": "His signature wah — the standard Cry Baby is the affordable starting point"},
-      {"name": "Boss DD-3 Delay", "type": "delay", "matchId": "boss-dd7", "note": "Subtle delay on solos for added depth"},
-      {"name": "Boss TU-3 Tuner", "type": "tuner", "matchId": "boss-tu3", "note": "Staying in tune with drop-D and standard tuning"}
+      {
+        "name": "Dunlop KH95X Kirk Hammett Wah",
+        "type": "wah",
+        "matchId": "dunlop-crybaby",
+        "note": "His signature wah — the standard Cry Baby is the affordable starting point"
+      },
+      {
+        "name": "Boss DD-3 Delay",
+        "type": "delay",
+        "matchId": "boss-dd7",
+        "note": "Subtle delay on solos for added depth"
+      },
+      {
+        "name": "Boss TU-3 Tuner",
+        "type": "tuner",
+        "matchId": "boss-tu3",
+        "note": "Staying in tune with drop-D and standard tuning"
+      }
     ]
   },
   {
@@ -292,14 +827,44 @@
     "slug": "andy-summers",
     "genre": "New Wave / Reggae Rock",
     "description": "The Police guitarist Andy Summers created a completely unique guitar sound with sparse, effects-heavy playing. His use of chorus, delay, and compression turned simple chord voicings into shimmering, atmospheric textures that influenced generations of guitarists.",
-    "famousSongs": ["Every Breath You Take", "Message in a Bottle", "Roxanne", "Walking on the Moon"],
+    "famousSongs": [
+      "Every Breath You Take",
+      "Message in a Bottle",
+      "Roxanne",
+      "Walking on the Moon"
+    ],
     "signatureSound": "Shimmering clean tones with heavy chorus and compression. Sparse, jazzy chord voicings drenched in modulation and delay.",
     "pedals": [
-      {"name": "Roland Jazz Chorus (built-in chorus)", "type": "chorus", "matchId": "boss-ce5", "note": "Summers' chorus came from the amp — CE-5 recreates that Boss-style chorus"},
-      {"name": "MXR Dyna Comp", "type": "compressor", "matchId": "mxr-dyna-comp", "note": "Heavy compression for that squeezed, sustained clean tone"},
-      {"name": "EHX Electric Mistress Flanger", "type": "chorus", "matchId": "ehx-small-clone", "note": "Flanger for the shimmering texture on 'Walking on the Moon'"},
-      {"name": "Boss DD-2 Delay", "type": "delay", "matchId": "boss-dd7", "note": "Rhythmic delay patterns — DD-7 continues the Boss delay tradition"},
-      {"name": "MXR Phase 90", "type": "phaser", "matchId": "mxr-phase90", "note": "Subtle phasing adding movement to clean chord work"}
+      {
+        "name": "Roland Jazz Chorus (built-in chorus)",
+        "type": "chorus",
+        "matchId": "boss-ce5",
+        "note": "Summers' chorus came from the amp — CE-5 recreates that Boss-style chorus"
+      },
+      {
+        "name": "MXR Dyna Comp",
+        "type": "compressor",
+        "matchId": "mxr-dyna-comp",
+        "note": "Heavy compression for that squeezed, sustained clean tone"
+      },
+      {
+        "name": "EHX Electric Mistress Flanger",
+        "type": "chorus",
+        "matchId": "ehx-small-clone",
+        "note": "Flanger for the shimmering texture on 'Walking on the Moon'"
+      },
+      {
+        "name": "Boss DD-2 Delay",
+        "type": "delay",
+        "matchId": "boss-dd7",
+        "note": "Rhythmic delay patterns — DD-7 continues the Boss delay tradition"
+      },
+      {
+        "name": "MXR Phase 90",
+        "type": "phaser",
+        "matchId": "mxr-phase90",
+        "note": "Subtle phasing adding movement to clean chord work"
+      }
     ]
   },
   {
@@ -308,15 +873,215 @@
     "slug": "st-vincent",
     "genre": "Art Rock / Experimental",
     "description": "Annie Clark pushes guitar into unexpected territory. Her playing combines angular, dissonant riffs with warm clean tones and heavy, synth-like distortion. She designed her own Ernie Ball signature guitar specifically to accommodate her effects-driven approach.",
-    "famousSongs": ["Strange Mercy", "Cruel", "Los Ageless", "Digital Witness"],
+    "famousSongs": [
+      "Strange Mercy",
+      "Cruel",
+      "Los Ageless",
+      "Digital Witness"
+    ],
     "signatureSound": "Angular, synth-like distortion paired with clean, jazzy chord work. Unpredictable dynamics and creative use of octave and pitch effects.",
     "pedals": [
-      {"name": "Boss OC-3 Octave", "type": "octave", "matchId": "boss-oc5", "note": "Synth-like octave bass tones — OC-5 is the latest version"},
-      {"name": "Electro-Harmonix Big Muff Pi", "type": "fuzz", "matchId": "ehx-big-muff", "note": "Thick fuzz for her heavier moments"},
-      {"name": "Boss CE-5 Chorus", "type": "chorus", "matchId": "boss-ce5", "note": "Chorus for clean shimmer"},
-      {"name": "Boss RV-6 Reverb", "type": "reverb", "matchId": "boss-rv6", "note": "Atmospheric reverb for ambient passages"},
-      {"name": "Boss DD-7 Delay", "type": "delay", "matchId": "boss-dd7", "note": "Delay for textural layers — exact match in our database"},
-      {"name": "Boss TU-3 Tuner", "type": "tuner", "matchId": "boss-tu3", "note": "Standard tuner"}
+      {
+        "name": "Boss OC-3 Octave",
+        "type": "octave",
+        "matchId": "boss-oc5",
+        "note": "Synth-like octave bass tones — OC-5 is the latest version"
+      },
+      {
+        "name": "Electro-Harmonix Big Muff Pi",
+        "type": "fuzz",
+        "matchId": "ehx-big-muff",
+        "note": "Thick fuzz for her heavier moments"
+      },
+      {
+        "name": "Boss CE-5 Chorus",
+        "type": "chorus",
+        "matchId": "boss-ce5",
+        "note": "Chorus for clean shimmer"
+      },
+      {
+        "name": "Boss RV-6 Reverb",
+        "type": "reverb",
+        "matchId": "boss-rv6",
+        "note": "Atmospheric reverb for ambient passages"
+      },
+      {
+        "name": "Boss DD-7 Delay",
+        "type": "delay",
+        "matchId": "boss-dd7",
+        "note": "Delay for textural layers — exact match in our database"
+      },
+      {
+        "name": "Boss TU-3 Tuner",
+        "type": "tuner",
+        "matchId": "boss-tu3",
+        "note": "Standard tuner"
+      }
     ]
+  },
+  {
+    "slug": "adam-jones",
+    "name": "Adam Jones",
+    "genre": "Progressive Metal",
+    "signatureSound": "Dark, heavy, and textural tones with complex rhythmic patterns",
+    "pedals": [
+      {
+        "name": "Diezel VH4",
+        "type": "Amplifier",
+        "note": "Primary amp for Tool's crushing rhythm tones",
+        "matchId": "diezel-vh4"
+      },
+      {
+        "name": "Boss DD-3 Digital Delay",
+        "type": "Delay",
+        "note": "Used for slapback and ambient textures",
+        "matchId": "boss-dd3"
+      },
+      {
+        "name": "MXR Flanger",
+        "type": "Modulation",
+        "note": "Adds swirling psychedelic textures",
+        "matchId": "mxr-flanger"
+      },
+      {
+        "name": "Dunlop Cry Baby Wah",
+        "type": "Wah",
+        "note": "Used sparingly for expressive lead passages",
+        "matchId": "dunlop-crybaby"
+      },
+      {
+        "name": "Boss BF-2 Flanger",
+        "type": "Modulation",
+        "note": "Classic flanger for swirling tones",
+        "matchId": "boss-bf2"
+      },
+      {
+        "name": "MXR EVH Phase 90",
+        "type": "Modulation",
+        "note": "Subtle phasing for added movement",
+        "matchId": "mxr-phase90"
+      },
+      {
+        "name": "Boss CE-5 Chorus Ensemble",
+        "type": "Modulation",
+        "note": "Lush chorus for clean passages",
+        "matchId": "boss-ce5"
+      },
+      {
+        "name": "Klon Centaur",
+        "type": "Overdrive",
+        "note": "Transparent boost for lead tones",
+        "matchId": "klon-centaur"
+      }
+    ],
+    "description": "Adam Jones is the guitarist of Tool, known for his dark, heavy, and atmospheric guitar work. His playing style combines drop-D tuning with complex time signatures and textural effects to create Tool's signature progressive metal sound. Jones favors a relatively simple pedalboard compared to his complex music, relying primarily on his Diezel VH4 amplifier for his core tone and using effects sparingly for specific sonic textures. His approach proves that sometimes less is more — even in progressive metal.",
+    "famousSongs": [
+      "Schism",
+      "Lateralus",
+      "Forty Six & 2",
+      "Stinkfist",
+      "The Pot"
+    ],
+    "id": "adam-jones"
+  },
+  {
+    "slug": "prince",
+    "name": "Prince",
+    "genre": "Funk / Rock / Pop",
+    "signatureSound": "Funky, expressive, and wildly diverse tones spanning funk, rock, and R&B",
+    "pedals": [
+      {
+        "name": "Boss DS-1 Distortion",
+        "type": "Distortion",
+        "note": "Used on countless Prince recordings for gritty rock tones",
+        "matchId": "boss-ds1"
+      },
+      {
+        "name": "Dunlop Cry Baby Wah",
+        "type": "Wah",
+        "note": "Essential for Prince's funky wah-driven rhythms",
+        "matchId": "dunlop-crybaby"
+      },
+      {
+        "name": "Boss CE-2 Chorus",
+        "type": "Modulation",
+        "note": "Lush chorus for clean funk tones — hear it on 'Kiss'",
+        "matchId": "boss-ce2"
+      },
+      {
+        "name": "MXR Phase 90",
+        "type": "Modulation",
+        "note": "Classic phaser for that swirling funk sound",
+        "matchId": "mxr-phase90"
+      },
+      {
+        "name": "Boss OC-2 Octaver",
+        "type": "Pitch",
+        "note": "Octave-down for bass-like guitar parts",
+        "matchId": "boss-oc2"
+      },
+      {
+        "name": "Electro-Harmonix Big Muff",
+        "type": "Fuzz",
+        "note": "Thick fuzz for heavy rock moments",
+        "matchId": "ehx-big-muff"
+      },
+      {
+        "name": "Boss DD-3 Digital Delay",
+        "type": "Delay",
+        "note": "Used for slapback and ambient effects",
+        "matchId": "boss-dd3"
+      },
+      {
+        "name": "MXR Micro Amp",
+        "type": "Boost",
+        "note": "Clean boost for solos that cut through the mix",
+        "matchId": "mxr-micro-amp"
+      }
+    ],
+    "description": "Prince was one of the most versatile guitarists in music history, seamlessly blending funk, rock, pop, R&B, and psychedelia into his own unique sound. His pedalboard reflected this versatility — featuring a mix of classic Boss and MXR effects that allowed him to shift from clean funk rhythms to screaming rock solos within the same song. Prince's guitar tone on tracks like 'Purple Rain', 'Kiss', and 'When Doves Cry' showcased his mastery of using effects tastefully. He favored simplicity and reliability, often using the same trusted pedals throughout his career while making them sound completely different through his extraordinary playing technique.",
+    "famousSongs": [
+      "Purple Rain",
+      "Kiss",
+      "When Doves Cry",
+      "Little Red Corvette",
+      "Let's Go Crazy"
+    ],
+    "id": "prince"
+  },
+  {
+    "slug": "vertex-effects",
+    "name": "Vertex Effects",
+    "genre": "Various",
+    "signatureSound": "Premium boutique tones with studio-quality clarity",
+    "pedals": [
+      {
+        "name": "Vertex Ultraphonix MKII",
+        "type": "Overdrive",
+        "note": "Flagship overdrive — transparent, dynamic, and touch-responsive",
+        "matchId": "vertex-ultraphonix"
+      },
+      {
+        "name": "Vertex Steel String Clean Drive",
+        "type": "Overdrive",
+        "note": "Recreates the chimey clean tone of a Dumble Steel String Singer",
+        "matchId": "vertex-steel-string"
+      },
+      {
+        "name": "Vertex Boost",
+        "type": "Boost",
+        "note": "Ultra-transparent clean boost",
+        "matchId": "vertex-boost"
+      },
+      {
+        "name": "Vertex T Drive",
+        "type": "Overdrive",
+        "note": "Inspired by the Trainwreck amp circuit",
+        "matchId": "vertex-t-drive"
+      }
+    ],
+    "description": "Vertex Effects is a boutique pedal company founded by Mason Marangella, known for creating high-end, hand-built guitar pedals and premium pedalboard systems. Their 'Gator' pedalboard system has become the go-to choice for professional touring musicians who need reliable, organized, and great-sounding rigs. Vertex's pedalboards are custom-built with integrated patch cables, power supplies, and switching systems — everything designed for maximum tone and minimum noise. Their pedals, particularly the Ultraphonix overdrive, have been used by artists including John Mayer, and are renowned for their transparent, dynamic sound quality.",
+    "famousSongs": [],
+    "id": "vertex-effects"
   }
 ]
