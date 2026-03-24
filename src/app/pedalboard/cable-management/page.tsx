@@ -7,9 +7,9 @@ import { Separator } from "@/components/ui/separator";
 export const metadata: Metadata = {
   alternates: { canonical: "/pedalboard/cable-management" },
   title:
-    "Pedalboard Cable Management Guide: Clean Rig, Better Tone (2026)",
+    "Pedalboard Cable Management: Clean Rig Setup Guide (2026)",
   description:
-    "Master pedalboard cable management with our complete guide. Learn routing techniques, patch cable selection, solderless kits, and pro tips for a clean, noise-free rig.",
+    "Master pedalboard cable management with our complete guide. Patch cable routing, solderless kits, power supply placement, and pro tips used by touring guitarists.",
   keywords: [
     "pedalboard cable management",
     "guitar pedal cable management",
@@ -18,6 +18,7 @@ export const metadata: Metadata = {
     "pedalboard cable routing",
     "clean pedalboard setup",
     "pedalboard cable organizer",
+    "pedalboard cable management tips",
   ],
 };
 
@@ -510,6 +511,7 @@ export default function CableManagementPage() {
                 { href: "/pedalboard/builder", label: "Board Builder" },
                 { href: "/pedal-order", label: "Signal Chain Guide" },
                 { href: "/power-supply", label: "Power Supply Guide" },
+                { href: "/famous", label: "Famous Pedalboards" },
                 { href: "/compare", label: "Compare Pedals" },
                 { href: "/blog", label: "Blog" },
               ].map((link) => (

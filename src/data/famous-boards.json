@@ -920,69 +920,70 @@
     ]
   },
   {
+    "id": "adam-jones",
     "slug": "adam-jones",
     "name": "Adam Jones",
     "genre": "Progressive Metal",
-    "signatureSound": "Dark, heavy, and textural tones with complex rhythmic patterns",
-    "pedals": [
-      {
-        "name": "Diezel VH4",
-        "type": "Amplifier",
-        "note": "Primary amp for Tool's crushing rhythm tones",
-        "matchId": "diezel-vh4"
-      },
-      {
-        "name": "Boss DD-3 Digital Delay",
-        "type": "Delay",
-        "note": "Used for slapback and ambient textures",
-        "matchId": "boss-dd3"
-      },
-      {
-        "name": "MXR Flanger",
-        "type": "Modulation",
-        "note": "Adds swirling psychedelic textures",
-        "matchId": "mxr-flanger"
-      },
-      {
-        "name": "Dunlop Cry Baby Wah",
-        "type": "Wah",
-        "note": "Used sparingly for expressive lead passages",
-        "matchId": "dunlop-crybaby"
-      },
-      {
-        "name": "Boss BF-2 Flanger",
-        "type": "Modulation",
-        "note": "Classic flanger for swirling tones",
-        "matchId": "boss-bf2"
-      },
-      {
-        "name": "MXR EVH Phase 90",
-        "type": "Modulation",
-        "note": "Subtle phasing for added movement",
-        "matchId": "mxr-phase90"
-      },
-      {
-        "name": "Boss CE-5 Chorus Ensemble",
-        "type": "Modulation",
-        "note": "Lush chorus for clean passages",
-        "matchId": "boss-ce5"
-      },
-      {
-        "name": "Klon Centaur",
-        "type": "Overdrive",
-        "note": "Transparent boost for lead tones",
-        "matchId": "klon-centaur"
-      }
-    ],
-    "description": "Adam Jones is the guitarist of Tool, known for his dark, heavy, and atmospheric guitar work. His playing style combines drop-D tuning with complex time signatures and textural effects to create Tool's signature progressive metal sound. Jones favors a relatively simple pedalboard compared to his complex music, relying primarily on his Diezel VH4 amplifier for his core tone and using effects sparingly for specific sonic textures. His approach proves that sometimes less is more — even in progressive metal.",
+    "signatureSound": "Dark, heavy, and textural tones with complex rhythmic patterns and atmospheric modulation",
+    "description": "Adam Jones is the guitarist of Tool, one of progressive metal's most influential bands. Known for his collaboration with visual art — Jones is also a sculptor and worked on Hollywood creature effects — his guitar work mirrors that artistic complexity. His playing style combines drop-D and alternate tunings with irregular time signatures and layers of flanging, phasing, and delay that evolve throughout a song rather than sitting statically. Search interest in Adam Jones pedalboard has surged 38,850%, reflecting renewed Tool interest and the enduring mystery of his exact setup. Jones is notoriously tight-lipped about his gear, which makes documenting his rig even more sought after. Despite running a relatively small pedalboard compared to his complex music, Jones proves that restraint and intentionality can create more impact than pedal overload. His Diezel VH4 does most of the heavy lifting — the pedals are texture, not foundation.",
     "famousSongs": [
       "Schism",
       "Lateralus",
       "Forty Six & 2",
       "Stinkfist",
-      "The Pot"
+      "The Pot",
+      "Vicarious"
     ],
-    "id": "adam-jones"
+    "pedals": [
+      {
+        "name": "Diezel VH4",
+        "type": "overdrive",
+        "matchId": "diezel-vh4",
+        "note": "Adam's primary amp — the VH4's four channels give him everything from pristine clean to crushing high-gain. It IS his distortion."
+      },
+      {
+        "name": "Boss DD-3 Digital Delay",
+        "type": "delay",
+        "matchId": "boss-dd7",
+        "note": "Used for slapback and rhythmic delay textures — DD-7 is the modern Boss delay equivalent with more modes"
+      },
+      {
+        "name": "MXR Flanger",
+        "type": "chorus",
+        "matchId": "boss-ce5",
+        "note": "The MXR Flanger adds that signature swirling, jet-like texture heard in 'Schism' — CE-5 covers modulation duties"
+      },
+      {
+        "name": "Dunlop Cry Baby Wah",
+        "type": "wah",
+        "matchId": "dunlop-crybaby",
+        "note": "Used sparingly for expressive lead passages — the same Cry Baby that's been on boards since the 60s"
+      },
+      {
+        "name": "Boss BF-2 Flanger",
+        "type": "chorus",
+        "matchId": "boss-ce5",
+        "note": "Classic analog flanger adding metallic, whooshing modulation to already-complex riffs"
+      },
+      {
+        "name": "MXR EVH Phase 90",
+        "type": "phaser",
+        "matchId": "mxr-phase90",
+        "note": "Subtle phasing for added movement — the EVH version has a script mode that's smoother and more musical"
+      },
+      {
+        "name": "Boss CE-5 Chorus Ensemble",
+        "type": "chorus",
+        "matchId": "boss-ce5",
+        "note": "Lush chorus for clean passages between heavy sections — exact match in our database"
+      },
+      {
+        "name": "Klon Centaur",
+        "type": "overdrive",
+        "matchId": "klon-centaur",
+        "note": "Transparent boost for lead tones — the Centaur's mid-push helps leads cut through Tool's dense arrangements"
+      }
+    ]
   },
   {
     "slug": "prince",
@@ -1078,10 +1079,122 @@
         "type": "Overdrive",
         "note": "Inspired by the Trainwreck amp circuit",
         "matchId": "vertex-t-drive"
+      },
+      {
+        "name": "Vertex VP-200 Power Supply",
+        "type": "power",
+        "matchId": "pedaltrain-volto",
+        "note": "Isolated power supply built into the Vertex Gator system — eliminates hum and noise from shared power. Essential for any professional pedalboard."
       }
     ],
-    "description": "Vertex Effects is a boutique pedal company founded by Mason Marangella, known for creating high-end, hand-built guitar pedals and premium pedalboard systems. Their 'Gator' pedalboard system has become the go-to choice for professional touring musicians who need reliable, organized, and great-sounding rigs. Vertex's pedalboards are custom-built with integrated patch cables, power supplies, and switching systems — everything designed for maximum tone and minimum noise. Their pedals, particularly the Ultraphonix overdrive, have been used by artists including John Mayer, and are renowned for their transparent, dynamic sound quality.",
+    "description": "Vertex Effects is a boutique pedal company founded by Mason Marangella, known for creating high-end, hand-built guitar pedals and — most famously — the Vertex Gator pedalboard system. The Gator pedalboard has become the gold standard for professional touring musicians: a fully integrated, custom-built enclosure with pre-routed patch cables, isolated power supply (Vertex VP-200), true-bypass switching, and shock-mount flight case protection. Search interest in 'vertex gator pedalboard' has surged 67,300%, making it one of the most searched pedalboard brands online. Notable artists running Vertex Gator systems include John Mayer, whose transparent, studio-quality rig has been extensively documented. Vertex pedals, particularly the Ultraphonix MKII and Steel String Clean Drive, are designed to enhance your existing amp's character rather than impose their own — the hallmark of truly high-end boutique engineering.",
     "famousSongs": [],
     "id": "vertex-effects"
+  },
+  {
+    "id": "randy-rhoads",
+    "slug": "randy-rhoads",
+    "name": "Randy Rhoads",
+    "genre": "Heavy Metal / Neo-Classical Metal",
+    "signatureSound": "Classical precision meets Marshall brutality — warm, harmonically rich overdrive with singing neo-classical leads and articulate fretwork",
+    "description": "Randy Rhoads was Ozzy Osbourne's guitarist from 1979 until his tragic death in 1982, and in just two albums — 'Blizzard of Ozz' and 'Diary of a Madman' — he permanently redefined heavy metal guitar. A formally trained classical guitarist and music teacher, Rhoads applied conservatory technique to Marshall-driven metal, spawning the entire neo-classical metal genre and influencing players like Yngwie Malmsteen, John Petrucci, and Zakk Wylde.\n\nRhoads was notably minimal with his pedal usage. He famously stated: \"The MXR Distortion Plus is the only gadget I use a lot.\" His effects list was short by design — the tone came from his 100-watt Marshall 1959 Super Lead heads with Altec 417-8H speakers, not pedal stacks. He supplemented with a Roland RE-201 Space Echo for ambient depth, Roland volume pedal for dynamic control, and MXR modulation effects for texture. The Cry Baby Wah appeared selectively on leads.\n\nHis setup was deceptively simple. The complexity was entirely in his fingers: quarter-tone bends learned from classical study, lightning-fast alternate picking, and an ability to make pentatonic and diminished runs sound simultaneously aggressive and melodic. Crazy Train's opening riff, Mr. Crowley's keyboard-like intro arpeggios — all driven by that same Marshall-and-Distortion-Plus foundation.",
+    "famousSongs": [
+      "Crazy Train",
+      "Mr. Crowley",
+      "I Don't Know",
+      "Flying High Again",
+      "Over the Mountain"
+    ],
+    "pedals": [
+      {
+        "name": "MXR Distortion+",
+        "type": "distortion",
+        "matchId": "mxr-distortion-plus",
+        "note": "Rhoads' self-described most-used pedal — pushed his Marshall into extra harmonic content without obscuring his classical articulation. The Distortion+ has a softer clipping character that feels more like amp overdrive than hard distortion."
+      },
+      {
+        "name": "Dunlop Cry Baby Wah",
+        "type": "wah",
+        "matchId": "dunlop-crybaby",
+        "note": "Used selectively on leads — Rhoads treated the wah as an expressive tool, not a constant effect. Hear it in the Mr. Crowley solo for that vocal, singing quality."
+      },
+      {
+        "name": "Roland RE-201 Space Echo",
+        "type": "delay",
+        "matchId": "boss-dd7",
+        "note": "The RE-201 is a tape-based echo unit — adds warm, slightly degraded repeats that feel organic. The DD-7 digital delay can approximate this with its analog simulation mode."
+      },
+      {
+        "name": "Roland Volume Foot Pedal",
+        "type": "eq",
+        "matchId": "boss-ge7",
+        "note": "Used for dynamic control during performance — volume swells and riding levels between rhythm and lead passages."
+      },
+      {
+        "name": "MXR 10 Band EQ",
+        "type": "eq",
+        "matchId": "mxr-m108s",
+        "note": "Tone shaping to get the most out of his Marshall — exact match in our database. Rhoads used it to sculpt the mid-heavy character of his lead tone."
+      },
+      {
+        "name": "MXR Flanger",
+        "type": "chorus",
+        "matchId": "boss-ce5",
+        "note": "Occasional flanging for textural depth — adds the jet-like whoosh to certain passages. CE-5 covers general modulation territory."
+      },
+      {
+        "name": "MXR Stereo Chorus",
+        "type": "chorus",
+        "matchId": "ehx-small-clone",
+        "note": "Lush stereo chorus for clean passages — gives his classical arpeggios extra shimmer and width. Small Clone offers a similar lush character."
+      },
+      {
+        "name": "Korg Echo",
+        "type": "delay",
+        "matchId": "boss-dd7",
+        "note": "Secondary echo unit used alongside the Roland RE-201 — layered echo textures for more complex ambient passages in the studio."
+      }
+    ]
+  },
+  {
+    "id": "aclam",
+    "slug": "aclam",
+    "name": "Aclam Guitars",
+    "genre": "Various (Boutique)",
+    "signatureSound": "Spanish boutique engineering philosophy — studio-grade transparency, musical warmth, and zero unwanted coloration at every stage of the signal chain",
+    "description": "Aclam Guitars is a Barcelona-based boutique brand that has quietly become one of the most respected names in professional pedalboard systems. Founded by Marc Oriol, Aclam built its reputation on two pillars: the Dr. Robert overdrive (now in its third version) and the Smart Chassis pedalboard system.\n\nThe Dr. Robert has evolved significantly across versions. The V1 established Aclam's reputation for transparent, amp-like overdrive inspired by 50s and 60s amp character. The V2 added improved headroom and a refined mid response. The V3 (current) introduced a more musical compression response and improved touch sensitivity — making it one of the most sought-after Dumble-inspired drives on the market.\n\nThe Smart Chassis pedalboard is what truly separates Aclam. It's not just a board with Velcro — it's a precision-engineered enclosure with: integrated Aclam power supply (isolated outputs, low noise floor), built-in cable management with proprietary fastener system, and a shock-mount flight case option for touring use. Guitarists who use Aclam boards cite the near-silent noise floor and zero cable management hassle as game-changers for live performance.\n\nAclam represents the European boutique movement: obsessive build quality, small production runs, and direct engagement with the guitar community. Their rise mirrors a broader shift among professional players — moving away from large, cluttered Velcro boards toward purpose-built, engineered systems.",
+    "famousSongs": [],
+    "pedals": [
+      {
+        "name": "Aclam Dr. Robert V3",
+        "type": "overdrive",
+        "matchId": "jhs-morning-glory",
+        "note": "Aclam's flagship overdrive, now in third-generation form. Inspired by Dumble amp overdrive character — transparent, touch-responsive, and musical at all gain levels. The Morning Glory is a close alternative in the transparent amp-like drive category."
+      },
+      {
+        "name": "Aclam Shrimp",
+        "type": "overdrive",
+        "matchId": "ehx-soul-food",
+        "note": "Low-gain preamp/boost designed to push your amp into natural saturation. Perfect as a 'always-on' tone enhancer. Soul Food serves a similar transparent boost role at a lower price."
+      },
+      {
+        "name": "Aclam Smart Chassis Power Supply",
+        "type": "power",
+        "matchId": "pedaltrain-volto",
+        "note": "Integrated isolated power supply built into the Smart Chassis pedalboard. Eliminates hum, keeps noise floor silent — the thing that makes Aclam boards special beyond aesthetics."
+      },
+      {
+        "name": "Strymon TimeLine",
+        "type": "delay",
+        "matchId": "strymon-timeline",
+        "note": "Pro Aclam Smart Chassis builds typically pair with Strymon for time-based effects. The TimeLine is the delay of choice for guitarists who want studio-quality presets in a live rig — exact match in our database."
+      },
+      {
+        "name": "Strymon BigSky",
+        "type": "reverb",
+        "matchId": "boss-rv6",
+        "note": "Reverb counterpart to the TimeLine in high-end Aclam rigs. The RV-6 covers similar reverb territory at a significantly lower price point."
+      }
+    ]
   }
 ]

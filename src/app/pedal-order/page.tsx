@@ -10,13 +10,14 @@ import pedalsData from "@/data/pedals.json";
 export const metadata: Metadata = {
   alternates: { canonical: "/pedal-order" },
   title:
-    "Guitar Pedal Order Guide: The Perfect Signal Chain Explained (2026)",
+    "Guitar Pedal Order Guide: Signal Chain Diagram & Setup (2026)",
   description:
-    "Learn the correct guitar pedal order for your signal chain. Step-by-step guide covering where to place every pedal type — and why — with an interactive diagram.",
+    "Learn the correct guitar pedal order for your signal chain. Interactive diagram, step-by-step breakdown of every pedal type, pro tips, and common mistakes to avoid.",
   keywords: [
     "guitar pedal order",
     "signal chain",
     "pedal order diagram",
+    "guitar pedal order diagram",
     "effects chain order",
     "pedalboard order",
     "guitar effects order",
@@ -799,6 +800,26 @@ export default function PedalOrderPage() {
 
           {/* ───── Internal links footer ───── */}
           <div className="mt-14 pt-8 border-t border-zinc-200 dark:border-zinc-800">
+            <p className="text-xs font-semibold text-zinc-500 uppercase tracking-wider mb-4">
+              More Guides
+            </p>
+            <div className="flex flex-wrap gap-2 mb-8">
+              {[
+                { href: "/famous", label: "Famous Pedalboards" },
+                { href: "/pedalboard/cable-management", label: "Cable Management" },
+                { href: "/pedalboard", label: "Pedalboard Setup" },
+                { href: "/power-supply", label: "Power Supply Guide" },
+                { href: "/compare", label: "Compare Pedals" },
+              ].map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="px-3 py-1.5 rounded-md bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 text-xs text-zinc-600 dark:text-zinc-400 hover:border-orange-500/40 hover:text-orange-500 transition-colors"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
             <p className="text-xs font-semibold text-zinc-500 uppercase tracking-wider mb-4">
               Explore by Effect Type
             </p>
