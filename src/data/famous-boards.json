@@ -1196,5 +1196,58 @@
         "note": "Reverb counterpart to the TimeLine in high-end Aclam rigs. The RV-6 covers similar reverb territory at a significantly lower price point."
       }
     ]
+  },
+  {
+    "id": "paul-gilbert",
+    "slug": "paul-gilbert",
+    "name": "Paul Gilbert",
+    "genre": "Hard Rock / Heavy Metal / Shred",
+    "signatureSound": "Blazing alternate-picked leads with a warm, tube-like distortion — equal parts aggression and melodic clarity",
+    "description": "Paul Gilbert is one of the most technically gifted guitarists alive, best known as co-founder of Mr. Big and a graduate of GIT (Guitar Institute of Technology) — the school he attended at age 15. His picking technique is studied by guitarists worldwide: a combination of strict alternate picking, economy picking, and string skipping executed at speeds that still seem impossible even when slowed down.\n\nGilbert's approach to gear reflects his playing philosophy: get the best tone possible with minimal coloration. His signal chain is deliberately streamlined. He primarily plays his Ibanez PGM signature series — identifiable by the painted-on F-holes — and runs through a Mesa/Boogie amp for his core gain. What makes Gilbert unique in the gear world is his 2020 collaboration with JHS Pedals to create the PG-14, a signature distortion pedal built around a FET circuit that emulates a pushed tube amp at any volume. The active mid-frequency preamp at the front of the circuit was designed specifically to his specifications.\n\nSearch interest in Paul Gilbert pedalboard surged 18,850% — driven partly by rig rundown videos and his continued touring with Mr. Big and solo projects. Gilbert is also famously outspoken about tinnitus prevention, endorsing Direct Sound EX-29 isolation headphones and advocating for ear protection at all live shows.",
+    "famousSongs": [
+      "To Be With You",
+      "Daddy, Brother, Lover, Little Boy",
+      "Green Tinted Sixties Mind",
+      "Get Out of My Yard",
+      "Scarified"
+    ],
+    "pedals": [
+      {
+        "name": "JHS PG-14",
+        "type": "distortion",
+        "matchId": "boss-ds1",
+        "note": "Paul Gilbert's 2020 signature pedal with JHS — a FET-based distortion engine designed to sound and feel like a pushed tube amp. Active mid-frequency preamp at the front gives enormous tonal range. The DS-1 is a classic alternative in the hard-clipping distortion category."
+      },
+      {
+        "name": "DigiTech Whammy",
+        "type": "octave",
+        "matchId": "ehx-pog2",
+        "note": "Gilbert is known for creative whammy abuse — pitch shifting during solos for dramatic effect. He stopped using a whammy bar on his guitars but kept the Whammy pedal for those pitch-shifted moments. POG2 covers octave and pitch territory."
+      },
+      {
+        "name": "MXR Phase 90",
+        "type": "phaser",
+        "matchId": "mxr-phase90",
+        "note": "Classic phaser for sweeping modulation on clean passages — exact match in our database. Gilbert uses it selectively to add movement without muddying his articulate picking."
+      },
+      {
+        "name": "Boss CE-2 Chorus",
+        "type": "chorus",
+        "matchId": "boss-ce5",
+        "note": "Analog chorus for clean tone warmth — adds shimmer to arpeggiated passages. CE-5 is the modern Boss chorus equivalent with similar warm character."
+      },
+      {
+        "name": "Boss DD-3 Delay",
+        "type": "delay",
+        "matchId": "boss-dd7",
+        "note": "Straightforward digital delay for depth on solos — Gilbert keeps it simple, using delay for texture rather than as a compositional tool. DD-7 is the direct successor."
+      },
+      {
+        "name": "Boss TU-3 Tuner",
+        "type": "tuner",
+        "matchId": "boss-tu3",
+        "note": "Standard tuner — exact match in our database. Essential for staying in tune across his many different Ibanez guitars mid-set."
+      }
+    ]
   }
 ]
