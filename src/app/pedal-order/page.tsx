@@ -19,6 +19,7 @@ export const metadata: Metadata = {
     "pedal order diagram",
     "guitar pedal order diagram",
     "effects chain order",
+    "guitar pedal chain order",
     "pedalboard order",
     "guitar effects order",
     "pedal signal chain guide",
