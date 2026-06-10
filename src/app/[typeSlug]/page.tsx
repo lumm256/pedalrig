@@ -17,6 +17,7 @@ import { cn } from '@/lib/utils'
 import { TypeIcon } from '@/components/type-icon'
 import pedalTypesData from '@/data/pedal-types.json'
 import pedalsData from '@/data/pedals.json'
+import { clampDesc } from '@/lib/seo'
 
 type PedalType = {
   id: string
@@ -65,8 +66,10 @@ export async function generateMetadata({
   const type = types.find((t) => t.slug === typeSlug)
   if (!type) return {}
   return {
-    title: `Best ${type.name} Pedals 2026 — Reviews & Buyer's Guide`,
-    description: `Find the best ${type.name.toLowerCase()} guitar pedals in 2026. Compare top ${type.name.toLowerCase()} pedals with reviews, prices, and sound demos. ${type.shortDescription}`,
+    title: { absolute: `${type.name} Guitar Pedals — Buyer's Guide (2026)` },
+    description: clampDesc(
+      `${type.name} guitar pedals explained: how they work, where they sit in your signal chain, and the top models to consider. ${type.shortDescription}`,
+    ),
     alternates: { canonical: `/${typeSlug}` },
   }
 }
@@ -138,7 +141,7 @@ export default async function TypePage({
             </Badge>
           </div>
           <h1 className="text-4xl font-bold mb-4">
-            Best {type.name} Pedals in 2026
+            {type.name} Guitar Pedals: The Complete Guide
           </h1>
           <p className="text-zinc-500 dark:text-zinc-400 text-lg leading-relaxed max-w-3xl">
             {type.description}

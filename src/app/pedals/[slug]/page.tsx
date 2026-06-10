@@ -7,6 +7,7 @@ import { Separator } from '@/components/ui/separator'
 import { TypeIcon } from '@/components/type-icon'
 import pedalTypesData from '@/data/pedal-types.json'
 import pedalsData from '@/data/pedals.json'
+import { clampDesc } from '@/lib/seo'
 
 type PedalType = {
   id: string
@@ -61,10 +62,9 @@ export async function generateMetadata({
   const { slug } = await params
   const pedal = pedals.find((p) => p.id === slug)
   if (!pedal) return {}
-  const type = types.find((t) => t.id === pedal.type)
   return {
-    title: `${pedal.name} Review 2026 — Price, Specs & Verdict`,
-    description: `Full review of the ${pedal.name}. ${pedal.description.slice(0, 120)}... Best for ${pedal.bestFor.join(', ')}.`,
+    title: { absolute: `${pedal.name} Review (2026)` },
+    description: clampDesc(`${pedal.name} review — ${pedal.description}`),
     alternates: { canonical: `/pedals/${slug}` },
     openGraph: {
       title: `${pedal.name} Review 2026`,

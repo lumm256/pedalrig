@@ -8,6 +8,7 @@ import { TypeIcon } from "@/components/type-icon";
 import famousBoards from "@/data/famous-boards.json";
 import pedals from "@/data/pedals.json";
 import pedalTypes from "@/data/pedal-types.json";
+import { clampDesc } from "@/lib/seo";
 
 type Pedal = (typeof pedals)[number];
 
@@ -28,8 +29,10 @@ export async function generateMetadata({
   const artist = famousBoards.find((a) => a.slug === slug);
   if (!artist) return {};
   return {
-    title: `${artist.name} Pedalboard & Gear — Every Pedal Explained (2026)`,
-    description: `Complete breakdown of ${artist.name}'s pedalboard. See every pedal, understand the signal chain, and get affordable alternatives. ${artist.pedals.length} pedals analyzed.`,
+    title: { absolute: `${artist.name} Pedalboard & Gear (2026)` },
+    description: clampDesc(
+      `${artist.name}'s pedalboard, pedal by pedal: the full signal chain plus affordable alternatives. ${artist.pedals.length} pedals analyzed.`,
+    ),
     alternates: { canonical: `/famous/${slug}` },
     keywords: [
       `${artist.name} pedalboard`,

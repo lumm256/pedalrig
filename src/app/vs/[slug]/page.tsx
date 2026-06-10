@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Separator } from '@/components/ui/separator'
 import pedalsData from '@/data/pedals.json'
 import vsPairsData from '@/data/vs-pairs.json'
+import { clampDesc } from '@/lib/seo'
 
 type Pedal = {
   id: string
@@ -57,8 +58,10 @@ export async function generateMetadata({
   const pedal2 = pedals.find((p) => p.id === pair.pedal2)
   if (!pedal1 || !pedal2) return {}
   return {
-    title: `${pedal1.name} vs ${pedal2.name} — Which Is Better? (2026 Comparison)`,
-    description: `${pedal1.name} vs ${pedal2.name}: side-by-side comparison of price, specs, pros & cons, and a quick verdict. Find out which ${pedal1.type} pedal is right for you.`,
+    title: { absolute: `${pedal1.name} vs ${pedal2.name} (2026)` },
+    description: clampDesc(
+      `${pedal1.name} vs ${pedal2.name}: price, specs, pros & cons compared, with a verdict on which ${pedal1.type} pedal wins.`,
+    ),
     alternates: { canonical: `/vs/${slug}` },
     openGraph: {
       title: `${pedal1.name} vs ${pedal2.name} (2026)`,

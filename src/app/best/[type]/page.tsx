@@ -7,6 +7,7 @@ import { PedalCard, type Pedal } from "@/components/pedal-card";
 import pedalsData from "@/data/pedals.json";
 import pedalTypesData from "@/data/pedal-types.json";
 import { getBestTypeSlugs } from "@/lib/best-types";
+import { clampDesc } from "@/lib/seo";
 
 const YEAR = 2026;
 
@@ -40,8 +41,10 @@ export async function generateMetadata({
   const n = getRankedPedals(t.id).length;
   const lower = t.name.toLowerCase();
   return {
-    title: `Best ${t.name} Pedals ${YEAR} — Top ${n} Compared & Ranked`,
-    description: `The best ${lower} pedals for ${YEAR}, ranked by rating, tone, and value. ${t.shortDescription} Compare our top ${n} picks with pros, cons, specs, and prices.`,
+    title: { absolute: `Best ${t.name} Pedals (${YEAR}): Top ${n} Picks` },
+    description: clampDesc(
+      `The best ${lower} pedals for ${YEAR}, ranked by tone, build, and value — our top ${n} picks with specs, prices, pros & cons. ${t.shortDescription}`,
+    ),
     alternates: { canonical: `/best/${t.slug}` },
   };
 }
