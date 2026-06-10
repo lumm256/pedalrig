@@ -3,7 +3,6 @@ import Link from 'next/link'
 import { Metadata } from 'next'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
 import {
   Table,
@@ -260,7 +259,7 @@ export default async function TypePage({
                         <div>
                           <div className="flex items-center gap-2 mb-1">
                             {i === 0 && (
-                              <Badge className="bg-orange-500 text-white text-xs">Editor's Pick</Badge>
+                              <Badge className="bg-orange-500 text-white text-xs">Editor&apos;s Pick</Badge>
                             )}
                             <Badge variant="outline" className="text-xs border-zinc-200 dark:border-zinc-700 text-zinc-500 dark:text-zinc-400 capitalize">
                               {pedal.level}
