@@ -130,8 +130,8 @@ function Footer() {
               <li><a href="/style/blues" className="hover:text-orange-500 dark:hover:text-orange-400">Blues Pedals</a></li>
               <li><a href="/style/rock" className="hover:text-orange-500 dark:hover:text-orange-400">Rock Pedals</a></li>
               <li><a href="/style/metal" className="hover:text-orange-500 dark:hover:text-orange-400">Metal Pedals</a></li>
-              <li><a href="/boss" className="hover:text-orange-500 dark:hover:text-orange-400">Boss Pedals</a></li>
-              <li><a href="/behringer" className="hover:text-orange-500 dark:hover:text-orange-400">Behringer Pedals</a></li>
+              <li><a href="/brands/boss" className="hover:text-orange-500 dark:hover:text-orange-400">Boss Pedals</a></li>
+              <li><a href="/brands/behringer" className="hover:text-orange-500 dark:hover:text-orange-400">Behringer Pedals</a></li>
               <li><a href="/famous" className="hover:text-orange-500 dark:hover:text-orange-400">Famous Pedalboards</a></li>
               <li><a href="/blog" className="hover:text-orange-500 dark:hover:text-orange-400">Blog</a></li>
             </ul>

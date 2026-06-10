@@ -159,7 +159,7 @@ export default function MetalPage() {
             <Link href="/eq" className="bg-gray-100 dark:bg-zinc-800 hover:bg-orange-500/20 hover:text-orange-400 text-zinc-700 dark:text-zinc-300 text-sm px-4 py-2 rounded-lg transition-colors border border-zinc-200 dark:border-zinc-700">
               EQ Pedals
             </Link>
-            <Link href="/boss" className="bg-gray-100 dark:bg-zinc-800 hover:bg-orange-500/20 hover:text-orange-400 text-zinc-700 dark:text-zinc-300 text-sm px-4 py-2 rounded-lg transition-colors border border-zinc-200 dark:border-zinc-700">
+            <Link href="/brands/boss" className="bg-gray-100 dark:bg-zinc-800 hover:bg-orange-500/20 hover:text-orange-400 text-zinc-700 dark:text-zinc-300 text-sm px-4 py-2 rounded-lg transition-colors border border-zinc-200 dark:border-zinc-700">
               Boss Pedals
             </Link>
           </div>

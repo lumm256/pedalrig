@@ -4,6 +4,7 @@ import famousBoardsData from "@/data/famous-boards.json";
 import pedalsData from "@/data/pedals.json";
 import vsPairsData from "@/data/vs-pairs.json";
 import { getBestTypeSlugs } from "@/lib/best-types";
+import { getBrandSlugs } from "@/lib/brands";
 import { getAllPosts } from "@/lib/blog";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -20,8 +21,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/compare`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${baseUrl}/pedalboard/cable-management`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${baseUrl}/power-supply`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
-    { url: `${baseUrl}/boss`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
-    { url: `${baseUrl}/behringer`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${baseUrl}/style/blues`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${baseUrl}/style/rock`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${baseUrl}/style/metal`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
@@ -49,6 +48,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: now,
     changeFrequency: "monthly" as const,
     priority: 0.8,
+  }));
+
+  const brandPages = getBrandSlugs().map((slug) => ({
+    url: `${baseUrl}/brands/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
   }));
 
   const famousPages = famousBoardsData.map((artist) => ({
@@ -79,5 +85,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...typePages, ...bestTypePages, ...famousPages, ...pedalPages, ...vsPages, ...blogPosts];
+  return [...staticPages, ...typePages, ...bestTypePages, ...brandPages, ...famousPages, ...pedalPages, ...vsPages, ...blogPosts];
 }

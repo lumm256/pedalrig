@@ -1,15 +1,172 @@
 [
-  { "id": "boss", "name": "Boss", "country": "Japan", "description": "The world's most popular pedal brand. Known for bulletproof build quality and consistent tone.", "founded": 1973 },
-  { "id": "ibanez", "name": "Ibanez", "country": "Japan", "description": "Home of the legendary Tube Screamer, Ibanez makes some of the most iconic overdrive pedals ever.", "founded": 1957 },
-  { "id": "electro-harmonix", "name": "Electro-Harmonix", "country": "USA", "description": "NYC-based maker of the Big Muff Pi and countless other legendary effects pedals.", "founded": 1968 },
-  { "id": "mxr", "name": "MXR", "country": "USA", "description": "Classic American pedal brand known for simple, great-sounding effects in compact enclosures.", "founded": 1972 },
-  { "id": "behringer", "name": "Behringer", "country": "Germany", "description": "Budget-friendly pedals that clone classic circuits at a fraction of the price.", "founded": 1989 },
-  { "id": "joyo", "name": "Joyo", "country": "China", "description": "Affordable pedals with surprisingly good tone. Great for beginners building their first board.", "founded": 2006 },
-  { "id": "tc-electronic", "name": "TC Electronic", "country": "Denmark", "description": "Known for pristine digital effects and the innovative TonePrint technology.", "founded": 1976 },
-  { "id": "walrus-audio", "name": "Walrus Audio", "country": "USA", "description": "Boutique pedal maker from Oklahoma known for creative designs and premium tone.", "founded": 2011 },
-  { "id": "jhs", "name": "JHS Pedals", "country": "USA", "description": "Boutique builder known for YouTube education and meticulously crafted effects.", "founded": 2007 },
-  { "id": "strymon", "name": "Strymon", "country": "USA", "description": "Premium digital effects with studio-quality algorithms. The gold standard for delay and reverb.", "founded": 2008 },
-  { "id": "proco", "name": "ProCo", "country": "USA", "description": "Makers of the legendary RAT distortion pedal since 1978.", "founded": 1974 },
-  { "id": "dunlop", "name": "Dunlop", "country": "USA", "description": "Home of the Cry Baby wah and Fuzz Face. Essential effects for every guitarist.", "founded": 1965 },
-  { "id": "eqd", "name": "EarthQuaker Devices", "country": "USA", "description": "Akron, Ohio boutique maker known for creative, hand-built effects pedals.", "founded": 2004 }
+  {
+    "id": "boss",
+    "name": "Boss",
+    "displayName": "Boss",
+    "country": "Japan",
+    "description": "The world's most popular pedal brand. Known for bulletproof build quality and consistent tone.",
+    "founded": 1973,
+    "tagline": "The Industry Standard",
+    "intro": "Since 1976, Boss has been the most trusted name in guitar effects. Their compact, indestructible pedals have appeared on more pedalboards — from bedroom players to stadium headliners — than any other brand in history.",
+    "highlights": [
+      { "icon": "🏗️", "title": "Built to Last", "text": "Die-cast zinc enclosures survive decades of touring. Boss pedals from the 1980s still work perfectly today." },
+      { "icon": "💰", "title": "Unbeatable Value", "text": "Professional-quality effects at accessible prices. The DS-1 has been used on countless hit records." },
+      { "icon": "🎸", "title": "Proven by Legends", "text": "Kurt Cobain, Steve Vai, John Frusciante, and thousands of touring pros trust Boss on stage every night." }
+    ],
+    "history": {
+      "title": "Boss Brand History",
+      "paragraphs": [
+        "Boss was founded in 1976 as a division of Roland Corporation in Japan. Their first pedal, the CE-1 Chorus Ensemble, set the standard for chorus effects and is still sought after today.",
+        "The iconic compact pedal format — the same size used today — was introduced in 1977 with the OD-1 OverDrive. This design became the template for the entire industry.",
+        "Through the 1980s and 90s, Boss released some of the most influential pedals ever made: the DS-1 Distortion (1978), the DD-2 Digital Delay (1983, the world's first digital delay pedal), and the MT-2 Metal Zone (1991).",
+        "Today Boss continues to innovate with digital multi-effects, the Waza Craft premium line, and modern takes on their classic designs — while maintaining the same bulletproof build quality that made them famous."
+      ]
+    },
+    "faqs": [
+      { "q": "Are Boss pedals true bypass?", "a": "Most Boss pedals use buffered bypass, not true bypass. This is actually a feature — Boss buffers are high quality and help maintain signal integrity over long cable runs." },
+      { "q": "What is the best Boss pedal for beginners?", "a": "The Boss DS-1 and SD-1 are both excellent starting points. They're affordable, durable, and cover the most essential gain tones." },
+      { "q": "How long do Boss pedals last?", "a": "Boss pedals are legendary for durability. Many players use pedals from the 1980s that still work perfectly. The die-cast zinc enclosure handles decades of gigging." },
+      { "q": "Do Boss pedals need a power supply?", "a": "Boss pedals run on 9V DC (center negative) or a 9V battery. Compatible with any standard guitar pedal power supply." }
+    ]
+  },
+  {
+    "id": "ibanez",
+    "name": "Ibanez",
+    "displayName": "Ibanez",
+    "country": "Japan",
+    "description": "Home of the legendary Tube Screamer, Ibanez makes some of the most iconic overdrive pedals ever.",
+    "founded": 1957
+  },
+  {
+    "id": "electro-harmonix",
+    "name": "Electro-Harmonix",
+    "displayName": "Electro-Harmonix",
+    "country": "USA",
+    "description": "NYC-based maker of the Big Muff Pi and countless other legendary effects pedals.",
+    "founded": 1968
+  },
+  {
+    "id": "mxr",
+    "name": "MXR",
+    "displayName": "MXR",
+    "country": "USA",
+    "description": "Classic American pedal brand known for simple, great-sounding effects in compact enclosures.",
+    "founded": 1972
+  },
+  {
+    "id": "behringer",
+    "name": "Behringer",
+    "displayName": "Behringer",
+    "country": "Germany",
+    "description": "Budget-friendly pedals that clone classic circuits at a fraction of the price.",
+    "founded": 1989,
+    "tagline": "Great Tone on a Budget",
+    "intro": "Behringer has made professional-grade effects accessible to every guitarist. Their pedals deliver classic tones at a fraction of the cost, making them the go-to choice for beginners, students, and budget-conscious players worldwide.",
+    "highlights": [
+      { "icon": "💵", "title": "Lowest Prices", "text": "Most Behringer pedals cost under $30. You can build a complete pedalboard for less than the price of a single boutique pedal." },
+      { "icon": "🎛️", "title": "Classic Circuits", "text": "Many Behringer pedals are based on legendary circuits — the TO800 mirrors the Tube Screamer, the SF300 channels the Big Muff." },
+      { "icon": "✅", "title": "True Bypass", "text": "Most Behringer pedals feature true bypass switching, preserving your tone when the effect is disengaged." }
+    ],
+    "notable": {
+      "title": "Popular Behringer Pedals to Know",
+      "items": [
+        { "name": "TO800 Vintage Tube Overdrive", "text": "A Tube Screamer-inspired overdrive for under $25. Warm, mid-focused tone at a fraction of the cost." },
+        { "name": "SF300 Super Fuzz", "text": "Three fuzz modes covering everything from vintage Big Muff tones to modern fuzz textures." },
+        { "name": "DR600 Digital Reverb", "text": "Six reverb modes including spring, hall, and plate. Excellent value for ambient players." },
+        { "name": "CS400 Compressor/Sustainer", "text": "Studio-style compression at a beginner-friendly price. Great for country and clean tones." }
+      ]
+    },
+    "faqs": [
+      { "q": "Are Behringer pedals any good?", "a": "Yes — Behringer pedals are surprisingly capable for the price. They are ideal for beginners, practice rigs, and backup boards. Many are based on classic circuits that have been proven for decades." },
+      { "q": "How do Behringer pedals compare to Boss?", "a": "Boss pedals have better build quality and reliability for gigging. Behringer pedals cost significantly less and are great for home use, practice, and experimenting with new effects." },
+      { "q": "Do Behringer pedals use true bypass?", "a": "Most Behringer pedals use true bypass switching, which is actually better than many pricier alternatives for preserving your tone when the effect is off." },
+      { "q": "Are Behringer pedals good for beginners?", "a": "Absolutely. Behringer pedals let beginners explore a wide range of effects without a large investment. Once you know what you like, you can upgrade to premium versions." }
+    ]
+  },
+  {
+    "id": "joyo",
+    "name": "Joyo",
+    "displayName": "Joyo",
+    "country": "China",
+    "description": "Affordable pedals with surprisingly good tone. Great for beginners building their first board.",
+    "founded": 2006
+  },
+  {
+    "id": "tc-electronic",
+    "name": "TC Electronic",
+    "displayName": "TC Electronic",
+    "country": "Denmark",
+    "description": "Known for pristine digital effects and the innovative TonePrint technology.",
+    "founded": 1976
+  },
+  {
+    "id": "walrus-audio",
+    "name": "Walrus Audio",
+    "displayName": "Walrus Audio",
+    "country": "USA",
+    "description": "Boutique pedal maker from Oklahoma known for creative designs and premium tone.",
+    "founded": 2011
+  },
+  {
+    "id": "jhs",
+    "name": "JHS Pedals",
+    "displayName": "JHS Pedals",
+    "country": "USA",
+    "description": "Boutique builder known for YouTube education and meticulously crafted effects.",
+    "founded": 2007,
+    "tagline": "The Boutique Brand That Teaches",
+    "intro": "JHS Pedals is a Kansas City boutique builder founded by Josh Scott in 2007. Beyond meticulously crafted drives, fuzzes, and modulation, JHS is known to a generation of players through 'The JHS Show' — a YouTube channel that has done more to teach guitarists about pedal history than any brand before it.",
+    "highlights": [
+      { "icon": "🎓", "title": "Education First", "text": "'The JHS Show' turned pedal history into must-watch YouTube, earning a level of trust few brands enjoy." },
+      { "icon": "🔧", "title": "Boutique Craft", "text": "Designed and built in Kansas City, JHS pedals are obsessively voiced for feel and dynamic response." },
+      { "icon": "🎚️", "title": "Transparent Drive Pioneers", "text": "The Morning Glory helped define the 'transparent overdrive' category that so many players now chase." }
+    ],
+    "history": {
+      "title": "JHS Pedals — From Repairs to Icon",
+      "paragraphs": [
+        "JHS began with Josh Scott modifying and repairing pedals before launching his own designs in 2007. Early modded Tube Screamers and Boss circuits built a reputation for taste and quality that the brand still trades on today.",
+        "The Morning Glory — a low-gain, transparent overdrive — became the pedal that put JHS on the map, and remains the brand's signature drive across multiple revisions.",
+        "JHS expanded the catalogue with crowd favourites like the Bonsai (nine classic screamer circuits in one box), the Muffuletta (a multi-era Big Muff tribute), and the Colour Box preamp.",
+        "More than gear, 'The JHS Show' made the brand a household name among guitarists, demystifying pedal history and circuit lineage for millions of viewers."
+      ]
+    },
+    "faqs": [
+      { "q": "What is JHS Pedals known for?", "a": "JHS is known for transparent overdrives like the Morning Glory, multi-circuit boxes like the Bonsai, and 'The JHS Show' — a hugely popular YouTube channel about pedal history and tone." },
+      { "q": "Where are JHS pedals made?", "a": "JHS pedals are designed and built in Kansas City, Missouri, USA, where founder Josh Scott started the company in 2007." },
+      { "q": "What is the most popular JHS pedal?", "a": "The Morning Glory transparent overdrive is the brand's signature pedal. The Bonsai, which packs nine Tube Screamer-style circuits into one enclosure, is another long-running favourite." },
+      { "q": "Are JHS pedals worth the price?", "a": "JHS sits in the boutique tier, so they cost more than mass-market pedals. Players pay for careful circuit voicing, build quality, and a brand with deep knowledge of pedal history." }
+    ]
+  },
+  {
+    "id": "strymon",
+    "name": "Strymon",
+    "displayName": "Strymon",
+    "country": "USA",
+    "description": "Premium digital effects with studio-quality algorithms. The gold standard for delay and reverb.",
+    "founded": 2008
+  },
+  {
+    "id": "proco",
+    "name": "ProCo",
+    "displayName": "ProCo",
+    "country": "USA",
+    "description": "Makers of the legendary RAT distortion pedal since 1978.",
+    "founded": 1974
+  },
+  {
+    "id": "dunlop",
+    "name": "Dunlop",
+    "displayName": "Dunlop",
+    "country": "USA",
+    "description": "Home of the Cry Baby wah and Fuzz Face. Essential effects for every guitarist.",
+    "founded": 1965
+  },
+  {
+    "id": "eqd",
+    "name": "EarthQuaker Devices",
+    "displayName": "EarthQuaker Devices",
+    "country": "USA",
+    "description": "Akron, Ohio boutique maker known for creative, hand-built effects pedals.",
+    "founded": 2004
+  }
 ]
