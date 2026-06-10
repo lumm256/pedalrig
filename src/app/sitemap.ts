@@ -3,6 +3,7 @@ import pedalTypesData from "@/data/pedal-types.json";
 import famousBoardsData from "@/data/famous-boards.json";
 import pedalsData from "@/data/pedals.json";
 import vsPairsData from "@/data/vs-pairs.json";
+import { getBestTypeSlugs } from "@/lib/best-types";
 import { getAllPosts } from "@/lib/blog";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -43,6 +44,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  const bestTypePages = getBestTypeSlugs().map((slug) => ({
+    url: `${baseUrl}/best/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
   const famousPages = famousBoardsData.map((artist) => ({
     url: `${baseUrl}/famous/${artist.slug}`,
     lastModified: now,
@@ -71,5 +79,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...typePages, ...famousPages, ...pedalPages, ...vsPages, ...blogPosts];
+  return [...staticPages, ...typePages, ...bestTypePages, ...famousPages, ...pedalPages, ...vsPages, ...blogPosts];
 }
