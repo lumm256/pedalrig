@@ -5,9 +5,9 @@ import { PedalboardBuilder } from "./pedalboard-builder";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/pedalboard/builder" },
-  title: "Free Pedalboard Builder — Design Your Guitar Rig Online",
+  title: "Free Pedalboard Planner & Builder — Plan Your Guitar Rig",
   description:
-    "Build your dream pedalboard with our free visual tool. Drag and drop guitar pedals, check signal chain order, calculate power needs, and get your Amazon shopping list.",
+    "Plan your dream pedalboard with our free visual builder. Drag and drop guitar pedals, check signal chain order, calculate power needs, and get your Amazon shopping list.",
 };
 
 const STEPS = [
@@ -63,6 +63,7 @@ function jsonLd() {
       {
         "@type": "WebApplication",
         name: "PedalRig Pedalboard Builder",
+        alternateName: ["Pedalboard Planner", "Guitar Pedalboard Planner"],
         applicationCategory: "MultimediaApplication",
         operatingSystem: "Web",
         url: "https://pedalrig.com/pedalboard/builder",
@@ -117,10 +118,10 @@ export default function BuilderPage() {
               <span>Builder</span>
             </nav>
             <h1 className="text-3xl md:text-4xl font-bold mb-2">
-              Pedalboard <span className="text-orange-500">Builder</span>
+              Pedalboard <span className="text-orange-500">Planner</span> & Builder
             </h1>
             <p className="text-gray-500 dark:text-gray-400 max-w-2xl">
-              Drag pedals onto your board, arrange your signal chain, and get a complete shopping list. No account needed.
+              A free online pedalboard planner: drag pedals onto your board, arrange your signal chain, size your power supply, and get a complete shopping list. No account needed.
             </p>
           </div>
 
@@ -129,15 +130,16 @@ export default function BuilderPage() {
           {/* ───── SSR content: how it works + how-to + FAQ ───── */}
           <section className="mt-16 max-w-3xl scroll-mt-20">
             <h2 className="mb-4 text-2xl font-bold sm:text-3xl">
-              How the Board Builder works
+              How the pedalboard planner works
             </h2>
             <p className="leading-relaxed text-gray-600 dark:text-gray-400">
               Planning a pedalboard means juggling four things at once: which pedals you want, what
               order they go in, whether your power supply can run them, and what it all costs. This
-              tool keeps those four in view together. As you add pedals it validates your signal
-              chain against the conventional order, tallies the total current draw so you can size a
-              power supply, sums the price, and turns the result into a ready-to-buy shopping list —
-              all in the browser, with nothing to install.
+              pedalboard planner (some players call it a pedalplanner) keeps those four in view
+              together. As you add pedals it validates your signal chain against the conventional
+              order, tallies the total current draw so you can size a power supply, sums the price,
+              and turns the result into a ready-to-buy shopping list — all in the browser, with
+              nothing to install.
             </p>
           </section>
 
