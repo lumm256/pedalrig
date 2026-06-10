@@ -3,6 +3,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { MobileMenu } from "@/components/mobile-menu";
 import { NavLinks } from "@/components/nav-links";
+import { Analytics } from "@/components/analytics";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -47,26 +48,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <script defer data-domain="pedalrig.com" src="https://click.pageview.click/js/script.js" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GHMPSRSZSQ" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-GHMPSRSZSQ');
-            `,
-          }}
-        />
-      </head>
       <body className="bg-white text-gray-900 antialiased dark:bg-gray-950 dark:text-gray-100">
         <ThemeProvider>
           <Header />
           <main className="min-h-screen">{children}</main>
           <Footer />
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
