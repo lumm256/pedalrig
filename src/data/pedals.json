@@ -2394,5 +2394,258 @@
       "Multiple"
     ],
     "imageUrl": "https://images.ctfassets.net/74ch1hskxran/line6-pod-go/line6-pod-go-multi-effects.jpg"
+  },
+  {
+    "id": "ehx-deluxe-memory-man",
+    "name": "Electro-Harmonix Deluxe Memory Man",
+    "brand": "Electro-Harmonix",
+    "type": "delay",
+    "price": 251,
+    "rating": 4.9,
+    "reviewCount": 14,
+    "amazonUrl": "https://www.amazon.com/s?k=Electro-Harmonix+Deluxe+Memory+Man&tag=pedalrig-20",
+    "image": "/images/pedals/ehx-deluxe-memory-man.jpg",
+    "description": "The Electro-Harmonix Deluxe Memory Man is the analog delay that defined organic, tape-like echo. Up to 550ms of warm, gently degrading repeats plus selectable chorus and vibrato give it a character digital delays chase but rarely catch — famously the voice behind The Edge's early U2 tone.",
+    "pros": [
+      "Lush, organic analog delay up to 550ms",
+      "Built-in chorus and vibrato",
+      "True bypass",
+      "Legendary, much-copied character"
+    ],
+    "cons": [
+      "Needs the included 24V supply, not a standard 9V",
+      "Larger footprint than modern delays",
+      "Repeats are darker and less pristine than digital"
+    ],
+    "bestFor": [
+      "ambient",
+      "classic rock",
+      "worship"
+    ],
+    "level": "intermediate",
+    "powerMa": 45,
+    "voltage": 24,
+    "widthMm": 146,
+    "heightMm": 121,
+    "depthMm": 64,
+    "bypass": "true",
+    "controls": [
+      "Blend",
+      "Level",
+      "Feedback",
+      "Rate",
+      "Depth",
+      "Delay"
+    ],
+    "imageUrl": "https://media.sweetwater.com/m/products/image/d7fb7ed885JrIeWaoSsPlyO3rNdEKVceHe4voq0B.jpg?ha=d7fb7ed8853f115c943e91333cc4ffcdf7cef243&quality=82&width=750"
+  },
+  {
+    "id": "boss-ds2",
+    "name": "Boss DS-2 Turbo Distortion",
+    "brand": "Boss",
+    "type": "distortion",
+    "price": 110,
+    "rating": 4.7,
+    "reviewCount": 19,
+    "amazonUrl": "https://www.amazon.com/s?k=Boss+DS-2+Turbo+Distortion&tag=pedalrig-20",
+    "image": "/images/pedals/boss-ds2.jpg",
+    "description": "The Boss DS-2 Turbo Distortion expands on the classic DS-1 with two modes: Mode I covers familiar flat-EQ distortion, while Turbo Mode II pushes a thick mid-range boost ideal for leads. A remote jack lets you switch modes hands-free. Trusted by Kurt Cobain, Joe Walsh, and John Frusciante.",
+    "pros": [
+      "Two distinct distortion modes",
+      "Mid-boosted Turbo II is great for leads",
+      "Remote mode-switching jack",
+      "Roadworthy Boss build"
+    ],
+    "cons": [
+      "Eats batteries quickly — use an adapter",
+      "Can sound fizzy at extreme settings",
+      "Buffered bypass, not true bypass"
+    ],
+    "bestFor": [
+      "rock",
+      "grunge",
+      "punk"
+    ],
+    "level": "beginner",
+    "powerMa": 15,
+    "voltage": 9,
+    "widthMm": 73,
+    "heightMm": 129,
+    "depthMm": 59,
+    "bypass": "buffered",
+    "controls": [
+      "Turbo",
+      "Dist",
+      "Tone",
+      "Level"
+    ],
+    "imageUrl": "https://media.sweetwater.com/m/products/image/9818c963e8ed5lvumsjKPFLPG3wEiD72t6Yd7FX3.jpg?ha=9818c963e8ec8562fc72c8f340709108d1cd4e18&quality=82&width=750"
+  },
+  {
+    "id": "boss-ph3",
+    "name": "Boss PH-3 Phase Shifter",
+    "brand": "Boss",
+    "type": "phaser",
+    "price": 132,
+    "rating": 4.4,
+    "reviewCount": 18,
+    "amazonUrl": "https://www.amazon.com/s?k=Boss+PH-3+Phase+Shifter&tag=pedalrig-20",
+    "image": "/images/pedals/boss-ph3.jpg",
+    "description": "The Boss PH-3 Phase Shifter packs seven phase modes — classic 4, 8, 10, and 12-stage sweeps plus Rise, Fall, and Step — along with tap tempo and expression control. One of the most versatile phasers you can buy at the price.",
+    "pros": [
+      "Seven phase modes",
+      "Tap tempo and expression-pedal control",
+      "Rise/Fall/Step modes beyond classic phasing",
+      "Solid Boss build"
+    ],
+    "cons": [
+      "No wet/dry mix control",
+      "Buffered bypass",
+      "More features than some players need"
+    ],
+    "bestFor": [
+      "rock",
+      "funk",
+      "psychedelic"
+    ],
+    "level": "intermediate",
+    "powerMa": 40,
+    "voltage": 9,
+    "widthMm": 73,
+    "heightMm": 129,
+    "depthMm": 59,
+    "bypass": "buffered",
+    "controls": [
+      "Rate",
+      "Depth",
+      "Res",
+      "Stage"
+    ],
+    "imageUrl": "https://media.sweetwater.com/m/products/image/7ca8392efcIh4SqZVkfL4PiVVh1S2CO989nzSbQZ.jpg?ha=7ca8392efc5d7977124ef5f8dd009ae95479a9ac&quality=82&width=750"
+  },
+  {
+    "id": "mxr-m305",
+    "name": "MXR M305 Tremolo",
+    "brand": "MXR",
+    "type": "tremolo",
+    "price": 180,
+    "rating": 4.3,
+    "reviewCount": 17,
+    "amazonUrl": "https://www.amazon.com/s?k=MXR+M305+Tremolo&tag=pedalrig-20",
+    "image": "/images/pedals/mxr-m305.jpg",
+    "description": "The MXR M305 Tremolo distills six tremolo voices — Opto, MXR Classic, Vintage Bias, Square, Reverse, and Harmonic — into one compact, stereo-capable pedal. Tap tempo and an assignable multi-jack make it a true do-it-all tremolo.",
+    "pros": [
+      "Six tremolo voices in one pedal",
+      "Tap tempo plus expression/stereo via multi-jack",
+      "Stereo operation",
+      "Switchable true or buffered bypass"
+    ],
+    "cons": [
+      "High 190mA current draw",
+      "Cannot run on a battery",
+      "More modes than vintage purists need"
+    ],
+    "bestFor": [
+      "surf",
+      "indie",
+      "ambient"
+    ],
+    "level": "intermediate",
+    "powerMa": 190,
+    "voltage": 9,
+    "widthMm": 64,
+    "heightMm": 112,
+    "depthMm": 49,
+    "bypass": "true",
+    "controls": [
+      "Speed",
+      "Gain",
+      "Depth"
+    ],
+    "imageUrl": "https://media.sweetwater.com/m/products/image/d420752630aw73vTm4CKEmQJNXzDAME0l7gCa0cc.jpg?ha=d4207526302fc0d57b3e3410a918576427b2f1e9&quality=82&width=750"
+  },
+  {
+    "id": "mxr-m109s",
+    "name": "MXR M109S Six Band EQ",
+    "brand": "MXR",
+    "type": "eq",
+    "price": 118,
+    "rating": 4.6,
+    "reviewCount": 43,
+    "amazonUrl": "https://www.amazon.com/s?k=MXR+M109S+Six+Band+EQ&tag=pedalrig-20",
+    "image": "/images/pedals/mxr-m109s.jpg",
+    "description": "The MXR M109S Six Band EQ offers ±18dB of cut and boost across six guitar-focused frequencies (100Hz–3.2kHz), with bright, stage-visible sliders and true bypass. A simpler, set-and-forget alternative to 10-band EQs — perfect as a tone-shaper or clean solo boost.",
+    "pros": [
+      "±18dB across six guitar-focused bands",
+      "Backlit sliders visible on dark stages",
+      "True bypass",
+      "Compact, road-tough housing"
+    ],
+    "cons": [
+      "No separate volume/gain slider, unlike the 10-band",
+      "Sliders can be touch-sensitive",
+      "Single output only"
+    ],
+    "bestFor": [
+      "tone shaping",
+      "solo boost",
+      "live"
+    ],
+    "level": "intermediate",
+    "powerMa": 15,
+    "voltage": 9,
+    "widthMm": 60,
+    "heightMm": 111,
+    "depthMm": 32,
+    "bypass": "true",
+    "controls": [
+      "100Hz",
+      "200Hz",
+      "400Hz",
+      "800Hz",
+      "1.6kHz",
+      "3.2kHz"
+    ],
+    "imageUrl": "https://media.sweetwater.com/m/products/image/0d2dde5870sMqBWLu9dcteUr1tX2KKhqpWlBkXVJ.jpg?ha=0d2dde5870052f4b3dca58de3a743662470d5939&quality=82&width=750"
+  },
+  {
+    "id": "dunlop-dvp3",
+    "name": "Dunlop DVP3 Volume (X)",
+    "brand": "Dunlop",
+    "type": "volume",
+    "price": 150,
+    "rating": 3.6,
+    "reviewCount": 23,
+    "amazonUrl": "https://www.amazon.com/s?k=Dunlop+DVP3+Volume+X&tag=pedalrig-20",
+    "image": "/images/pedals/dunlop-dvp3.jpg",
+    "description": "The Dunlop DVP3 Volume (X) is a rugged passive volume and expression pedal in one. Its low-friction band drive gives smooth, reliable travel, a tuner output enables silent tuning, and an expression mode controls parameters on compatible gear. Built like a tank — though some owners report internal wear over years of heavy use.",
+    "pros": [
+      "Doubles as a volume and expression pedal",
+      "Tuner output for silent tuning",
+      "Adjustable rocker tension",
+      "Tank-like aluminium chassis"
+    ],
+    "cons": [
+      "Internal components can wear over time",
+      "Slight treble loss, like most passive volumes",
+      "Heavier and longer than mini volume pedals"
+    ],
+    "bestFor": [
+      "ambient",
+      "worship",
+      "pedal steel"
+    ],
+    "level": "intermediate",
+    "powerMa": 0,
+    "voltage": 0,
+    "widthMm": 97,
+    "heightMm": 254,
+    "depthMm": 64,
+    "bypass": "passive",
+    "controls": [
+      "Volume",
+      "Tuner Out"
+    ],
+    "imageUrl": "https://media.sweetwater.com/m/products/image/8000886e2dF9t0sG9b401KxsfX5zV2DAGmyi4HeT.jpg?ha=8000886e2d3671ebcb5e41f705730d554eb3991d&quality=82&width=750"
   }
 ]
