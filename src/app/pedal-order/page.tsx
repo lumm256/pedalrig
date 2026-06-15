@@ -23,6 +23,8 @@ export const metadata: Metadata = {
     "pedalboard order",
     "guitar effects order",
     "pedal signal chain guide",
+    "pedal chain order chart",
+    "signal chain layout",
   ],
 };
 
@@ -360,6 +362,11 @@ export default function PedalOrderPage() {
                 </a>
               </li>
               <li>
+                <a href="#chart" className="text-orange-500 hover:underline">
+                  Pedal Chain Order Chart
+                </a>
+              </li>
+              <li>
                 <a href="#why" className="text-orange-500 hover:underline">
                   Why Does Pedal Order Matter?
                 </a>
@@ -424,6 +431,48 @@ export default function PedalOrderPage() {
               Delay → Reverb → Looper → Amp. Click any pedal to learn more.
             </p>
             <SignalChainDiagram />
+          </section>
+
+          <Separator className="mb-14 bg-zinc-200 dark:bg-zinc-800" />
+
+          {/* ───── Chain Order Chart (quick-reference table) ───── */}
+          <section id="chart" className="mb-16 scroll-mt-20">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-2">
+              Guitar Pedal Chain Order Chart
+            </h2>
+            <p className="text-zinc-500 dark:text-zinc-400 mb-6">
+              This pedal chain order chart shows the complete signal chain layout at a
+              glance — all 11 standard positions from tuner to looper. Skim it for the
+              quick answer, then read the detailed breakdown below for the reasoning
+              behind each spot.
+            </p>
+            <div className="overflow-x-auto rounded-xl border border-zinc-200 dark:border-zinc-800">
+              <table className="w-full text-left text-sm">
+                <thead className="bg-gray-50 dark:bg-zinc-900 text-zinc-500 dark:text-zinc-400">
+                  <tr>
+                    <th className="px-4 py-3 font-semibold w-12">#</th>
+                    <th className="px-4 py-3 font-semibold">Pedal Type</th>
+                    <th className="px-4 py-3 font-semibold">Why It Sits Here</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {SECTIONS.map((s) => (
+                    <tr
+                      key={s.position}
+                      className="border-t border-zinc-200 dark:border-zinc-800"
+                    >
+                      <td className="px-4 py-3 font-bold text-orange-500">{s.position}</td>
+                      <td className="px-4 py-3 font-medium text-zinc-900 dark:text-zinc-100">
+                        {s.title}
+                      </td>
+                      <td className="px-4 py-3 text-zinc-600 dark:text-zinc-400">
+                        {s.why.split(". ")[0]}.
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </section>
 
           <Separator className="mb-14 bg-zinc-200 dark:bg-zinc-800" />
