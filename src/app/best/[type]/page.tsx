@@ -237,7 +237,7 @@ export default async function BestTypePage({
               </Link>{" "}
               shows the full layout, and the{" "}
               <Link href="/pedalboard/builder" className="text-orange-500 hover:text-orange-400">
-                Board Builder
+                pedalboard planner
               </Link>{" "}
               lets you plan power and budget around it.
             </p>

@@ -88,7 +88,7 @@ export default function HomePage() {
               href="/pedalboard/builder"
               className="inline-flex items-center justify-center rounded-md border border-white/30 px-6 py-3 text-base text-white hover:bg-white/10 transition-colors"
             >
-              Build Your Board
+              Pedalboard Planner
             </Link>
             <Link
               href="/compare"
@@ -231,7 +231,7 @@ export default function HomePage() {
             href="/pedalboard/builder"
             className="inline-flex items-center justify-center rounded-md bg-orange-500 px-8 py-3 text-base font-semibold text-white hover:bg-orange-600 transition-colors"
           >
-            Start Building →
+            Open the Pedalboard Planner →
           </Link>
           <p className="mt-4 text-sm text-gray-500 dark:text-gray-400">
             Or{" "}

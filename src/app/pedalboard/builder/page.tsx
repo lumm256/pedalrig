@@ -63,7 +63,7 @@ function jsonLd() {
       {
         "@type": "WebApplication",
         name: "PedalRig Pedalboard Builder",
-        alternateName: ["Pedalboard Planner", "Guitar Pedalboard Planner"],
+        alternateName: ["Pedalboard Planner", "Guitar Pedalboard Planner", "Online Pedalboard Configurator"],
         applicationCategory: "MultimediaApplication",
         operatingSystem: "Web",
         url: "https://pedalrig.com/pedalboard/builder",
@@ -135,7 +135,7 @@ export default function BuilderPage() {
             <p className="leading-relaxed text-gray-600 dark:text-gray-400">
               Planning a pedalboard means juggling four things at once: which pedals you want, what
               order they go in, whether your power supply can run them, and what it all costs. This
-              pedalboard planner (some players call it a pedalplanner) keeps those four in view
+              pedalboard planner (some players call it a pedalplanner or online pedalboard configurator) keeps those four in view
               together. As you add pedals it validates your signal chain against the conventional
               order, tallies the total current draw so you can size a power supply, sums the price,
               and turns the result into a ready-to-buy shopping list — all in the browser, with
