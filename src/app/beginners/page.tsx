@@ -196,7 +196,7 @@ export default function BeginnersPage() {
                           <a
                             href={pedal.amazonUrl}
                             target="_blank"
-                            rel="noopener noreferrer"
+                            rel="noopener noreferrer sponsored"
                             className="text-xs px-2 py-0.5 rounded bg-orange-500/10 text-orange-400 border border-orange-500/20 hover:bg-orange-500/20 transition-colors"
                           >
                             View on Amazon →

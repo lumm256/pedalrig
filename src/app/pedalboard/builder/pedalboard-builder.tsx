@@ -483,7 +483,7 @@ export function PedalboardBuilder() {
                     <a
                       href={pedal.amazonUrl}
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="noopener noreferrer sponsored"
                       className="text-xs text-orange-500 hover:text-orange-400 font-medium"
                     >
                       Amazon →

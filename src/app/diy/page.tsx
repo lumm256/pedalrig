@@ -195,7 +195,7 @@ export default function DIYPage() {
                   <a
                     href={`https://www.amazon.com/s?k=${encodeURIComponent(kit.searchQuery)}&tag=pedalrig-20`}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer sponsored"
                     className="inline-flex items-center gap-1.5 text-sm px-4 py-2 rounded-lg bg-orange-500 text-white font-medium hover:bg-orange-600 transition-colors"
                   >
                     Search on Amazon →

@@ -188,8 +188,7 @@ export default function PowerSupplyPage() {
                       ))}
                     </ul>
                   </div>
-                  <a
-                    href={ps.amazonUrl}
+                  <a rel="noopener noreferrer sponsored"                     href={ps.amazonUrl}
                     className="inline-block mt-2 text-orange-500 hover:text-orange-400 text-xs font-medium underline underline-offset-4"
                   >
                     Check price on Amazon →

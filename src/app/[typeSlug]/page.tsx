@@ -221,7 +221,7 @@ export default async function TypePage({
                         <a
                           href={pedal.amazonUrl}
                           target="_blank"
-                          rel="noopener noreferrer"
+                          rel="noopener noreferrer sponsored"
                           className="inline-flex items-center justify-center rounded-md bg-orange-500 px-3 py-1.5 text-xs font-medium text-white hover:bg-orange-600 transition-colors"
                         >
                           Amazon →
@@ -310,7 +310,7 @@ export default async function TypePage({
                       <a
                         href={pedal.amazonUrl}
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer sponsored"
                         className="inline-flex items-center justify-center rounded-md bg-orange-500 px-4 py-2 text-sm font-medium text-white hover:bg-orange-600 transition-colors"
                       >
                         Buy on Amazon →

@@ -115,7 +115,7 @@ export default function BestPage() {
                     <a
                       href={runnerUp.amazonUrl}
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="noopener noreferrer sponsored"
                       className="text-xs px-3 py-1.5 rounded-lg border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition-colors"
                     >
                       View →
