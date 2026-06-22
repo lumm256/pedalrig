@@ -25,6 +25,8 @@ export const metadata: Metadata = {
     "pedal signal chain guide",
     "pedal chain order chart",
     "signal chain layout",
+    "where does a compressor go in the chain",
+    "noise gate placement pedal chain",
   ],
 };
 
@@ -270,6 +272,30 @@ const FAQS = [
   {
     q: "How should I order multiple gain pedals (overdrive, distortion, fuzz)?",
     a: "The general rule is lower gain first, higher gain later: overdrive → distortion → fuzz. This way, lighter gain stages boost and tighten heavier ones. A Tube Screamer pushing a Big Muff is a classic example. But you can reverse this for different textures — heavy distortion into a light overdrive can create a compressed, saturated lead tone.",
+  },
+  {
+    q: "Where does a wah pedal go in the signal chain?",
+    a: "Wah and filter pedals go early — position 2, right after your tuner and before your gain stages. Placed ahead of overdrive and distortion, the wah's sweeping filter shapes the clean signal and the gain then reacts to that frequency boost, giving the vocal, expressive 'cry' most players want. The famous exception is Jimi Hendrix, who ran fuzz before wah for a thicker, more aggressive sweep — once you know the rule, it's a fun one to break.",
+  },
+  {
+    q: "Where does a compressor go in the pedal chain order?",
+    a: "A compressor usually sits early — position 3, after your tuner and wah but before your gain pedals. Compressing first evens out your pick attack and sustain so the overdrive and distortion that follow respond consistently. Some players instead place a compressor at the very end (after gain, before time-based effects) to glue the whole signal together — common in country and clean-funk where the compressor polishes the tone rather than feeding the gain stages.",
+  },
+  {
+    q: "Where do I put an EQ or graphic equalizer pedal in the chain?",
+    a: "An EQ pedal is one of the most flexible — it works almost anywhere. The standard spot is position 7, after your gain pedals, where it shapes the distorted tone: tame fizz, or boost mids to cut through for a lead. Put it before gain instead and you change how the distortion reacts — a mid boost in front of an overdrive tightens and pushes it, just like a Tube Screamer. Many players run two EQs: one before gain to drive it, one after to fine-tune.",
+  },
+  {
+    q: "What's the best position in the pedal chain for a chorus pedal?",
+    a: "Chorus belongs with the modulation effects — position 8, after your gain and EQ but before delay and reverb. There it adds shimmer and width to your fully-formed tone without smearing your delay repeats. If your amp has an effects loop, chorus (like delay and reverb) often sounds cleaner placed in the loop, after the preamp's gain stage.",
+  },
+  {
+    q: "Where should a looper pedal go in the chain?",
+    a: "A looper goes dead last — position 11, after every other effect. There it records your complete, fully-processed tone, so loops play back exactly as you performed them. Put it earlier and any pedal after it colors the loop in real time — turn on a delay and the whole loop suddenly has delay. Advanced ambient players sometimes place the looper earlier on purpose to re-process loops live, but last is best for everyone else.",
+  },
+  {
+    q: "Where does a noise gate go in the signal chain?",
+    a: "A noise gate has two correct placements depending on the noise you're fighting. The simplest is right after your gain pedals (overdrive, distortion, fuzz), where it clamps the hiss and hum those high-gain stages add. For the tightest results, many players use a noise gate with a send/return loop — like the ISP Decimator G String — that keys off your guitar's dry signal while gating the noisy part of the chain. Either way, never put a gate before your gain: there's nothing to gate yet, and it'll just cut your sustain short.",
   },
 ];
 
