@@ -7,7 +7,7 @@
     "price": 62,
     "rating": 4.7,
     "reviewCount": 3200,
-    "amazonUrl": "https://www.amazon.com/s?k=Boss+SD-1+Super+Overdrive&tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/dp/B0013NDBS6?tag=pedalrig-20",
     "image": "/images/pedals/boss-sd1.jpg",
     "description": "The Boss SD-1 is one of the most iconic overdrive pedals ever made. Its asymmetric clipping circuit delivers a warm, natural overdrive that responds beautifully to your playing dynamics.",
     "pros": [
@@ -47,7 +47,7 @@
     "price": 99,
     "rating": 4.7,
     "reviewCount": 2800,
-    "amazonUrl": "https://www.amazon.com/s?k=Ibanez+TS9+Tube+Screamer&tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/dp/B000T4PJC6?tag=pedalrig-20",
     "image": "/images/pedals/ibanez-ts9.jpg",
     "description": "The Tube Screamer is the overdrive pedal that defined a genre. Its mid-focused tone cuts through any mix and pairs perfectly with a cranked tube amp.",
     "pros": [
@@ -126,7 +126,7 @@
     "price": 79,
     "rating": 4.7,
     "reviewCount": 1900,
-    "amazonUrl": "https://www.amazon.com/s?k=ProCo+RAT2+Distortion&tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/dp/B0002MSQVQ?tag=pedalrig-20",
     "image": "/images/pedals/proco-rat2.jpg",
     "description": "The RAT is a desert-island distortion pedal. Its unique filter control lets you shape the tone from bright and cutting to dark and fuzzy, covering an enormous range of gain textures.",
     "pros": [
@@ -206,7 +206,7 @@
     "price": 99,
     "rating": 4.5,
     "reviewCount": 800,
-    "amazonUrl": "https://www.amazon.com/s?k=Dunlop+FFM3+Jimi+Hendrix+Fuzz+Face+Mini&tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/dp/B00YBVKK90?tag=pedalrig-20",
     "image": "/images/pedals/dunlop-fuzz-face.jpg",
     "description": "The Fuzz Face is where it all started. This mini version captures the classic silicon Fuzz Face tone that Jimi Hendrix made legendary, in a pedalboard-friendly size.",
     "pros": [
@@ -367,7 +367,7 @@
     "price": 149,
     "rating": 4.8,
     "reviewCount": 600,
-    "amazonUrl": "https://www.amazon.com/s?k=Keeley+Compressor+Plus&tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/dp/B072MNFZJV?tag=pedalrig-20",
     "image": "/images/pedals/keeley-comp-plus.jpg",
     "description": "The Keeley Compressor Plus is a boutique-quality compressor that adds sustain and sparkle without squashing your dynamics. The blend knob lets you mix compressed and dry signal for transparent compression.",
     "pros": [
@@ -568,7 +568,7 @@
     "price": 99,
     "rating": 4.8,
     "reviewCount": 3500,
-    "amazonUrl": "https://www.amazon.com/s?k=Boss+TU-3+Chromatic+Tuner&tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/dp/B004D8KX7K?tag=pedalrig-20",
     "image": "/images/pedals/boss-tu3.jpg",
     "description": "The Boss TU-3 is the industry standard tuner pedal. Bright LED display visible in any lighting, accurate to +/- 1 cent, and it mutes your signal while tuning.",
     "pros": [
@@ -765,7 +765,7 @@
     "price": 109,
     "rating": 4.4,
     "reviewCount": 2000,
-    "amazonUrl": "https://www.amazon.com/s?k=Boss+MT-2+Metal+Zone&tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/dp/B0002CZVA0?tag=pedalrig-20",
     "image": "/images/pedals/boss-mt2.jpg",
     "description": "The Metal Zone is the most divisive pedal ever made — and one of the best-selling. Its parametric EQ and extreme gain make it a metal machine when dialed in correctly.",
     "pros": [
@@ -1159,7 +1159,7 @@
     "price": 449,
     "rating": 4.9,
     "reviewCount": 500,
-    "amazonUrl": "https://www.amazon.com/s?k=Strymon+Timeline+Multidimensional+Delay&tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/dp/B008GTFEDK?tag=pedalrig-20",
     "image": "/images/pedals/strymon-timeline.jpg",
     "description": "The gold standard of delay pedals. 12 studio-class delay machines with MIDI, presets, and pristine audio quality.",
     "pros": [
@@ -1239,7 +1239,7 @@
     "price": 149,
     "rating": 4.7,
     "reviewCount": 1100,
-    "amazonUrl": "https://www.amazon.com/s?k=Electro-Harmonix+Canyon&tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/dp/B06XTFHLJ3?tag=pedalrig-20",
     "image": "/images/pedals/ehx-canyon.jpg",
     "description": "11 delay modes plus a 62-second looper in a compact pedal. From tape echo to shimmer.",
     "pros": [
@@ -1316,7 +1316,7 @@
     "price": 199,
     "rating": 4.8,
     "reviewCount": 500,
-    "amazonUrl": "https://www.amazon.com/s?k=Wampler+Ego+Compressor&tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/dp/B00FEX380M?tag=pedalrig-20",
     "image": "/images/pedals/wampler-ego.jpg",
     "description": "Studio-quality compression with a blend knob for parallel compression. Transparent and musical.",
     "pros": [
@@ -1469,7 +1469,7 @@
     "price": 99,
     "rating": 4.7,
     "reviewCount": 1500,
-    "amazonUrl": "https://www.amazon.com/s?k=TC+Electronic+PolyTune+3&tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/dp/B06Y4G7NQD?tag=pedalrig-20",
     "image": "/images/pedals/tc-polytune3.jpg",
     "description": "Polyphonic tuning — strum all strings at once to see which are out. Built-in BonaFide buffer.",
     "pros": [
@@ -1617,7 +1617,7 @@
     "price": 479,
     "rating": 4.9,
     "reviewCount": 400,
-    "amazonUrl": "https://www.amazon.com/s?k=Strymon+BigSky+Reverb&tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/dp/B07RS5CS6V?tag=pedalrig-20",
     "image": "/images/pedals/strymon-bigsky.jpg",
     "description": "12 studio-class reverb machines. The ultimate reverb pedal for ambient, worship, and studio work.",
     "pros": [
@@ -1962,7 +1962,7 @@
     "price": 599,
     "rating": 4.8,
     "reviewCount": 1200,
-    "amazonUrl": "https://www.amazon.com/s?k=Line+6+HX+Stomp&tag=pedalrig-20",
+    "amazonUrl": "https://www.amazon.com/dp/B07J2LV1N1?tag=pedalrig-20",
     "image": "/images/pedals/line6-hx-stomp.jpg",
     "description": "Over 300 effects and amp models from the Helix family in a compact pedal. The Swiss Army knife of guitar effects.",
     "pros": [
