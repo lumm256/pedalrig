@@ -636,18 +636,32 @@ export default function PedalOrderPage() {
                             </p>
                             <div className="flex flex-wrap gap-2">
                               {recs.map((p) => (
-                                <Link
+                                <div
                                   key={p.id}
-                                  href={`/pedals/${p.id}`}
-                                  className="inline-flex items-center gap-2 px-3 py-1.5 rounded-md bg-zinc-100 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 hover:border-orange-500/40 transition-colors text-sm"
+                                  className="inline-flex items-center rounded-md bg-zinc-100 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 overflow-hidden text-sm"
                                 >
-                                  <span className="font-medium">
-                                    {p.name}
-                                  </span>
-                                  <span className="text-zinc-500 text-xs">
-                                    ${p.price}
-                                  </span>
-                                </Link>
+                                  <Link
+                                    href={`/pedals/${p.id}`}
+                                    className="inline-flex items-center gap-2 px-3 py-1.5 hover:bg-zinc-200/60 dark:hover:bg-zinc-700/60 transition-colors"
+                                  >
+                                    <span className="font-medium">
+                                      {p.name}
+                                    </span>
+                                    <span className="text-zinc-500 text-xs">
+                                      ${p.price}
+                                    </span>
+                                  </Link>
+                                  {p.amazonUrl && (
+                                    <a
+                                      href={p.amazonUrl}
+                                      target="_blank"
+                                      rel="noopener noreferrer sponsored"
+                                      className="inline-flex items-center px-2.5 py-1.5 bg-orange-500 text-white text-xs font-medium hover:bg-orange-600 transition-colors border-l border-orange-600/40"
+                                    >
+                                      Amazon ↗
+                                    </a>
+                                  )}
+                                </div>
                               ))}
                             </div>
                           </div>
